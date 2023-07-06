@@ -6,7 +6,17 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"E:/gry/EndedWorld/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
-				"E:/gry/EndedWorld/Content/Levels/TestMap.umap"
+				"E:/gry/EndedWorld/Content/Levels/TestMap.umap",
+				"E:/gry/EndedWorld/Content/Blueprints/Core/EW_GameMode.uasset",
+				"E:/gry/EndedWorld/Content/Blueprints/Core/Player/EW_GameMode.uasset",
+				"E:/gry/EndedWorld/Content/Blueprints/Core/Player/EW_GM.uasset",
+				"E:/gry/EndedWorld/Content/Blueprints/Core/Player/EW_PC.uasset",
+				"E:/gry/EndedWorld/Content/Blueprints/Core/Player/EW_Pawn.uasset",
+				"E:/gry/EndedWorld/Content/Blueprints/Core/Player/InputActions/IA_Move.uasset",
+				"E:/gry/EndedWorld/Content/Blueprints/Core/Player/InputActions/IA_Zoom.uasset",
+				"E:/gry/EndedWorld/Content/Blueprints/Core/Player/EW_MappingContext.uasset",
+				"E:/gry/EndedWorld/Content/Blueprints/Core/Player/InputActions/IA_Rotating.uasset",
+				"E:/gry/EndedWorld/Content/StarterContent/Props/Materials/M_Chair.uasset"
 			]
 		}
 	]
