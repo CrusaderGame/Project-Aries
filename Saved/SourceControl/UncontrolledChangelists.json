@@ -5,6 +5,10 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"D:/repoEndedWorld/EndedWorld/Content/Levels/Sublevels/L_Level_River.umap",
+				"D:/repoEndedWorld/EndedWorld/Content/Levels/TestMap.umap",
+				"D:/repoEndedWorld/EndedWorld/Content/Blueprints/Core/LevelLoading/BP_LevelLoading.uasset",
+				"D:/repoEndedWorld/EndedWorld/Content/Levels/Sublevels/L_Hexagone.umap",
 				"E:/gry/EndedWorld/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
 				"E:/gry/EndedWorld/Content/Levels/TestMap.umap",
 				"E:/gry/EndedWorld/Content/Blueprints/Core/Player/EW_GM.uasset",
