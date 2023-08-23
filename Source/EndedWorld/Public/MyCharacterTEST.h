@@ -25,13 +25,4 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-
-	UFUNCTION(BlueprintCallable, Category = "MyCategory")
-		void OpenLobby();
-
-	UFUNCTION(BlueprintCallable, Category = "MyCategory")
-		void CallOpenLevel(const FString& Address);
-
-	UFUNCTION(BlueprintCallable, Category = "MyCategory")
-	 void CallClientTravel(const FString& Address);
 };

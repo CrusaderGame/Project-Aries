@@ -33,28 +33,6 @@ void AMyCharacterTEST::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 
 }
 
-void AMyCharacterTEST::OpenLobby()
-{
-	UWorld* World = GetWorld();
-	if (World)
-	{
-		World -> ServerTravel("/Game/Content/Levels/Sublevels?listen");
-	}
-}
-
-void AMyCharacterTEST::CallOpenLevel(const FString& Address)
-{
-	UGameplayStatics::OpenLevel(this, *Address);
-}
-
-void AMyCharacterTEST::CallClientTravel(const FString& Address)
-{
-	APlayerController* PlayerController = GetGameInstance()->GetFirstLocalPlayerController();
-	if (PlayerController)
-	{
-		PlayerController->ClientTravel(Address, ETravelType::TRAVEL_Absolute);
-	}
-}
 
 
 
