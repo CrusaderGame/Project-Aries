@@ -3,6 +3,22 @@
 
 #include "UMultiplayerGameInstance.h"
 #include "Kismet/GameplayStatics.h"
+#include "OnlineSubsystem.h"
+#include "Interfaces/OnlineSessionInterface.h"
+
+UUMultiplayerGameInstance::UUMultiplayerGameInstance(const FObjectInitializer& ObjectInitializer)
+{
+	IOnlineSubsystem* OnlineSubsystem = IOnlineSubsystem::Get();
+	if (OnlineSubsystem)
+	{
+		OnlineSessionInterface = OnlineSubsystem->GetSessionInterface();
+		if (GEngine)
+		{
+			GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Blue, FString::Printf(TEXT("Found subsystem %s"), *OnlineSubsystem->GetSubsystemName().ToString()));
+
+		}
+	}
+}
 
 void UUMultiplayerGameInstance::OpenLobby()
 {
@@ -26,21 +42,3 @@ void UUMultiplayerGameInstance::CallClientTravel(const FString& Address)
 		PlayerController->ClientTravel(Address, ETravelType::TRAVEL_Absolute);
 	}
 }
-/*
-
-
-void AMyCharacterTEST::CallOpenLevel(const FString& Address)
-{
-	UGameplayStatics::OpenLevel(this, *Address);
-}
-
-void AMyCharacterTEST::CallClientTravel(const FString& Address)
-{
-	APlayerController* PlayerController = GetGameInstance()->GetFirstLocalPlayerController();
-	if (PlayerController)
-	{
-		PlayerController->ClientTravel(Address, ETravelType::TRAVEL_Absolute);
-	}
-}
-
-*/

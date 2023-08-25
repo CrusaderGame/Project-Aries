@@ -1,6 +1,6 @@
-"C:\Users\morde\Documents\Unreal Projects\PluginExpProject\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\x64\UnrealGame\Development\AdvancedSessions\Module.AdvancedSessions.1_of_3.cpp"
+C:\EndedWorld\Plugins\AdvancedSessions\Intermediate\Build\Win64\x64\UnrealGame\Development\AdvancedSessions\Module.AdvancedSessions.1_of_3.cpp
 /I .
-/I "C:\Users\morde\Documents\Unreal Projects\PluginExpProject\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private"
+/I C:\EndedWorld\Plugins\AdvancedSessions\Source\AdvancedSessions\Private
 /I ..\Plugins\Online\OnlineSubsystem\Intermediate\Build\Win64\UnrealGame\Inc\OnlineSubsystem\UHT
 /I ..\Plugins\Online\OnlineSubsystem\Source
 /I ..\Plugins\Online\OnlineSubsystem\Source\Public
@@ -116,23 +116,24 @@
 /I Runtime\TypedElementFramework\Public
 /I ..\Intermediate\Build\Win64\UnrealGame\Inc\TypedElementRuntime\UHT
 /I Runtime\TypedElementRuntime\Public
-/I "C:\Users\morde\Documents\Unreal Projects\PluginExpProject\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UnrealGame\Inc\AdvancedSessions\UHT"
-/I "C:\Users\morde\Documents\Unreal Projects\PluginExpProject\Plugins\AdvancedSessions\AdvancedSessions\Source"
-/I "C:\Users\morde\Documents\Unreal Projects\PluginExpProject\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes"
-/I ThirdParty\mimalloc\include
-/I ThirdParty\LibTiff\Source\Win64
-/I ThirdParty\LibTiff\Source
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"C:\Users\morde\Documents\Unreal Projects\PluginExpProject\Intermediate\Build\Win64\x64\VRExpPluginExample\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/FI"C:\Users\morde\Documents\Unreal Projects\PluginExpProject\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\x64\UnrealGame\Development\AdvancedSessions\Definitions.AdvancedSessions.h"
-/Yu"C:\Users\morde\Documents\Unreal Projects\PluginExpProject\Intermediate\Build\Win64\x64\VRExpPluginExample\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\morde\Documents\Unreal Projects\PluginExpProject\Intermediate\Build\Win64\x64\VRExpPluginExample\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-/Fo"C:\Users\morde\Documents\Unreal Projects\PluginExpProject\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\x64\UnrealGame\Development\AdvancedSessions\Module.AdvancedSessions.1_of_3.cpp.obj"
-/sourceDependencies "C:\Users\morde\Documents\Unreal Projects\PluginExpProject\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\x64\UnrealGame\Development\AdvancedSessions\Module.AdvancedSessions.1_of_3.cpp.dep.json"
+/I C:\EndedWorld\Plugins\AdvancedSessions\Intermediate\Build\Win64\UnrealGame\Inc\AdvancedSessions\UHT
+/I C:\EndedWorld\Plugins\AdvancedSessions\Source
+/I C:\EndedWorld\Plugins\AdvancedSessions\Source\AdvancedSessions\Classes
+/external:W0
+/external:I ThirdParty\mimalloc\include
+/external:I ThirdParty\LibTiff\Source\Win64
+/external:I ThirdParty\LibTiff\Source
+/external:I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\INCLUDE"
+/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\ucrt"
+/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared"
+/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um"
+/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\winrt"
+/FI"C:\EndedWorld\Intermediate\Build\Win64\x64\EndedWorld\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h"
+/FI"C:\EndedWorld\Plugins\AdvancedSessions\Intermediate\Build\Win64\x64\UnrealGame\Development\AdvancedSessions\Definitions.AdvancedSessions.h"
+/Yu"C:\EndedWorld\Intermediate\Build\Win64\x64\EndedWorld\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h"
+/Fp"C:\EndedWorld\Intermediate\Build\Win64\x64\EndedWorld\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.pch"
+/Fo"C:\EndedWorld\Plugins\AdvancedSessions\Intermediate\Build\Win64\x64\UnrealGame\Development\AdvancedSessions\Module.AdvancedSessions.1_of_3.cpp.obj"
+/sourceDependencies C:\EndedWorld\Plugins\AdvancedSessions\Intermediate\Build\Win64\x64\UnrealGame\Development\AdvancedSessions\Module.AdvancedSessions.1_of_3.cpp.dep.json
 /Zc:inline
 /nologo
 /Oi

@@ -47,8 +47,8 @@
 #define WITH_PUSH_MODEL 0
 #define WITH_CEF3 1
 #define WITH_LIVE_CODING 1
-#define UE_LIVE_CODING_ENGINE_DIR "D:\\UE5\\UE_5.2\\Engine"
-#define UE_LIVE_CODING_PROJECT "C:\\Users\\morde\\Documents\\Unreal Projects\\PluginExpProject\\VRExpPluginExample.uproject"
+#define UE_LIVE_CODING_ENGINE_DIR "C:\\Program Files\\Epic Games\\UE_5.2\\Engine"
+#define UE_LIVE_CODING_PROJECT "C:\\EndedWorld\\EndedWorld.uproject"
 #define WITH_CPP_MODULES 0
 #define WITH_CPP_COROUTINES 0
 #define WITH_PROCESS_PRIORITY_CONTROL 0
@@ -57,7 +57,7 @@
 #define UBT_COMPILED_PLATFORM Win64
 #define UBT_COMPILED_TARGET Game
 #define UE_APP_NAME "UnrealGame"
-#define UE_ENGINE_DIRECTORY "D:/UE5/UE_5.2/Engine/"
+#define UE_ENGINE_DIRECTORY "../../../Program Files/Epic Games/UE_5.2/Engine/"
 #define NDIS_MINIPORT_MAJOR_VERSION 0
 #define WIN32 1
 #define _WIN32_WINNT 0x0601
@@ -70,16 +70,15 @@
 #define UE_BUILD_DEVELOPMENT 1
 #define UE_IS_ENGINE_MODULE 0
 #define UE_DISABLE_INLINE_GEN_CPP 0
-#define UE_ENABLE_INCLUDE_ORDER_DEPRECATED_IN_5_1 0
-#define UE_ENABLE_INCLUDE_ORDER_DEPRECATED_IN_5_2 0
-#define UE_PROJECT_NAME VRExpPluginExample
-#define UE_TARGET_NAME VRExpPluginExample
+#define UE_ENABLE_INCLUDE_ORDER_DEPRECATED_IN_5_1 1
+#define UE_ENABLE_INCLUDE_ORDER_DEPRECATED_IN_5_2 1
+#define UE_PROJECT_NAME EndedWorld
+#define UE_TARGET_NAME EndedWorld
 #define WITH_ADVANCED_SESSIONS 1
 #define UE_MODULE_NAME "AdvancedSessions"
 #define UE_PLUGIN_NAME "AdvancedSessions"
 #define IMPLEMENT_ENCRYPTION_KEY_REGISTRATION() 
 #define IMPLEMENT_SIGNING_KEY_REGISTRATION() 
-#define UE_PROJECT_STEAMSHIPPINGID 480
 #define DEPRECATED_FORGAME DEPRECATED
 #define UE_DEPRECATED_FORGAME UE_DEPRECATED
 #define ONLINESUBSYSTEM_PACKAGE 1

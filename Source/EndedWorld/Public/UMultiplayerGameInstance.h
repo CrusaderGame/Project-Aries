@@ -14,6 +14,10 @@ class ENDEDWORLD_API UUMultiplayerGameInstance : public UGameInstance
 {
 	GENERATED_BODY()
 
+
+	public:
+		UUMultiplayerGameInstance(const FObjectInitializer& ObjectInitializer);
+
 	UFUNCTION(BlueprintCallable, Category = "EW_Multi")
 		void OpenLobby();
 
@@ -22,4 +26,8 @@ class ENDEDWORLD_API UUMultiplayerGameInstance : public UGameInstance
 
 	UFUNCTION(BlueprintCallable, Category = "EW_Multi")
 		void CallClientTravel(const FString& Address);
+
+	public:
+		// Pointer to the online session interface
+		TSharedPtr< class IOnlineSession, ESPMode::ThreadSafe > OnlineSessionInterface;
 };
