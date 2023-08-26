@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Engine/GameInstance.h"
+#include "Interfaces/OnlineSessionInterface.h"
 #include "UMultiplayerGameInstance.generated.h"
 
 /**
@@ -28,6 +29,14 @@ class ENDEDWORLD_API UUMultiplayerGameInstance : public UGameInstance
 		void CallClientTravel(const FString& Address);
 
 	public:
-		// Pointer to the online session interface
-		TSharedPtr< class IOnlineSession, ESPMode::ThreadSafe > OnlineSessionInterface;
+		IOnlineSessionPtr OnlineSessionInterface;
+
+	protected:
+		UFUNCTION(BlueprintCallable, Category = "EW_Multi")
+		void CreateGameSession();
+
+		void OnCreateSessionComplete(FName SessionName, bool bWasSuccessful);
+
+	private:
+		FOnCreateSessionCompleteDelegate CreateSessionCompleteDelegate;
 };
