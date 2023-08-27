@@ -36,6 +36,7 @@
 				"C:/Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/Core/Player/Actions/Grid/Action_IncreaseDecreaseTileHight.uasset",
 				"C:/Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/Core/Player/Actions/Grid/Action_RemoveTile.uasset",
 				"C:/Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/DebugMenu/Actions/Button_Action1.uasset",
+				"C:/Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/DebugMenu/Actions/Button_Action_SetTileType.uasset",
 				"D:/repoEndedWorld/EndedWorld/Content/Levels/Sublevels/L_Level_River.umap",
 				"D:/repoEndedWorld/EndedWorld/Content/Levels/TestMap.umap",
 				"D:/repoEndedWorld/EndedWorld/Content/Blueprints/Core/LevelLoading/BP_LevelLoading.uasset",
