@@ -2352,3 +2352,877 @@ Script Stack (0 frames) :
 [2023.08.27-01.24.44:589][218]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
 [2023.08.27-01.24.44:627][219]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
 [2023.08.27-01.24.44:636][220]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2023.08.27-01.25.59:985][505]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.08.27-01.26.00:023][505]LogContentBrowser: Creating deferred item: NewFolder
+[2023.08.27-01.26.00:035][506]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.08.27-01.26.01:670][702]LogContentBrowser: Attempting asset rename: NewFolder -> Other
+[2023.08.27-01.26.01:671][702]LogContentBrowser: End creating deferred item NewFolder
+[2023.08.27-01.26.10:160][909]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.08.27-01.26.10:167][909]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.08.27-01.26.10:174][909]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.08.27-01.26.10:195][911]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.08.27-01.26.14:065][196]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_
+[2023.08.27-01.26.14:073][196]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.08.27-01.26.20:060][887]LogContentBrowser: Attempting asset rename: BP_ -> BP_DebugTextOnTile
+[2023.08.27-01.26.20:107][887]LogMetaData: Removing '/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTile.BP_DebugTextOnTile:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/DebugMenu/Other/BP_.PackageMetaData'
+[2023.08.27-01.26.20:107][887]LogMetaData: Removing '/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTile.SKEL_BP_DebugTextOnTile_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/DebugMenu/Other/BP_.PackageMetaData'
+[2023.08.27-01.26.20:107][887]LogMetaData: Removing '/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTile.SKEL_BP_DebugTextOnTile_C' ref from Metadata '/Game/Blueprints/DebugMenu/Other/BP_.PackageMetaData'
+[2023.08.27-01.26.20:107][887]LogMetaData: Removing '/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTile.BP_DebugTextOnTile_C' ref from Metadata '/Game/Blueprints/DebugMenu/Other/BP_.PackageMetaData'
+[2023.08.27-01.26.20:107][887]LogMetaData: Removing '/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTile.BP_DebugTextOnTile:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/DebugMenu/Other/BP_.PackageMetaData'
+[2023.08.27-01.26.20:107][887]LogMetaData: Removing '/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTile.BP_DebugTextOnTile:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/DebugMenu/Other/BP_.PackageMetaData'
+[2023.08.27-01.26.20:107][887]LogMetaData: Removing '/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTile.BP_DebugTextOnTile:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/DebugMenu/Other/BP_.PackageMetaData'
+[2023.08.27-01.26.20:116][887]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.27-01.26.20:147][887]LogSavePackage: Moving output files for package: /Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTile
+[2023.08.27-01.26.20:147][887]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/BP_DebugTextOnTileA8F534314BEE6B8245AECA919DF2B2B2.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/DebugMenu/Other/BP_DebugTextOnTile.uasset'
+[2023.08.27-01.26.20:161][887]LogFileHelpers: InternalPromptForCheckoutAndSave took 44 ms (total: 883 ms)
+[2023.08.27-01.26.20:195][887]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2023.08.27-01.26.20:218][887]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.08.27-01.26.20:241][887]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.08.27-01.26.20:247][887]AssetCheck: New page: Asset Save: BP_DebugTextOnTile
+[2023.08.27-01.26.20:247][887]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTile.BP_DebugTextOnTile
+[2023.08.27-01.26.25:260][ 82]LogContentBrowser: Attempting asset rename: BP_DebugTextOnTile -> BP_DebugTextOnTiles
+[2023.08.27-01.26.25:280][ 82]LogMetaData: Removing '/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles.BP_DebugTextOnTiles_C' ref from Metadata '/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTile.PackageMetaData'
+[2023.08.27-01.26.25:280][ 82]LogMetaData: Removing '/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles.SKEL_BP_DebugTextOnTiles_C' ref from Metadata '/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTile.PackageMetaData'
+[2023.08.27-01.26.25:280][ 82]LogMetaData: Removing '/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles.SKEL_BP_DebugTextOnTiles_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTile.PackageMetaData'
+[2023.08.27-01.26.25:280][ 82]LogMetaData: Removing '/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles.BP_DebugTextOnTiles:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTile.PackageMetaData'
+[2023.08.27-01.26.25:280][ 82]LogMetaData: Removing '/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles.BP_DebugTextOnTiles:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTile.PackageMetaData'
+[2023.08.27-01.26.25:280][ 82]LogMetaData: Removing '/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles.BP_DebugTextOnTiles:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTile.PackageMetaData'
+[2023.08.27-01.26.25:280][ 82]LogMetaData: Removing '/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles.BP_DebugTextOnTiles:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTile.PackageMetaData'
+[2023.08.27-01.26.25:283][ 82]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.27-01.26.25:311][ 82]LogSavePackage: Moving output files for package: /Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles
+[2023.08.27-01.26.25:311][ 82]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/BP_DebugTextOnTiles776023D6477F7ED12CBC5E8186960F33.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles.uasset'
+[2023.08.27-01.26.25:322][ 82]LogFileHelpers: InternalPromptForCheckoutAndSave took 39 ms (total: 923 ms)
+[2023.08.27-01.26.25:355][ 82]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2023.08.27-01.26.25:377][ 82]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.08.27-01.26.25:398][ 82]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.08.27-01.26.25:405][ 82]AssetCheck: New page: Asset Save: BP_DebugTextOnTiles
+[2023.08.27-01.26.25:405][ 82]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles.BP_DebugTextOnTiles
+[2023.08.27-01.26.30:748][543]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2023.08.27-01.26.30:748][543]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-01.26.30:755][543]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2023.08.27-01.26.30:755][543]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-01.26.32:023][672]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2023.08.27-01.26.32:023][672]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-01.26.32:029][672]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2023.08.27-01.26.32:030][672]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-01.26.33:260][812]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2023.08.27-01.26.34:316][812]LogSlate: Window 'Save Content' being destroyed
+[2023.08.27-01.26.34:323][812]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.27-01.26.34:359][812]LogSavePackage: Moving output files for package: /Game/Blueprints/Core/Player/Actions/Grid/Action_SetTileType
+[2023.08.27-01.26.34:359][812]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Action_SetTileTypeF356733A46141625C2E887BF321345CB.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/Core/Player/Actions/Grid/Action_SetTileType.uasset'
+[2023.08.27-01.26.34:372][812]LogSavePackage: Moving output files for package: /Game/Blueprints/DebugMenu/Actions/Button_Action_IncreaseDecreaseTileHeight
+[2023.08.27-01.26.34:372][812]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Button_Action_IncreaseDecreaseTi0313811D4A82934BA257C099CA6B8197.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/DebugMenu/Actions/Button_Action_IncreaseDecreaseTileHeight.uasset'
+[2023.08.27-01.26.34:389][812]LogSavePackage: Moving output files for package: /Game/Blueprints/DebugMenu/Actions/Button_Action_SetTileType
+[2023.08.27-01.26.34:389][812]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Button_Action_SetTileTypeE558581043A99B27EC2C00A3940B7883.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/DebugMenu/Actions/Button_Action_SetTileType.uasset'
+[2023.08.27-01.26.34:452][812]LogSavePackage: Moving output files for package: /Game/Blueprints/DebugMenu/Tabs/Tab_Grid
+[2023.08.27-01.26.34:453][812]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Tab_Grid2C60FA8441F6A952EC08C1847C57027A.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/DebugMenu/Tabs/Tab_Grid.uasset'
+[2023.08.27-01.26.34:460][812]LogFileHelpers: InternalPromptForCheckoutAndSave took 137 ms (total: 1.06 sec)
+[2023.08.27-01.26.34:467][812]AssetCheck: New page: Asset Save: multiple assets
+[2023.08.27-01.26.34:467][812]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/DebugMenu/Tabs/Tab_Grid.Tab_Grid
+[2023.08.27-01.26.34:473][812]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/DebugMenu/Actions/Button_Action_IncreaseDecreaseTileHeight.Button_Action_IncreaseDecreaseTileHeight
+[2023.08.27-01.26.34:473][812]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Core/Player/Actions/Grid/Action_SetTileType.Action_SetTileType
+[2023.08.27-01.26.34:473][812]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/DebugMenu/Actions/Button_Action_SetTileType.Button_Action_SetTileType
+[2023.08.27-01.26.36:247][ 22]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.08.27-01.26.36:247][ 22]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2023.08.27-01.26.36:247][ 22]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-01.26.37:232][129]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.08.27-01.26.37:232][129]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2023.08.27-01.26.37:232][129]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-01.26.38:089][213]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2023.08.27-01.26.38:089][213]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-01.26.38:096][213]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2023.08.27-01.26.38:096][213]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-01.26.38:777][287]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.08.27-01.26.38:777][287]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2023.08.27-01.26.38:777][287]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-01.26.39:559][368]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.08.27-01.26.39:559][368]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2023.08.27-01.26.39:559][368]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-01.26.40:400][459]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.08.27-01.26.40:400][459]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2023.08.27-01.26.40:400][459]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-01.26.40:454][459]LogViewport: Scene viewport resized to 1193x605, mode Windowed.
+[2023.08.27-01.26.40:476][460]LogViewport: Scene viewport resized to 1193x600, mode Windowed.
+[2023.08.27-01.26.40:538][461]LogViewport: Scene viewport resized to 1193x585, mode Windowed.
+[2023.08.27-01.26.41:724][575]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles.BP_DebugTextOnTiles
+[2023.08.27-01.26.41:724][575]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.27-01.26.41:724][575]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.27-01.26.41:867][575]LogViewport: Scene viewport resized to 738x405, mode Windowed.
+[2023.08.27-01.26.41:934][576]LogViewport: Scene viewport resized to 738x400, mode Windowed.
+[2023.08.27-01.26.43:310][679]LogViewport: Scene viewport resized to 736x418, mode Windowed.
+[2023.08.27-01.26.43:372][681]LogViewport: Scene viewport resized to 541x278, mode Windowed.
+[2023.08.27-01.26.43:410][682]LogViewport: Scene viewport resized to 467x225, mode Windowed.
+[2023.08.27-01.26.43:519][690]LogViewport: Scene viewport resized to 1141x691, mode Windowed.
+[2023.08.27-01.26.43:606][693]LogViewport: Scene viewport resized to 1193x613, mode Windowed.
+[2023.08.27-01.26.43:621][693]LogViewport: Scene viewport resized to 1139x709, mode Windowed.
+[2023.08.27-01.26.43:645][694]LogViewport: Scene viewport resized to 1193x603, mode Windowed.
+[2023.08.27-01.26.43:683][695]LogViewport: Scene viewport resized to 1193x594, mode Windowed.
+[2023.08.27-01.26.43:706][695]LogViewport: Scene viewport resized to 506x253, mode Windowed.
+[2023.08.27-01.26.43:729][696]LogViewport: Scene viewport resized to 1193x585, mode Windowed.
+[2023.08.27-01.26.43:742][696]LogViewport: Scene viewport resized to 467x225, mode Windowed.
+[2023.08.27-01.26.44:016][720]LogViewport: Scene viewport resized to 1141x691, mode Windowed.
+[2023.08.27-01.26.44:302][748]LogSlate: Window 'BP_DebugTextOnTiles' being destroyed
+[2023.08.27-01.26.44:308][748]LogViewport: Scene viewport resized to 1141x734, mode Windowed.
+[2023.08.27-01.26.44:322][749]LogViewport: Scene viewport resized to 1141x729, mode Windowed.
+[2023.08.27-01.26.44:335][750]LogViewport: Scene viewport resized to 1141x725, mode Windowed.
+[2023.08.27-01.26.44:350][751]LogViewport: Scene viewport resized to 1141x721, mode Windowed.
+[2023.08.27-01.26.44:364][752]LogViewport: Scene viewport resized to 1141x717, mode Windowed.
+[2023.08.27-01.26.44:378][753]LogViewport: Scene viewport resized to 1141x713, mode Windowed.
+[2023.08.27-01.26.44:390][754]LogViewport: Scene viewport resized to 1141x709, mode Windowed.
+[2023.08.27-01.26.44:402][755]LogViewport: Scene viewport resized to 1141x705, mode Windowed.
+[2023.08.27-01.26.44:415][756]LogViewport: Scene viewport resized to 1141x701, mode Windowed.
+[2023.08.27-01.26.44:427][757]LogViewport: Scene viewport resized to 1141x697, mode Windowed.
+[2023.08.27-01.26.44:441][758]LogViewport: Scene viewport resized to 1141x693, mode Windowed.
+[2023.08.27-01.26.44:454][759]LogViewport: Scene viewport resized to 1141x691, mode Windowed.
+[2023.08.27-01.27.06:154][167]LogSlate: Took 0.005929 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2023.08.27-01.33.22:109][211]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.27-01.33.22:157][211]LogSavePackage: Moving output files for package: /Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles
+[2023.08.27-01.33.22:158][211]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/BP_DebugTextOnTilesE31B6DE4472317E3134C559273AF4AEA.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles.uasset'
+[2023.08.27-01.33.22:168][211]LogFileHelpers: InternalPromptForCheckoutAndSave took 57 ms (total: 1.11 sec)
+[2023.08.27-01.33.22:174][211]AssetCheck: New page: Asset Save: BP_DebugTextOnTiles
+[2023.08.27-01.33.22:174][211]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles.BP_DebugTextOnTiles
+[2023.08.27-01.33.22:973][307]BlueprintLog: New page: Compile BP_DebugTextOnTiles
+[2023.08.27-01.33.23:020][307]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.08.27-01.33.44:803][248]BlueprintLog: New page: Compile BP_DebugTextOnTiles
+[2023.08.27-01.33.44:846][248]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2023.08.27-01.34.52:392][932]BlueprintLog: New page: Compile BP_DebugTextOnTiles
+[2023.08.27-01.34.52:434][932]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.08.27-01.36.02:584][326]BlueprintLog: New page: Compile BP_DebugTextOnTiles
+[2023.08.27-01.36.02:625][326]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2023.08.27-01.36.02:888][353]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.27-01.36.02:927][353]LogSavePackage: Moving output files for package: /Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles
+[2023.08.27-01.36.02:928][353]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/BP_DebugTextOnTiles926492254DD0D0FC5C328D95E7E013CB.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles.uasset'
+[2023.08.27-01.36.02:938][353]LogFileHelpers: InternalPromptForCheckoutAndSave took 50 ms (total: 1.16 sec)
+[2023.08.27-01.36.02:942][353]AssetCheck: New page: Asset Save: BP_DebugTextOnTiles
+[2023.08.27-01.36.02:943][353]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles.BP_DebugTextOnTiles
+[2023.08.27-01.36.27:284][ 78]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2023.08.27-01.36.27:287][ 78]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/TestMap' took 0.024
+[2023.08.27-01.36.27:287][ 78]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles] ([2] browsable assets)...
+[2023.08.27-01.36.27:287][ 78]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles]
+[2023.08.27-01.36.27:298][ 78]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles_Auto6
+[2023.08.27-01.36.27:298][ 78]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/BP_DebugTextOnTiles_Auto6D84456094E0542108A160F9DF84DD284.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Autosaves/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles_Auto6.uasset'
+[2023.08.27-01.36.27:298][ 78]LogFileHelpers: Auto-saving content packages took 0.012
+[2023.08.27-01.45.22:984][373]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.27-01.45.23:030][373]LogSavePackage: Moving output files for package: /Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles
+[2023.08.27-01.45.23:031][373]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/BP_DebugTextOnTiles0958AF7540AE87860D2FC2BA66CF35B6.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles.uasset'
+[2023.08.27-01.45.23:039][373]LogFileHelpers: InternalPromptForCheckoutAndSave took 55 ms (total: 1.22 sec)
+[2023.08.27-01.45.23:046][373]AssetCheck: New page: Asset Save: BP_DebugTextOnTiles
+[2023.08.27-01.45.23:046][373]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles.BP_DebugTextOnTiles
+[2023.08.27-01.45.23:843][469]BlueprintLog: New page: Compile BP_DebugTextOnTiles
+[2023.08.27-01.45.23:894][469]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2023.08.27-01.47.57:538][576]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2023.08.27-01.47.57:541][576]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/TestMap' took 0.027
+[2023.08.27-01.47.57:541][576]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles] ([2] browsable assets)...
+[2023.08.27-01.47.57:541][576]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles]
+[2023.08.27-01.47.57:562][576]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles_Auto7
+[2023.08.27-01.47.57:562][576]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/BP_DebugTextOnTiles_Auto7A9CFF7DF4D5C59CCBBB6EAB33390DAEE.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Autosaves/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles_Auto7.uasset'
+[2023.08.27-01.47.57:563][576]LogFileHelpers: Auto-saving content packages took 0.022
+[2023.08.27-01.49.11:528][ 75]BlueprintLog: New page: Compile BP_DebugTextOnTiles
+[2023.08.27-01.49.11:579][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.08.27-01.49.25:165][594]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Core/Grid/BP_Grid.BP_Grid
+[2023.08.27-01.49.25:166][594]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.27-01.49.25:166][594]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.27-01.50.24:533][678]BlueprintLog: New page: Compile BP_Grid
+[2023.08.27-01.50.24:689][678]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.08.27-01.52.30:564][212]LogSlate: Window 'Color Picker' being destroyed
+[2023.08.27-01.53.05:571][506]LogEditorTransaction: Undo Paste clipboard contents
+[2023.08.27-01.54.56:597][439]LogSlate: Window 'Color Picker' being destroyed
+[2023.08.27-01.56.02:654][392]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.27-01.56.02:679][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Core/Grid/BP_Grid" FILE="../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/Core/Grid/BP_Grid.uasset" SILENT=true
+[2023.08.27-01.56.02:751][392]LogSavePackage: Moving output files for package: /Game/Blueprints/Core/Grid/BP_Grid
+[2023.08.27-01.56.02:751][392]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/BP_GridFB67EE864BB4494B77F2B89279CE2762.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/Core/Grid/BP_Grid.uasset'
+[2023.08.27-01.56.02:760][392]LogFileHelpers: InternalPromptForCheckoutAndSave took 107 ms (total: 1.33 sec)
+[2023.08.27-01.56.02:766][392]AssetCheck: New page: Asset Save: BP_Grid
+[2023.08.27-01.56.02:767][392]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Core/Grid/BP_Grid.BP_Grid
+[2023.08.27-01.57.57:700][502]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.08.27-01.57.57:711][502]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Levels/TestMap_Auto8
+[2023.08.27-01.57.57:711][502]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/TestMap_Auto87CC087234902635381FC9293EE5DFC7E.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Autosaves/Game/Levels/TestMap_Auto8.umap'
+[2023.08.27-01.57.57:720][502]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/TestMap' took 0.050
+[2023.08.27-01.57.57:720][502]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.050
+[2023.08.27-01.57.57:720][502]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Core/Grid/BP_Grid] ([2] browsable assets)...
+[2023.08.27-01.57.57:720][502]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Core/Grid/BP_Grid]
+[2023.08.27-01.57.57:797][502]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Core/Grid/BP_Grid_Auto8
+[2023.08.27-01.57.57:797][502]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/BP_Grid_Auto8B9F2DA2844222832138C189FD35C3583.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Autosaves/Game/Blueprints/Core/Grid/BP_Grid_Auto8.uasset'
+[2023.08.27-01.57.57:797][502]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles] ([2] browsable assets)...
+[2023.08.27-01.57.57:798][502]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles]
+[2023.08.27-01.57.57:817][502]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles_Auto8
+[2023.08.27-01.57.57:817][502]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/BP_DebugTextOnTiles_Auto89E9B2BEA432D92C86936A0A0EC71871F.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Autosaves/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles_Auto8.uasset'
+[2023.08.27-01.57.57:817][502]LogFileHelpers: Auto-saving content packages took 0.097
+[2023.08.27-01.58.06:760][126]LogSlate: Window 'Color Picker' being destroyed
+[2023.08.27-01.59.21:217][124]LogSlate: Window 'Color Picker' being destroyed
+[2023.08.27-02.00.27:697][727]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.27-02.00.27:732][727]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Core/Grid/BP_Grid" FILE="../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/Core/Grid/BP_Grid.uasset" SILENT=true
+[2023.08.27-02.00.27:806][727]LogSavePackage: Moving output files for package: /Game/Blueprints/Core/Grid/BP_Grid
+[2023.08.27-02.00.27:807][727]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/BP_Grid85F02BFA4C40BEFB4719D482561CC390.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/Core/Grid/BP_Grid.uasset'
+[2023.08.27-02.00.27:816][727]LogFileHelpers: InternalPromptForCheckoutAndSave took 119 ms (total: 1.45 sec)
+[2023.08.27-02.00.27:823][727]AssetCheck: New page: Asset Save: BP_Grid
+[2023.08.27-02.00.27:823][727]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Core/Grid/BP_Grid.BP_Grid
+[2023.08.27-02.01.50:390][685]LogWindows: LaunchURL https://docs.unrealengine.com/5.2/pl/Engine/Blueprints?utm_source=editor&utm_medium=docs&utm_campaign=help_menu_asset
+[2023.08.27-02.02.16:363][885]LogSlate: Window 'Color Picker' being destroyed
+[2023.08.27-02.05.21:349][ 55]BlueprintLog: New page: Compile BP_DebugTextOnTiles
+[2023.08.27-02.05.21:360][ 55]LogBlueprint: Error: [AssetLog] C:\Users\sebas\OneDrive\Dokumenty\GitHub\EndedWorld\Content\Blueprints\DebugMenu\Other\BP_DebugTextOnTiles.uasset: [Compiler] Create Event  : missing a function/event name.
+[2023.08.27-02.05.21:360][ 55]LogBlueprint: Error: [AssetLog] C:\Users\sebas\OneDrive\Dokumenty\GitHub\EndedWorld\Content\Blueprints\DebugMenu\Other\BP_DebugTextOnTiles.uasset: [Compiler] Could not find an event-dispatcher named "OnGridDestroyed" in 'BP_Grid_C'.
+Make sure 'BP_Grid_C' has been compiled for  Bind Event to On Grid Destroyed
+[2023.08.27-02.05.21:361][ 55]LogBlueprint: Error: [AssetLog] C:\Users\sebas\OneDrive\Dokumenty\GitHub\EndedWorld\Content\Blueprints\DebugMenu\Other\BP_DebugTextOnTiles.uasset: [Compiler] Failed to create property K2Node_CreateDelegate_OutputDelegate_1 from  <None>  due to a bad or unknown type (Delegate)
+[2023.08.27-02.05.21:362][ 55]LogBlueprint: Error: [AssetLog] C:\Users\sebas\OneDrive\Dokumenty\GitHub\EndedWorld\Content\Blueprints\DebugMenu\Other\BP_DebugTextOnTiles.uasset: [Compiler] Create Event  Signature Error: No function/event specified.
+[2023.08.27-02.05.21:414][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.08.27-02.05.38:337][ 31]BlueprintLog: New page: Compile BP_DebugTextOnTiles
+[2023.08.27-02.05.38:345][ 31]LogBlueprint: Error: [AssetLog] C:\Users\sebas\OneDrive\Dokumenty\GitHub\EndedWorld\Content\Blueprints\DebugMenu\Other\BP_DebugTextOnTiles.uasset: [Compiler] Create Event  : missing a function/event name.
+[2023.08.27-02.05.38:345][ 31]LogBlueprint: Error: [AssetLog] C:\Users\sebas\OneDrive\Dokumenty\GitHub\EndedWorld\Content\Blueprints\DebugMenu\Other\BP_DebugTextOnTiles.uasset: [Compiler] Could not find an event-dispatcher named "OnGridDestroyed" in 'BP_Grid_C'.
+Make sure 'BP_Grid_C' has been compiled for  Bind Event to On Grid Destroyed
+[2023.08.27-02.05.38:345][ 31]LogBlueprint: Error: [AssetLog] C:\Users\sebas\OneDrive\Dokumenty\GitHub\EndedWorld\Content\Blueprints\DebugMenu\Other\BP_DebugTextOnTiles.uasset: [Compiler] Failed to create property K2Node_CreateDelegate_OutputDelegate_1 from  <None>  due to a bad or unknown type (Delegate)
+[2023.08.27-02.05.38:346][ 31]LogBlueprint: Error: [AssetLog] C:\Users\sebas\OneDrive\Dokumenty\GitHub\EndedWorld\Content\Blueprints\DebugMenu\Other\BP_DebugTextOnTiles.uasset: [Compiler] Create Event  Signature Error: No function/event specified.
+[2023.08.27-02.05.38:389][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.08.27-02.06.46:582][585]BlueprintLog: New page: Compile BP_DebugTextOnTiles
+[2023.08.27-02.06.46:591][585]LogBlueprint: Error: [AssetLog] C:\Users\sebas\OneDrive\Dokumenty\GitHub\EndedWorld\Content\Blueprints\DebugMenu\Other\BP_DebugTextOnTiles.uasset: [Compiler] Create Event  : missing a function/event name.
+[2023.08.27-02.06.46:591][585]LogBlueprint: Error: [AssetLog] C:\Users\sebas\OneDrive\Dokumenty\GitHub\EndedWorld\Content\Blueprints\DebugMenu\Other\BP_DebugTextOnTiles.uasset: [Compiler] Could not find an event-dispatcher named "OnGridDestroyed" in 'BP_Grid_C'.
+Make sure 'BP_Grid_C' has been compiled for  Bind Event to On Grid Destroyed
+[2023.08.27-02.06.46:591][585]LogBlueprint: Error: [AssetLog] C:\Users\sebas\OneDrive\Dokumenty\GitHub\EndedWorld\Content\Blueprints\DebugMenu\Other\BP_DebugTextOnTiles.uasset: [Compiler] Failed to create property K2Node_CreateDelegate_OutputDelegate_1 from  <None>  due to a bad or unknown type (Delegate)
+[2023.08.27-02.06.46:592][585]LogBlueprint: Error: [AssetLog] C:\Users\sebas\OneDrive\Dokumenty\GitHub\EndedWorld\Content\Blueprints\DebugMenu\Other\BP_DebugTextOnTiles.uasset: [Compiler] Create Event  Signature Error: No function/event specified.
+[2023.08.27-02.06.46:639][585]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.08.27-02.07.21:153][578]BlueprintLog: New page: Compile BP_DebugTextOnTiles
+[2023.08.27-02.07.21:161][578]LogBlueprint: Error: [AssetLog] C:\Users\sebas\OneDrive\Dokumenty\GitHub\EndedWorld\Content\Blueprints\DebugMenu\Other\BP_DebugTextOnTiles.uasset: [Compiler] Create Event  : missing a function/event name.
+[2023.08.27-02.07.21:162][578]LogBlueprint: Error: [AssetLog] C:\Users\sebas\OneDrive\Dokumenty\GitHub\EndedWorld\Content\Blueprints\DebugMenu\Other\BP_DebugTextOnTiles.uasset: [Compiler] Could not find an event-dispatcher named "OnGridDestroyed" in 'BP_Grid_C'.
+Make sure 'BP_Grid_C' has been compiled for  Bind Event to On Grid Destroyed
+[2023.08.27-02.07.21:162][578]LogBlueprint: Error: [AssetLog] C:\Users\sebas\OneDrive\Dokumenty\GitHub\EndedWorld\Content\Blueprints\DebugMenu\Other\BP_DebugTextOnTiles.uasset: [Compiler] Failed to create property K2Node_CreateDelegate_OutputDelegate_1 from  <None>  due to a bad or unknown type (Delegate)
+[2023.08.27-02.07.21:163][578]LogBlueprint: Error: [AssetLog] C:\Users\sebas\OneDrive\Dokumenty\GitHub\EndedWorld\Content\Blueprints\DebugMenu\Other\BP_DebugTextOnTiles.uasset: [Compiler] Create Event  Signature Error: No function/event specified.
+[2023.08.27-02.07.21:207][578]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2023.08.27-02.07.33:088][994]BlueprintLog: New page: Compile BP_Grid
+[2023.08.27-02.07.33:222][994]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.08.27-02.07.34:265][105]BlueprintLog: New page: Compile BP_DebugTextOnTiles
+[2023.08.27-02.07.34:273][105]LogBlueprint: Error: [AssetLog] C:\Users\sebas\OneDrive\Dokumenty\GitHub\EndedWorld\Content\Blueprints\DebugMenu\Other\BP_DebugTextOnTiles.uasset: [Compiler] Create Event  : missing a function/event name.
+[2023.08.27-02.07.34:273][105]LogBlueprint: Error: [AssetLog] C:\Users\sebas\OneDrive\Dokumenty\GitHub\EndedWorld\Content\Blueprints\DebugMenu\Other\BP_DebugTextOnTiles.uasset: [Compiler] Failed to create property K2Node_CreateDelegate_OutputDelegate_1 from  <None>  due to a bad or unknown type (Delegate)
+[2023.08.27-02.07.34:273][105]LogBlueprint: Error: [AssetLog] C:\Users\sebas\OneDrive\Dokumenty\GitHub\EndedWorld\Content\Blueprints\DebugMenu\Other\BP_DebugTextOnTiles.uasset: [Compiler] Create Event  Signature Error: No function/event specified.
+[2023.08.27-02.07.34:317][105]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2023.08.27-02.07.39:827][754]BlueprintLog: New page: Compile BP_DebugTextOnTiles
+[2023.08.27-02.07.39:880][754]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.08.27-02.08.10:213][260]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.08.27-02.08.10:224][260]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Levels/TestMap_Auto9
+[2023.08.27-02.08.10:224][260]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/TestMap_Auto9788828EF4BE55DFBB6854D996BE4AC04.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Autosaves/Game/Levels/TestMap_Auto9.umap'
+[2023.08.27-02.08.10:235][260]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/TestMap' took 0.045
+[2023.08.27-02.08.10:235][260]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.045
+[2023.08.27-02.08.10:235][260]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Core/Grid/BP_Grid] ([2] browsable assets)...
+[2023.08.27-02.08.10:235][260]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Core/Grid/BP_Grid]
+[2023.08.27-02.08.10:311][260]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Core/Grid/BP_Grid_Auto9
+[2023.08.27-02.08.10:311][260]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/BP_Grid_Auto97AFA6963479CA057E9670CB4B67FBE5B.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Autosaves/Game/Blueprints/Core/Grid/BP_Grid_Auto9.uasset'
+[2023.08.27-02.08.10:312][260]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles] ([2] browsable assets)...
+[2023.08.27-02.08.10:312][260]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles]
+[2023.08.27-02.08.10:333][260]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles_Auto9
+[2023.08.27-02.08.10:333][260]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/BP_DebugTextOnTiles_Auto930AE806F4871984E7D622891AAE81EEE.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Autosaves/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles_Auto9.uasset'
+[2023.08.27-02.08.10:333][260]LogFileHelpers: Auto-saving content packages took 0.099
+[2023.08.27-02.08.19:112][782]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Base'.'
+[2023.08.27-02.08.19:112][782]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Mask'.'
+[2023.08.27-02.08.20:884][957]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/DebugMenu/BP_DebugMenu.BP_DebugMenu
+[2023.08.27-02.08.20:884][957]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.27-02.08.20:884][957]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.27-02.09.04:713][888]LogSlate: Window 'Color Picker' being destroyed
+[2023.08.27-02.09.18:668][678]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/Blueprints/DebugMenu/BP_DebugMenu.BP_DebugMenu'
+[2023.08.27-02.09.25:999][554]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/Blueprints/DebugMenu/BP_DebugMenu.BP_DebugMenu'
+[2023.08.27-02.09.45:959][925]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/Blueprints/DebugMenu/BP_DebugMenu.BP_DebugMenu'
+[2023.08.27-02.09.45:959][925]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/Blueprints/DebugMenu/BP_DebugMenu.BP_DebugMenu'
+[2023.08.27-02.09.47:124][ 63]BlueprintLog: New page: Compile BP_DebugMenu
+[2023.08.27-02.09.47:176][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.08.27-02.09.47:280][ 64]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/Blueprints/DebugMenu/BP_DebugMenu.BP_DebugMenu'
+[2023.08.27-02.10.03:985][863]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/Blueprints/DebugMenu/BP_DebugMenu.BP_DebugMenu'
+[2023.08.27-02.10.23:606][260]BlueprintLog: New page: Compile BP_DebugMenu
+[2023.08.27-02.10.23:657][260]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.08.27-02.10.24:346][338]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.27-02.10.24:352][338]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.08.27-02.10.24:354][338]LogPlayLevel: [PlayLevel] Compiling Action_SetTileType before play...
+[2023.08.27-02.10.24:366][338]LogPlayLevel: [PlayLevel] Compiling Tab_Grid before play...
+[2023.08.27-02.10.24:414][338]LogPlayLevel: [PlayLevel] Compiling Button_Action_IncreaseDecreaseTileHeight before play...
+[2023.08.27-02.10.24:457][338]LogPlayLevel: [PlayLevel] Compiling Button_Action_SetTileType before play...
+[2023.08.27-02.10.24:527][338]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2023.08.27-02.10.24:529][338]LogPlayLevel: PlayLevel: Blueprint regeneration took 176 ms (4 blueprints)
+[2023.08.27-02.10.24:529][338]PIE: New page: PIE session: TestMap (27 sie 2023, 06:10:24)
+[2023.08.27-02.10.24:529][338]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestMap
+[2023.08.27-02.10.24:532][338]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003032s)
+[2023.08.27-02.10.24:532][338]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestMap.TestMap to /Game/Levels/UEDPIE_0_TestMap.TestMap (0.003060s)
+[2023.08.27-02.10.24:532][338]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.27-02.10.24:532][338]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.27-02.10.24:533][338]LogAIModule: Creating AISystem for world TestMap
+[2023.08.27-02.10.24:533][338]LogPlayLevel: PIE: World Init took: (0.000726s)
+[2023.08.27-02.10.24:555][338]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2023.08.27-02.10.24:556][338]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2023.08.27-02.10.24:556][338]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.27-02.10.24:556][338]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.27-02.10.24:556][338]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.27-02.10.24:556][338]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.27-02.10.24:556][338]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.08.27-02.10.24:556][338]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.27-02.10.24:556][338]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.08.27-02.10.24:556][338]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.27-02.10.24:557][338]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.27-02.10.24:557][338]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.27-02.10.24:557][338]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.27-02.10.24:558][338]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.27-02.10.24:587][338]LogAudioMixer: Display: Using Audio Hardware Device Głośniki (Realtek(R) Audio)
+[2023.08.27-02.10.24:587][338]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.27-02.10.24:587][338]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.27-02.10.24:587][338]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.27-02.10.24:588][338]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2023.08.27-02.10.24:588][338]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2023.08.27-02.10.24:590][338]LogInit: FAudioDevice initialized with ID 14.
+[2023.08.27-02.10.24:590][338]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2023.08.27-02.10.24:590][338]LogAudio: Display: Audio Device (ID: 14) registered with world 'TestMap'.
+[2023.08.27-02.10.24:590][338]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2023.08.27-02.10.24:590][338]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2023.08.27-02.10.24:613][338]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.27-02.10.24:614][338]LogLoad: Game class is 'EW_GM_C'
+[2023.08.27-02.10.24:619][338]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2023.08.27-04.10.24
+[2023.08.27-02.10.24:619][338]LogWorld: Bringing up level for play took: 0.001395
+[2023.08.27-02.10.24:622][338]LogOnline: OSS: Created online subsystem instance for: :Context_34
+[2023.08.27-02.10.24:632][338]PIE: Server logged in
+[2023.08.27-02.10.24:632][338]PIE: Play in editor total start time 0,281 seconds.
+[2023.08.27-02.10.24:657][338]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2023.08.27-02.11.06:114][595]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.27-02.11.06:114][595]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestMap
+[2023.08.27-02.11.06:115][595]LogSlate: Window 'EndedWorld Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.08.27-02.11.06:123][595]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2023.08.27-02.11.06:123][595]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-02.11.06:126][595]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.27-02.11.06:131][595]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-02.11.06:155][595]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2023.08.27-02.11.06:155][595]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.08.27-02.11.06:156][595]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.08.27-02.11.06:164][595]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.08.27-02.11.06:178][596]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2023.08.27-02.11.06:201][596]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.08.27-02.13.06:438][400]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_DebugTextOnTiles_C_CHILDACTOR_31.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-02.13.06:438][400]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.DESTROYED_BP_DebugTextOnTiles_C_CHILDACTOR_31.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-02.13.11:346][984]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_DebugTextOnTiles_C_CHILDACTOR_33.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-02.13.11:346][984]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.DESTROYED_BP_DebugTextOnTiles_C_CHILDACTOR_33.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-02.13.19:396][790]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_DebugTextOnTiles_C_CHILDACTOR_35.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-02.13.19:396][790]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.DESTROYED_BP_DebugTextOnTiles_C_CHILDACTOR_35.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-02.13.26:168][127]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_DebugTextOnTiles_C_CHILDACTOR_37.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-02.13.26:168][127]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.DESTROYED_BP_DebugTextOnTiles_C_CHILDACTOR_37.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-02.13.26:174][127]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_DebugTextOnTiles_C_CHILDACTOR_39.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-02.13.26:175][127]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.DESTROYED_BP_DebugTextOnTiles_C_CHILDACTOR_39.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-02.13.27:356][254]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_DebugTextOnTiles_C_CHILDACTOR_41.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-02.13.27:356][254]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.DESTROYED_BP_DebugTextOnTiles_C_CHILDACTOR_41.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-02.13.27:362][254]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_DebugTextOnTiles_C_CHILDACTOR_43.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-02.13.27:363][254]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.DESTROYED_BP_DebugTextOnTiles_C_CHILDACTOR_43.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-02.13.33:424][860]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_DebugTextOnTiles_C_CHILDACTOR_45.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-02.13.33:424][860]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.DESTROYED_BP_DebugTextOnTiles_C_CHILDACTOR_45.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-02.13.33:430][860]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_DebugTextOnTiles_C_CHILDACTOR_47.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-02.13.33:430][860]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.DESTROYED_BP_DebugTextOnTiles_C_CHILDACTOR_47.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-02.13.38:701][250]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_DebugTextOnTiles_C_CHILDACTOR_49.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-02.13.38:702][250]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.DESTROYED_BP_DebugTextOnTiles_C_CHILDACTOR_49.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-02.13.44:184][902]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_DebugTextOnTiles_C_CHILDACTOR_51.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-02.13.44:185][902]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.DESTROYED_BP_DebugTextOnTiles_C_CHILDACTOR_51.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-02.16.42:035][891]LogDerivedDataCache: C:/Users/sebas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.070 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 961 files in 1604 folders with total size 59 MiB.
+[2023.08.27-02.19.22:005][985]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_DebugTextOnTiles_C_CHILDACTOR_53.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-02.19.22:005][985]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.DESTROYED_BP_DebugTextOnTiles_C_CHILDACTOR_53.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-02.19.22:010][985]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_DebugTextOnTiles_C_CHILDACTOR_55.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-02.19.22:010][985]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.DESTROYED_BP_DebugTextOnTiles_C_CHILDACTOR_55.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-02.19.57:434][868]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2023.08.27-02.19.57:444][868]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Levels/TestMap_Auto0
+[2023.08.27-02.19.57:444][868]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/TestMap_Auto0254CD7B04B8837AC128F179446D9D22D.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Autosaves/Game/Levels/TestMap_Auto0.umap'
+[2023.08.27-02.19.57:455][868]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/TestMap' took 0.046
+[2023.08.27-02.19.57:455][868]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.046
+[2023.08.27-02.19.57:455][868]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/DebugMenu/BP_DebugMenu] ([2] browsable assets)...
+[2023.08.27-02.19.57:455][868]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/DebugMenu/BP_DebugMenu]
+[2023.08.27-02.19.57:459][868]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/DebugMenu/BP_DebugMenu_Auto0
+[2023.08.27-02.19.57:460][868]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/BP_DebugMenu_Auto0CAEB244A4E5A9A6BB35BFC8F93DE0595.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Autosaves/Game/Blueprints/DebugMenu/BP_DebugMenu_Auto0.uasset'
+[2023.08.27-02.19.57:460][868]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles] ([2] browsable assets)...
+[2023.08.27-02.19.57:460][868]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles]
+[2023.08.27-02.19.57:482][868]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles_Auto0
+[2023.08.27-02.19.57:482][868]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/BP_DebugTextOnTiles_Auto00D01E90045109B964BFA77A9E4E63FE3.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Autosaves/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles_Auto0.uasset'
+[2023.08.27-02.19.57:482][868]LogFileHelpers: Auto-saving content packages took 0.028
+[2023.08.27-02.22.24:580][790]BlueprintLog: New page: Compile BP_DebugTextOnTiles
+[2023.08.27-02.22.24:637][790]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.08.27-02.22.24:639][790]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.DESTROYED_BP_DebugTextOnTiles_C_CHILDACTOR_57.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-02.22.24:640][790]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_DebugTextOnTiles_C_CHILDACTOR_57.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-02.22.24:686][790]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.DESTROYED_BP_DebugTextOnTiles_C_CHILDACTOR_59.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-02.22.24:687][790]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_DebugTextOnTiles_C_CHILDACTOR_59.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-02.22.36:038][413]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/DebugMenu/Tabs/Tab_Pathfinding.Tab_Pathfinding
+[2023.08.27-02.22.36:038][413]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.27-02.22.36:039][413]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.27-02.22.36:053][413]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.27-02.22.36:053][413]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.27-02.22.55:678][808]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2023.08.27-02.23.01:507][808]LogSlate: Window 'Delete Assets' being destroyed
+[2023.08.27-02.23.01:822][808]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2023.08.27-02.23.01:822][808]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-02.23.01:829][808]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2023.08.27-02.23.01:829][808]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-02.23.01:898][808]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2023.08.27-02.23.01:898][808]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-02.23.01:952][808]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Blueprints/DebugMenu/Tabs/Tab_Pathfinding.Tab_Pathfinding
+	Asset Type: WidgetBlueprint
+[2023.08.27-02.23.02:834][808]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2023.08.27-02.23.02:857][808]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.08.27-02.23.02:878][808]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2023.08.27-02.23.06:105][ 76]LogContentBrowser: Deferred new asset file creation: Tab_Grid1
+[2023.08.27-02.23.06:111][ 76]LogContentBrowser: Creating deferred item: Tab_Grid1
+[2023.08.27-02.23.06:135][ 77]LogContentBrowser: Renaming the item being created (Deferred Item: Tab_Grid1).
+[2023.08.27-02.23.12:409][816]LogContentBrowser: Attempting asset rename: Tab_Grid1 -> Tab_Pathfinding
+[2023.08.27-02.23.12:462][816]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.08.27-02.23.12:510][816]LogContentBrowser: End creating deferred item Tab_Grid1
+[2023.08.27-02.23.12:770][844]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/DebugMenu/Tabs/Tab_Pathfinding.Tab_Pathfinding
+[2023.08.27-02.23.12:770][844]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.27-02.23.12:770][844]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.27-02.23.12:776][844]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.27-02.23.12:777][844]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.27-02.23.37:864][693]LogEditorTransaction: Undo Edit Text
+[2023.08.27-02.23.38:420][705]LogEditorTransaction: Undo Edit Text
+[2023.08.27-02.23.38:742][721]LogEditorTransaction: Undo Remove Widget
+[2023.08.27-02.25.21:320][ 23]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.27-02.25.21:404][ 23]LogSavePackage: Moving output files for package: /Game/Blueprints/DebugMenu/Tabs/Tab_Pathfinding
+[2023.08.27-02.25.21:404][ 23]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Tab_Pathfinding0F7017E54546B683CEBEB08E3676B039.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/DebugMenu/Tabs/Tab_Pathfinding.uasset'
+[2023.08.27-02.25.21:416][ 23]LogFileHelpers: InternalPromptForCheckoutAndSave took 97 ms (total: 1.54 sec)
+[2023.08.27-02.25.21:424][ 23]AssetCheck: New page: Asset Save: Tab_Pathfinding
+[2023.08.27-02.25.21:424][ 23]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/DebugMenu/Tabs/Tab_Pathfinding.Tab_Pathfinding
+[2023.08.27-02.25.27:168][458]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.27-02.25.27:215][458]LogSavePackage: Moving output files for package: /Game/Blueprints/DebugMenu/Tabs/Tab_Pathfinding
+[2023.08.27-02.25.27:215][458]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Tab_Pathfinding9EC8B046403EF93EB02E4C948ACA823C.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/DebugMenu/Tabs/Tab_Pathfinding.uasset'
+[2023.08.27-02.25.27:224][458]LogFileHelpers: InternalPromptForCheckoutAndSave took 56 ms (total: 1.60 sec)
+[2023.08.27-02.25.27:230][458]AssetCheck: New page: Asset Save: Tab_Pathfinding
+[2023.08.27-02.25.27:230][458]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/DebugMenu/Tabs/Tab_Pathfinding.Tab_Pathfinding
+[2023.08.27-02.25.27:959][545]BlueprintLog: New page: Compile Tab_Pathfinding
+[2023.08.27-02.25.28:006][545]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.08.27-02.25.58:136][215]BlueprintLog: New page: Compile Tab_Pathfinding
+[2023.08.27-02.25.58:173][215]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.08.27-02.26.01:623][310]BlueprintLog: New page: Compile Tab_Pathfinding
+[2023.08.27-02.26.01:661][310]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.08.27-02.27.31:018][763]BlueprintLog: New page: Compile Tab_Pathfinding
+[2023.08.27-02.27.31:061][763]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2023.08.27-02.28.33:282][993]BlueprintLog: New page: Compile Tab_Pathfinding
+[2023.08.27-02.28.33:322][993]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2023.08.27-02.28.34:288][100]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.27-02.28.34:294][100]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.27-02.28.34:294][100]PIE: New page: PIE session: TestMap (27 sie 2023, 06:28:34)
+[2023.08.27-02.28.34:294][100]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestMap
+[2023.08.27-02.28.34:298][100]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003758s)
+[2023.08.27-02.28.34:298][100]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestMap.TestMap to /Game/Levels/UEDPIE_0_TestMap.TestMap (0.003795s)
+[2023.08.27-02.28.34:298][100]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.27-02.28.34:298][100]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.27-02.28.34:298][100]LogAIModule: Creating AISystem for world TestMap
+[2023.08.27-02.28.34:298][100]LogPlayLevel: PIE: World Init took: (0.000888s)
+[2023.08.27-02.28.34:321][100]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2023.08.27-02.28.34:324][100]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2023.08.27-02.28.34:324][100]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.27-02.28.34:324][100]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.27-02.28.34:324][100]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.27-02.28.34:324][100]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.27-02.28.34:324][100]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.08.27-02.28.34:324][100]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.27-02.28.34:324][100]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.08.27-02.28.34:324][100]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.27-02.28.34:324][100]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.27-02.28.34:324][100]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.27-02.28.34:324][100]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.27-02.28.34:326][100]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.27-02.28.34:351][100]LogAudioMixer: Display: Using Audio Hardware Device Głośniki (Realtek(R) Audio)
+[2023.08.27-02.28.34:351][100]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.27-02.28.34:351][100]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.27-02.28.34:351][100]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.27-02.28.34:352][100]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2023.08.27-02.28.34:352][100]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2023.08.27-02.28.34:353][100]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2023.08.27-02.28.34:353][100]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2023.08.27-02.28.34:353][100]LogInit: FAudioDevice initialized with ID 15.
+[2023.08.27-02.28.34:353][100]LogAudio: Display: Audio Device (ID: 15) registered with world 'TestMap'.
+[2023.08.27-02.28.34:353][100]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2023.08.27-02.28.34:386][100]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.27-02.28.34:386][100]LogLoad: Game class is 'EW_GM_C'
+[2023.08.27-02.28.34:392][100]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2023.08.27-04.28.34
+[2023.08.27-02.28.34:392][100]LogWorld: Bringing up level for play took: 0.001452
+[2023.08.27-02.28.34:394][100]LogOnline: OSS: Created online subsystem instance for: :Context_39
+[2023.08.27-02.28.34:402][100]PIE: Server logged in
+[2023.08.27-02.28.34:403][100]PIE: Play in editor total start time 0,109 seconds.
+[2023.08.27-02.28.34:410][100]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2023.08.27-02.28.37:313][322]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.27-02.28.37:314][322]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestMap
+[2023.08.27-02.28.37:314][322]LogSlate: Window 'EndedWorld Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.08.27-02.28.37:322][322]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2023.08.27-02.28.37:323][322]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-02.28.37:325][322]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.27-02.28.37:330][322]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-02.28.37:354][322]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.08.27-02.28.37:354][322]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2023.08.27-02.28.37:354][322]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.08.27-02.28.37:355][322]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.08.27-02.28.37:363][322]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.08.27-02.28.37:378][323]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2023.08.27-02.28.37:400][323]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2023.08.27-02.28.41:472][695]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/DebugMenu/W_DebugMenu.W_DebugMenu
+[2023.08.27-02.28.41:472][695]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.27-02.28.41:472][695]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.27-02.28.41:479][695]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.27-02.28.41:479][695]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.27-02.28.58:496][624]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.27-02.28.58:502][624]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.08.27-02.28.58:503][624]LogPlayLevel: [PlayLevel] Compiling W_DebugMenu before play...
+[2023.08.27-02.28.58:586][624]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2023.08.27-02.28.58:588][624]LogPlayLevel: PlayLevel: Blueprint regeneration took 86 ms (1 blueprints)
+[2023.08.27-02.28.58:588][624]PIE: New page: PIE session: TestMap (27 sie 2023, 06:28:58)
+[2023.08.27-02.28.58:588][624]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestMap
+[2023.08.27-02.28.58:591][624]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003178s)
+[2023.08.27-02.28.58:591][624]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestMap.TestMap to /Game/Levels/UEDPIE_0_TestMap.TestMap (0.003209s)
+[2023.08.27-02.28.58:591][624]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.27-02.28.58:591][624]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.27-02.28.58:592][624]LogAIModule: Creating AISystem for world TestMap
+[2023.08.27-02.28.58:592][624]LogPlayLevel: PIE: World Init took: (0.000668s)
+[2023.08.27-02.28.58:614][624]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2023.08.27-02.28.58:615][624]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2023.08.27-02.28.58:615][624]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.27-02.28.58:615][624]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.27-02.28.58:615][624]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.27-02.28.58:615][624]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.27-02.28.58:615][624]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.08.27-02.28.58:615][624]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.27-02.28.58:615][624]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.08.27-02.28.58:615][624]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.27-02.28.58:616][624]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.27-02.28.58:616][624]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.27-02.28.58:616][624]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.27-02.28.58:617][624]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.27-02.28.58:639][624]LogAudioMixer: Display: Using Audio Hardware Device Głośniki (Realtek(R) Audio)
+[2023.08.27-02.28.58:640][624]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.27-02.28.58:640][624]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.27-02.28.58:640][624]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.27-02.28.58:640][624]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2023.08.27-02.28.58:640][624]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2023.08.27-02.28.58:642][624]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2023.08.27-02.28.58:642][624]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2023.08.27-02.28.58:642][624]LogInit: FAudioDevice initialized with ID 16.
+[2023.08.27-02.28.58:642][624]LogAudio: Display: Audio Device (ID: 16) registered with world 'TestMap'.
+[2023.08.27-02.28.58:642][624]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2023.08.27-02.28.58:673][624]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.27-02.28.58:673][624]LogLoad: Game class is 'EW_GM_C'
+[2023.08.27-02.28.58:678][624]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2023.08.27-04.28.58
+[2023.08.27-02.28.58:678][624]LogWorld: Bringing up level for play took: 0.001337
+[2023.08.27-02.28.58:681][624]LogOnline: OSS: Created online subsystem instance for: :Context_42
+[2023.08.27-02.28.58:690][624]PIE: Server logged in
+[2023.08.27-02.28.58:691][624]PIE: Play in editor total start time 0,189 seconds.
+[2023.08.27-02.28.58:732][624]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2023.08.27-02.29.02:808][949]LogViewport: Scene viewport resized to 1915x1000, mode Windowed.
+[2023.08.27-02.29.04:923][119]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.27-02.29.04:923][119]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestMap
+[2023.08.27-02.29.04:924][119]LogSlate: Window 'EndedWorld Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.08.27-02.29.04:931][119]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2023.08.27-02.29.04:932][119]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-02.29.04:934][119]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.27-02.29.04:939][119]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-02.29.04:962][119]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2023.08.27-02.29.04:962][119]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.08.27-02.29.04:964][119]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.08.27-02.29.04:974][119]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.08.27-02.29.04:988][120]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2023.08.27-02.29.05:013][120]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.08.27-02.30.07:025][340]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.08.27-02.30.07:035][340]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Levels/TestMap_Auto1
+[2023.08.27-02.30.07:036][340]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/TestMap_Auto180D094154C476F272C7924BB91730288.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Autosaves/Game/Levels/TestMap_Auto1.umap'
+[2023.08.27-02.30.07:045][340]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/TestMap' took 0.042
+[2023.08.27-02.30.07:045][340]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.042
+[2023.08.27-02.30.07:045][340]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Core/Grid/BP_Grid] ([2] browsable assets)...
+[2023.08.27-02.30.07:045][340]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Core/Grid/BP_Grid]
+[2023.08.27-02.30.07:125][340]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Core/Grid/BP_Grid_Auto1
+[2023.08.27-02.30.07:126][340]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/BP_Grid_Auto1251B4EB84594259F7F5249A438E39F30.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Autosaves/Game/Blueprints/Core/Grid/BP_Grid_Auto1.uasset'
+[2023.08.27-02.30.07:127][340]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/DebugMenu/BP_DebugMenu] ([2] browsable assets)...
+[2023.08.27-02.30.07:127][340]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/DebugMenu/BP_DebugMenu]
+[2023.08.27-02.30.07:130][340]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/DebugMenu/BP_DebugMenu_Auto1
+[2023.08.27-02.30.07:131][340]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/BP_DebugMenu_Auto1E072C7EB4D0729E426A6D99FF856D963.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Autosaves/Game/Blueprints/DebugMenu/BP_DebugMenu_Auto1.uasset'
+[2023.08.27-02.30.07:131][340]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/DebugMenu/W_DebugMenu] ([2] browsable assets)...
+[2023.08.27-02.30.07:155][340]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/DebugMenu/W_DebugMenu.W_DebugMenu]
+[2023.08.27-02.30.07:155][340]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/DebugMenu/W_DebugMenu]
+[2023.08.27-02.30.07:168][340]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/DebugMenu/W_DebugMenu_Auto1
+[2023.08.27-02.30.07:169][340]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/W_DebugMenu_Auto119773A8A43FBED61C9A92088816FC77A.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Autosaves/Game/Blueprints/DebugMenu/W_DebugMenu_Auto1.uasset'
+[2023.08.27-02.30.07:170][340]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles] ([2] browsable assets)...
+[2023.08.27-02.30.07:170][340]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles]
+[2023.08.27-02.30.07:194][340]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles_Auto1
+[2023.08.27-02.30.07:194][340]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/BP_DebugTextOnTiles_Auto188CB7CA14545F6EBA2222CA2A5434EB6.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Autosaves/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles_Auto1.uasset'
+[2023.08.27-02.30.07:194][340]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/DebugMenu/Tabs/Tab_Pathfinding] ([2] browsable assets)...
+[2023.08.27-02.30.07:198][340]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/DebugMenu/Tabs/Tab_Pathfinding.Tab_Pathfinding]
+[2023.08.27-02.30.07:201][340]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/DebugMenu/Tabs/Tab_Pathfinding]
+[2023.08.27-02.30.07:209][340]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/DebugMenu/Tabs/Tab_Pathfinding_Auto1
+[2023.08.27-02.30.07:210][340]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Tab_Pathfinding_Auto14CAD0F22408F133A74F507AA17B8D24A.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Autosaves/Game/Blueprints/DebugMenu/Tabs/Tab_Pathfinding_Auto1.uasset'
+[2023.08.27-02.30.07:211][340]LogFileHelpers: Auto-saving content packages took 0.166
+[2023.08.27-02.32.16:155][996]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.27-02.32.16:161][996]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.08.27-02.32.16:163][996]LogPlayLevel: [PlayLevel] Compiling W_DebugMenu before play...
+[2023.08.27-02.32.16:249][996]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.08.27-02.32.16:251][996]LogPlayLevel: PlayLevel: Blueprint regeneration took 89 ms (1 blueprints)
+[2023.08.27-02.32.16:251][996]PIE: New page: PIE session: TestMap (27 sie 2023, 06:32:16)
+[2023.08.27-02.32.16:251][996]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestMap
+[2023.08.27-02.32.16:254][996]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003203s)
+[2023.08.27-02.32.16:254][996]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestMap.TestMap to /Game/Levels/UEDPIE_0_TestMap.TestMap (0.003230s)
+[2023.08.27-02.32.16:254][996]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.27-02.32.16:254][996]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.27-02.32.16:255][996]LogAIModule: Creating AISystem for world TestMap
+[2023.08.27-02.32.16:255][996]LogPlayLevel: PIE: World Init took: (0.000842s)
+[2023.08.27-02.32.16:276][996]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2023.08.27-02.32.16:278][996]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2023.08.27-02.32.16:278][996]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.27-02.32.16:278][996]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.27-02.32.16:278][996]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.27-02.32.16:278][996]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.27-02.32.16:278][996]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.08.27-02.32.16:278][996]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.27-02.32.16:278][996]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.08.27-02.32.16:278][996]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.27-02.32.16:278][996]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.27-02.32.16:279][996]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.27-02.32.16:279][996]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.27-02.32.16:280][996]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.27-02.32.16:304][996]LogAudioMixer: Display: Using Audio Hardware Device Głośniki (Realtek(R) Audio)
+[2023.08.27-02.32.16:305][996]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.27-02.32.16:305][996]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.27-02.32.16:305][996]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.27-02.32.16:306][996]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2023.08.27-02.32.16:306][996]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2023.08.27-02.32.16:307][996]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2023.08.27-02.32.16:307][996]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2023.08.27-02.32.16:307][996]LogInit: FAudioDevice initialized with ID 17.
+[2023.08.27-02.32.16:307][996]LogAudio: Display: Audio Device (ID: 17) registered with world 'TestMap'.
+[2023.08.27-02.32.16:307][996]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2023.08.27-02.32.16:334][996]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.27-02.32.16:334][996]LogLoad: Game class is 'EW_GM_C'
+[2023.08.27-02.32.16:339][996]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2023.08.27-04.32.16
+[2023.08.27-02.32.16:340][996]LogWorld: Bringing up level for play took: 0.001226
+[2023.08.27-02.32.16:342][996]LogOnline: OSS: Created online subsystem instance for: :Context_43
+[2023.08.27-02.32.16:350][996]PIE: Server logged in
+[2023.08.27-02.32.16:350][996]PIE: Play in editor total start time 0,189 seconds.
+[2023.08.27-02.32.16:379][996]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2023.08.27-02.32.35:073][616]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.27-02.32.35:073][616]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestMap
+[2023.08.27-02.32.35:074][616]LogSlate: Window 'EndedWorld Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.08.27-02.32.35:081][616]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2023.08.27-02.32.35:081][616]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-02.32.35:084][616]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.27-02.32.35:089][616]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-02.32.35:113][616]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2023.08.27-02.32.35:113][616]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.08.27-02.32.35:115][616]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.08.27-02.32.35:122][616]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2023.08.27-02.32.35:139][617]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2023.08.27-02.32.35:161][617]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2023.08.27-02.39.02:372][334]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Core/Player/Actions/Pathfinding/Action_ShowTileNeighbors.Action_ShowTileNeighbors
+[2023.08.27-02.39.02:372][334]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.27-02.39.02:372][334]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.27-02.39.33:859][592]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Core/Grid/Utilities/BP_GridMeshInst.BP_GridMeshInst
+[2023.08.27-02.39.33:860][592]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.27-02.39.33:860][592]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.27-02.39.34:911][689]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.08.27-02.39.34:934][689]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.08.27-02.39.35:847][689]LogSlate: Window 'Save Content' being destroyed
+[2023.08.27-02.39.35:857][689]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.27-02.39.35:888][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestMap" FILE="../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Levels/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.08.27-02.39.35:909][689]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2023.08.27-02.39.35:919][689]LogSavePackage: Moving output files for package: /Game/Levels/TestMap
+[2023.08.27-02.39.35:920][689]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/TestMapA129499A411B2BF4913FD18E2F661B2F.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Levels/TestMap.umap'
+[2023.08.27-02.39.35:929][689]LogFileHelpers: Saving map 'TestMap' took 0.041
+[2023.08.27-02.39.35:933][689]LogSavePackage: Moving output files for package: /Game/Blueprints/DebugMenu/BP_DebugMenu
+[2023.08.27-02.39.35:934][689]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/BP_DebugMenuFE26E96C47A0BCA18C1FB0A0A31D0F30.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/DebugMenu/BP_DebugMenu.uasset'
+[2023.08.27-02.39.35:959][689]LogSavePackage: Moving output files for package: /Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles
+[2023.08.27-02.39.35:959][689]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/BP_DebugTextOnTiles7F435A274A44200EFA04F8BB5F7764D2.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles.uasset'
+[2023.08.27-02.39.35:961][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Core/Grid/BP_Grid" FILE="../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/Core/Grid/BP_Grid.uasset" SILENT=true
+[2023.08.27-02.39.36:041][689]LogSavePackage: Moving output files for package: /Game/Blueprints/Core/Grid/BP_Grid
+[2023.08.27-02.39.36:042][689]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/BP_GridD0A9F4C9440FD657AD1957871124F8CC.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/Core/Grid/BP_Grid.uasset'
+[2023.08.27-02.39.36:052][689]LogSavePackage: Moving output files for package: /Game/Blueprints/DebugMenu/Tabs/Tab_Pathfinding
+[2023.08.27-02.39.36:052][689]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Tab_PathfindingF84B80D7417C036BDD6CBD93BAC6D6DB.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/DebugMenu/Tabs/Tab_Pathfinding.uasset'
+[2023.08.27-02.39.36:074][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/DebugMenu/W_DebugMenu" FILE="../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/DebugMenu/W_DebugMenu.uasset" SILENT=true
+[2023.08.27-02.39.36:088][689]LogSavePackage: Moving output files for package: /Game/Blueprints/DebugMenu/W_DebugMenu
+[2023.08.27-02.39.36:089][689]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/W_DebugMenuE56682A74824C74F0859F492A68A4787.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/DebugMenu/W_DebugMenu.uasset'
+[2023.08.27-02.39.36:101][689]LogFileHelpers: InternalPromptForCheckoutAndSave took 243 ms (total: 1.84 sec)
+[2023.08.27-02.39.36:107][689]AssetCheck: New page: Asset Save: multiple assets
+[2023.08.27-02.39.36:107][689]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Core/Grid/BP_Grid.BP_Grid
+[2023.08.27-02.39.36:107][689]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/DebugMenu/W_DebugMenu.W_DebugMenu
+[2023.08.27-02.39.36:123][689]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/DebugMenu/BP_DebugMenu.BP_DebugMenu
+[2023.08.27-02.39.36:123][689]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TestMap.TestMap
+[2023.08.27-02.39.36:123][689]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles.BP_DebugTextOnTiles
+[2023.08.27-02.39.36:123][689]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/DebugMenu/Tabs/Tab_Pathfinding.Tab_Pathfinding
+[2023.08.27-02.39.49:750][316]LogScript: Warning: Accessed None trying to read property PlayerActions
+	Action_ShowTileNeighbors_C /Engine/Transient.World_38:PersistentLevel.Action_ShowTileNeighbors_C_0
+	Function /Game/Blueprints/Core/Player/Actions/Pathfinding/Action_ShowTileNeighbors.Action_ShowTileNeighbors_C:ExecuteAction:0023
+[2023.08.27-02.39.49:751][316]LogScript: Warning: Accessed None
+	Action_ShowTileNeighbors_C /Engine/Transient.World_38:PersistentLevel.Action_ShowTileNeighbors_C_0
+	Function /Game/Blueprints/Core/Player/Actions/Pathfinding/Action_ShowTileNeighbors.Action_ShowTileNeighbors_C:ExecuteAction:0038
+[2023.08.27-02.39.49:754][316]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2023.08.27-02.39.49:754][316]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-02.39.49:837][316]LogViewport: Scene viewport resized to 1193x598, mode Windowed.
+[2023.08.27-02.39.49:865][317]LogViewport: Scene viewport resized to 1193x591, mode Windowed.
+[2023.08.27-02.39.49:887][318]LogViewport: Scene viewport resized to 1193x585, mode Windowed.
+[2023.08.27-02.39.50:670][399]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.08.27-02.39.50:670][399]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2023.08.27-02.39.50:670][399]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-02.39.50:775][399]LogViewport: Scene viewport resized to 1193x593, mode Windowed.
+[2023.08.27-02.39.50:799][400]LogViewport: Scene viewport resized to 1193x586, mode Windowed.
+[2023.08.27-02.39.50:824][401]LogViewport: Scene viewport resized to 1193x585, mode Windowed.
+[2023.08.27-02.40.05:229][962]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/DebugMenu/Actions/Button_Action_ShowTileNeighbors.Button_Action_ShowTileNeighbors
+[2023.08.27-02.40.05:230][962]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.27-02.40.05:230][962]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.27-02.40.05:243][962]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.27-02.40.05:244][962]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.27-02.42.38:182][382]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2023.08.27-02.42.38:182][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-02.42.38:189][382]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2023.08.27-02.42.38:189][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-02.42.40:693][635]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2023.08.27-02.42.41:476][635]LogSlate: Window 'Delete Assets' being destroyed
+[2023.08.27-02.42.41:740][635]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2023.08.27-02.42.41:740][635]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-02.42.41:746][635]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2023.08.27-02.42.41:746][635]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-02.42.41:875][635]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2023.08.27-02.42.41:875][635]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-02.42.41:882][635]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2023.08.27-02.42.41:882][635]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-02.42.41:925][635]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Blueprints/DebugMenu/Actions/Button_Action_ShowTileNeighbors.Button_Action_ShowTileNeighbors
+	Asset Type: WidgetBlueprint
+[2023.08.27-02.42.42:703][635]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.08.27-02.42.42:732][635]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.08.27-02.42.42:754][635]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.08.27-02.42.50:416][  3]LogContentBrowser: Deferred new asset file creation: Button_Action_IncreaseDecreaseTileHeight1
+[2023.08.27-02.42.50:423][  3]LogContentBrowser: Creating deferred item: Button_Action_IncreaseDecreaseTileHeight1
+[2023.08.27-02.42.50:434][  4]LogContentBrowser: Renaming the item being created (Deferred Item: Button_Action_IncreaseDecreaseTileHeight1).
+[2023.08.27-02.43.04:619][671]LogContentBrowser: Attempting asset rename: Button_Action_IncreaseDecreaseTileHeight1 -> Button_Action_ShowTileNeighbor
+[2023.08.27-02.43.04:646][671]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.08.27-02.43.04:660][671]LogContentBrowser: End creating deferred item Button_Action_IncreaseDecreaseTileHeight1
+[2023.08.27-02.43.07:275][981]LogContentBrowser: Attempting asset rename: Button_Action_ShowTileNeighbor -> Button_Action_ShowTileNeighbors
+[2023.08.27-02.43.07:296][981]LogMetaData: Removing '/Game/Blueprints/DebugMenu/Actions/Button_Action_ShowTileNeighbors.SKEL_Button_Action_ShowTileNeighbors_C' ref from Metadata '/Game/Blueprints/DebugMenu/Actions/Button_Action_ShowTileNeighbor.PackageMetaData'
+[2023.08.27-02.43.07:297][981]LogMetaData: Removing '/Game/Blueprints/DebugMenu/Actions/Button_Action_ShowTileNeighbors.Button_Action_ShowTileNeighbors_C' ref from Metadata '/Game/Blueprints/DebugMenu/Actions/Button_Action_ShowTileNeighbor.PackageMetaData'
+[2023.08.27-02.43.07:297][981]LogMetaData: Removing '/Game/Blueprints/DebugMenu/Actions/Button_Action_ShowTileNeighbors.SKEL_Button_Action_ShowTileNeighbors_C:Construct' ref from Metadata '/Game/Blueprints/DebugMenu/Actions/Button_Action_ShowTileNeighbor.PackageMetaData'
+[2023.08.27-02.43.07:297][981]LogMetaData: Removing '/Game/Blueprints/DebugMenu/Actions/Button_Action_ShowTileNeighbors.SKEL_Button_Action_ShowTileNeighbors_C:OnSelectedActionsChanged' ref from Metadata '/Game/Blueprints/DebugMenu/Actions/Button_Action_ShowTileNeighbor.PackageMetaData'
+[2023.08.27-02.43.07:297][981]LogMetaData: Removing '/Game/Blueprints/DebugMenu/Actions/Button_Action_ShowTileNeighbors.Button_Action_ShowTileNeighbors_C:Construct' ref from Metadata '/Game/Blueprints/DebugMenu/Actions/Button_Action_ShowTileNeighbor.PackageMetaData'
+[2023.08.27-02.43.07:297][981]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.27-02.43.07:335][981]LogSavePackage: Moving output files for package: /Game/Blueprints/DebugMenu/Actions/Button_Action_ShowTileNeighbors
+[2023.08.27-02.43.07:335][981]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Button_Action_ShowTileNeighbors621A31D04698755A99A4E69E8EC1D6B0.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/DebugMenu/Actions/Button_Action_ShowTileNeighbors.uasset'
+[2023.08.27-02.43.07:348][981]LogFileHelpers: InternalPromptForCheckoutAndSave took 51 ms (total: 1.89 sec)
+[2023.08.27-02.43.07:379][981]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.08.27-02.43.07:402][981]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.08.27-02.43.07:424][981]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2023.08.27-02.43.07:430][981]AssetCheck: New page: Asset Save: Button_Action_ShowTileNeighbors
+[2023.08.27-02.43.07:430][981]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/DebugMenu/Actions/Button_Action_ShowTileNeighbors.Button_Action_ShowTileNeighbors
+[2023.08.27-02.43.07:762][ 19]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/DebugMenu/Actions/Button_Action_ShowTileNeighbors.Button_Action_ShowTileNeighbors
+[2023.08.27-02.43.07:762][ 19]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.27-02.43.07:762][ 19]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.27-02.43.07:769][ 19]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.27-02.43.07:769][ 19]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.27-02.43.37:415][410]BlueprintLog: New page: Compile Button_Action_ShowTileNeighbors
+[2023.08.27-02.43.37:460][410]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2023.08.27-02.43.55:348][992]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/DebugMenu/Actions/Button_Action_IncreaseDecreaseTileHeight.Button_Action_IncreaseDecreaseTileHeight
+[2023.08.27-02.43.55:348][992]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.27-02.43.55:348][992]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.27-02.43.55:361][992]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.27-02.43.55:361][992]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.27-02.47.21:655][286]LogSlate: Window 'Color Picker' being destroyed
+[2023.08.27-02.48.16:518][ 27]LogSlate: Window 'Color Picker' being destroyed
+[2023.08.27-02.48.20:295][479]BlueprintLog: New page: Compile Button_Action_IncreaseDecreaseTileHeight
+[2023.08.27-02.48.20:352][479]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.08.27-02.48.36:330][403]BlueprintLog: New page: Compile Button_Action_ShowTileNeighbors
+[2023.08.27-02.48.36:367][403]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.08.27-02.48.50:805][317]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/DebugMenu/Tabs/Tab_Pathfinding.Tab_Pathfinding
+[2023.08.27-02.48.50:806][317]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.27-02.48.50:806][317]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.27-02.48.50:824][317]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.27-02.48.50:824][317]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.27-02.49.12:592][734]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.27-02.49.12:599][734]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.08.27-02.49.12:599][734]LogPlayLevel: [PlayLevel] Compiling Tab_Pathfinding before play...
+[2023.08.27-02.49.12:706][734]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.08.27-02.49.12:708][734]LogPlayLevel: PlayLevel: Blueprint regeneration took 109 ms (1 blueprints)
+[2023.08.27-02.49.12:708][734]PIE: New page: PIE session: TestMap (27 sie 2023, 06:49:12)
+[2023.08.27-02.49.12:708][734]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestMap
+[2023.08.27-02.49.12:711][734]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002995s)
+[2023.08.27-02.49.12:711][734]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestMap.TestMap to /Game/Levels/UEDPIE_0_TestMap.TestMap (0.003023s)
+[2023.08.27-02.49.12:711][734]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.27-02.49.12:711][734]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.27-02.49.12:712][734]LogAIModule: Creating AISystem for world TestMap
+[2023.08.27-02.49.12:712][734]LogPlayLevel: PIE: World Init took: (0.000693s)
+[2023.08.27-02.49.12:733][734]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2023.08.27-02.49.12:735][734]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2023.08.27-02.49.12:735][734]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.27-02.49.12:735][734]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.27-02.49.12:735][734]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.27-02.49.12:735][734]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.27-02.49.12:735][734]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.08.27-02.49.12:735][734]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.27-02.49.12:735][734]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.08.27-02.49.12:735][734]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.27-02.49.12:736][734]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.27-02.49.12:736][734]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.27-02.49.12:736][734]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.27-02.49.12:737][734]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.27-02.49.12:769][734]LogAudioMixer: Display: Using Audio Hardware Device Głośniki (Realtek(R) Audio)
+[2023.08.27-02.49.12:770][734]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.27-02.49.12:770][734]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.27-02.49.12:770][734]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.27-02.49.12:772][734]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2023.08.27-02.49.12:772][734]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2023.08.27-02.49.12:774][734]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2023.08.27-02.49.12:774][734]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2023.08.27-02.49.12:774][734]LogInit: FAudioDevice initialized with ID 18.
+[2023.08.27-02.49.12:774][734]LogAudio: Display: Audio Device (ID: 18) registered with world 'TestMap'.
+[2023.08.27-02.49.12:774][734]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2023.08.27-02.49.12:810][734]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.27-02.49.12:811][734]LogLoad: Game class is 'EW_GM_C'
+[2023.08.27-02.49.12:816][734]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2023.08.27-04.49.12
+[2023.08.27-02.49.12:816][734]LogWorld: Bringing up level for play took: 0.001533
+[2023.08.27-02.49.12:818][734]LogOnline: OSS: Created online subsystem instance for: :Context_54
+[2023.08.27-02.49.12:830][734]PIE: Server logged in
+[2023.08.27-02.49.12:831][734]PIE: Play in editor total start time 0,233 seconds.
+[2023.08.27-02.49.12:989][734]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2023.08.27-02.49.23:983][391]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.27-02.49.23:983][391]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestMap
+[2023.08.27-02.49.23:984][391]LogSlate: Window 'EndedWorld Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.08.27-02.49.23:995][391]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2023.08.27-02.49.23:995][391]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-02.49.23:997][391]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.27-02.49.24:004][391]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-02.49.24:035][391]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2023.08.27-02.49.24:035][391]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2023.08.27-02.49.24:038][391]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2023.08.27-02.49.24:049][391]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2023.08.27-02.49.24:267][392]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2023.08.27-02.49.24:290][392]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2023.08.27-02.49.53:282][219]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2023.08.27-02.49.53:285][219]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/TestMap' took 0.027
+[2023.08.27-02.49.53:285][219]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/DebugMenu/Actions/Button_Action_IncreaseDecreaseTileHeight] ([2] browsable assets)...
+[2023.08.27-02.49.53:287][219]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/DebugMenu/Actions/Button_Action_IncreaseDecreaseTileHeight.Button_Action_IncreaseDecreaseTileHeight]
+[2023.08.27-02.49.53:287][219]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/DebugMenu/Actions/Button_Action_IncreaseDecreaseTileHeight]
+[2023.08.27-02.49.53:294][219]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/DebugMenu/Actions/Button_Action_IncreaseDecreaseTileHeight_Auto2
+[2023.08.27-02.49.53:294][219]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Button_Action_IncreaseDecreaseTi81AB0FD94295201E6E3ECD86C37DFEEB.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Autosaves/Game/Blueprints/DebugMenu/Actions/Button_Action_IncreaseDecreaseTileHeight_Auto2.uasset'
+[2023.08.27-02.49.53:295][219]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/DebugMenu/Tabs/Tab_Pathfinding] ([2] browsable assets)...
+[2023.08.27-02.49.53:298][219]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/DebugMenu/Tabs/Tab_Pathfinding.Tab_Pathfinding]
+[2023.08.27-02.49.53:298][219]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/DebugMenu/Tabs/Tab_Pathfinding]
+[2023.08.27-02.49.53:306][219]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/DebugMenu/Tabs/Tab_Pathfinding_Auto2
+[2023.08.27-02.49.53:307][219]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Tab_Pathfinding_Auto2724DA2C54541FF948E3552958844DEA2.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Autosaves/Game/Blueprints/DebugMenu/Tabs/Tab_Pathfinding_Auto2.uasset'
+[2023.08.27-02.49.53:308][219]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/DebugMenu/Actions/Button_Action_ShowTileNeighbors] ([2] browsable assets)...
+[2023.08.27-02.49.53:310][219]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/DebugMenu/Actions/Button_Action_ShowTileNeighbors.Button_Action_ShowTileNeighbors]
+[2023.08.27-02.49.53:310][219]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/DebugMenu/Actions/Button_Action_ShowTileNeighbors]
+[2023.08.27-02.49.53:317][219]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/DebugMenu/Actions/Button_Action_ShowTileNeighbors_Auto2
+[2023.08.27-02.49.53:317][219]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Button_Action_ShowTileNeighbors_44F1AACC4ECB119C3C790EAB9DEFC6CE.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Autosaves/Game/Blueprints/DebugMenu/Actions/Button_Action_ShowTileNeighbors_Auto2.uasset'
+[2023.08.27-02.49.53:318][219]LogFileHelpers: Auto-saving content packages took 0.033
+[2023.08.27-02.50.00:868][640]LogSlate: Window 'Pick Parent Class' being destroyed
+[2023.08.27-02.50.00:890][640]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2023.08.27-02.50.00:898][640]LogContentBrowser: Creating deferred item: NewBlueprint
+[2023.08.27-02.50.00:908][641]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2023.08.27-02.50.09:438][618]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_GridPathfinding
+[2023.08.27-02.50.09:444][618]LogContentBrowser: End creating deferred item NewBlueprint
+[2023.08.27-02.50.10:552][735]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Core/Grid/BP_GridPathfinding.BP_GridPathfinding
+[2023.08.27-02.50.10:553][735]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.27-02.50.10:553][735]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.27-02.50.10:652][735]LogViewport: Scene viewport resized to 1141x709, mode Windowed.
+[2023.08.27-02.50.10:670][736]LogViewport: Scene viewport resized to 1141x700, mode Windowed.
+[2023.08.27-02.50.10:720][737]LogViewport: Scene viewport resized to 1141x691, mode Windowed.
+[2023.08.27-02.50.22:621][950]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2023.08.27-02.50.23:646][950]LogSlate: Window 'Save Content' being destroyed
+[2023.08.27-02.50.23:666][950]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.27-02.50.23:695][950]LogSavePackage: Moving output files for package: /Game/Blueprints/Core/Grid/BP_GridPathfinding
+[2023.08.27-02.50.23:695][950]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/BP_GridPathfinding6BB1DA914FBDE09F5C6E9D9D4B1A3557.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/Core/Grid/BP_GridPathfinding.uasset'
+[2023.08.27-02.50.23:705][950]LogSavePackage: Moving output files for package: /Game/Blueprints/DebugMenu/Actions/Button_Action_IncreaseDecreaseTileHeight
+[2023.08.27-02.50.23:706][950]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Button_Action_IncreaseDecreaseTiA06840FA41C0F666657BD6833E9A5BF0.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/DebugMenu/Actions/Button_Action_IncreaseDecreaseTileHeight.uasset'
+[2023.08.27-02.50.23:713][950]LogSavePackage: Moving output files for package: /Game/Blueprints/DebugMenu/Actions/Button_Action_ShowTileNeighbors
+[2023.08.27-02.50.23:714][950]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Button_Action_ShowTileNeighbors5A9D2CBB465A8EE921FCE5AD38F16626.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/DebugMenu/Actions/Button_Action_ShowTileNeighbors.uasset'
+[2023.08.27-02.50.23:722][950]LogSavePackage: Moving output files for package: /Game/Blueprints/DebugMenu/Tabs/Tab_Pathfinding
+[2023.08.27-02.50.23:723][950]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Tab_Pathfinding442D221A4B62940AF38FE988DEF0CE3A.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/DebugMenu/Tabs/Tab_Pathfinding.uasset'
+[2023.08.27-02.50.23:734][950]LogFileHelpers: InternalPromptForCheckoutAndSave took 69 ms (total: 1.96 sec)
+[2023.08.27-02.50.23:742][950]AssetCheck: New page: Asset Save: multiple assets
+[2023.08.27-02.50.23:742][950]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/DebugMenu/Actions/Button_Action_IncreaseDecreaseTileHeight.Button_Action_IncreaseDecreaseTileHeight
+[2023.08.27-02.50.23:742][950]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/DebugMenu/Tabs/Tab_Pathfinding.Tab_Pathfinding
+[2023.08.27-02.50.23:743][950]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Core/Grid/BP_GridPathfinding.BP_GridPathfinding
+[2023.08.27-02.50.23:743][950]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/DebugMenu/Actions/Button_Action_ShowTileNeighbors.Button_Action_ShowTileNeighbors
