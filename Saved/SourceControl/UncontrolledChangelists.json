@@ -44,6 +44,8 @@
 				"C:/Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/DebugMenu/Actions/Button_Action_FindPathToTarget.uasset",
 				"C:/Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/Core/Player/Actions/Pathfinding/Action_FindPathToTarget.uasset",
 				"C:/Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/DebugMenu/Actions/Button_Action.uasset",
+				"C:/Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/Core/Player/Actions/Pathfinding/Action_SelectTile_CalculateMinCost.uasset",
+				"C:/Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/DebugMenu/Actions/Button_Action_CalculateMinCost.uasset",
 				"C:/Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/DebugMenu/Actions/Button_Action1.uasset",
 				"C:/Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/DebugMenu/Other/BP_DebugTextOnTile.uasset",
 				"C:/Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/Core/Grid/Utilities/S_Pathfinding.uasset",

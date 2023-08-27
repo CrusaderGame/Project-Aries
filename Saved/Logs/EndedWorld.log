@@ -1783,3 +1783,175 @@ Script Stack (0 frames) :
 [2023.08.27-08.31.12:384][821]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles.BP_DebugTextOnTiles
 [2023.08.27-08.31.12:384][821]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/DebugMenu/Tabs/Tab_Pathfinding.Tab_Pathfinding
 [2023.08.27-08.31.12:385][821]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TestMap.TestMap
+[2023.08.27-08.33.17:180][638]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_DebugTextOnTiles_C_CHILDACTOR_184.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-08.33.20:940][937]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_DebugTextOnTiles_C_CHILDACTOR_186.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-08.33.26:864][427]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_DebugTextOnTiles_C_CHILDACTOR_188.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-08.33.33:452][991]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_DebugTextOnTiles_C_CHILDACTOR_190.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-08.33.42:150][841]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_DebugTextOnTiles_C_CHILDACTOR_192.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-08.33.45:499][231]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_DebugTextOnTiles_C_CHILDACTOR_194.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-08.34.28:394][552]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_DebugTextOnTiles_C_CHILDACTOR_196.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-08.34.28:400][552]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_DebugTextOnTiles_C_CHILDACTOR_198.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-08.34.32:428][ 29]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_DebugTextOnTiles_C_CHILDACTOR_200.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-08.34.36:779][531]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_DebugTextOnTiles_C_CHILDACTOR_202.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-08.34.36:785][531]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_DebugTextOnTiles_C_CHILDACTOR_204.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-08.34.54:101][269]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_DebugTextOnTiles_C_CHILDACTOR_206.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-08.34.56:399][540]BlueprintLog: New page: Compile BP_DebugTextOnTiles
+[2023.08.27-08.34.56:487][540]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2023.08.27-08.34.56:489][540]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_DebugTextOnTiles_C_CHILDACTOR_208.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-08.34.56:511][540]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_DebugTextOnTiles_C_CHILDACTOR_210.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-08.35.45:340][321]LogContentBrowser: Deferred new asset file creation: Action_SelectTile1
+[2023.08.27-08.35.45:346][321]LogContentBrowser: Creating deferred item: Action_SelectTile1
+[2023.08.27-08.35.45:369][322]LogContentBrowser: Renaming the item being created (Deferred Item: Action_SelectTile1).
+[2023.08.27-08.36.07:789][ 75]LogContentBrowser: Attempting asset rename: Action_SelectTile1 -> Action_SelectTile_CalculateMinCost
+[2023.08.27-08.36.07:829][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.08.27-08.36.07:850][ 75]LogContentBrowser: End creating deferred item Action_SelectTile1
+[2023.08.27-08.36.18:245][612]LogMetaData: Removing '/Game/Blueprints/Core/Player/Actions/Pathfinding/Action_SelectTile_CalculateMinCost.SKEL_Action_SelectTile_CalculateMinCost_C' ref from Metadata '/Game/Blueprints/Core/Player/Actions/Grid/Action_SelectTile_CalculateMinCost.PackageMetaData'
+[2023.08.27-08.36.18:245][612]LogMetaData: Removing '/Game/Blueprints/Core/Player/Actions/Pathfinding/Action_SelectTile_CalculateMinCost.Action_SelectTile_CalculateMinCost_C' ref from Metadata '/Game/Blueprints/Core/Player/Actions/Grid/Action_SelectTile_CalculateMinCost.PackageMetaData'
+[2023.08.27-08.36.18:245][612]LogMetaData: Removing '/Game/Blueprints/Core/Player/Actions/Pathfinding/Action_SelectTile_CalculateMinCost.SKEL_Action_SelectTile_CalculateMinCost_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Core/Player/Actions/Grid/Action_SelectTile_CalculateMinCost.PackageMetaData'
+[2023.08.27-08.36.18:245][612]LogMetaData: Removing '/Game/Blueprints/Core/Player/Actions/Pathfinding/Action_SelectTile_CalculateMinCost.SKEL_Action_SelectTile_CalculateMinCost_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Blueprints/Core/Player/Actions/Grid/Action_SelectTile_CalculateMinCost.PackageMetaData'
+[2023.08.27-08.36.18:245][612]LogMetaData: Removing '/Game/Blueprints/Core/Player/Actions/Pathfinding/Action_SelectTile_CalculateMinCost.SKEL_Action_SelectTile_CalculateMinCost_C:ReceiveTick' ref from Metadata '/Game/Blueprints/Core/Player/Actions/Grid/Action_SelectTile_CalculateMinCost.PackageMetaData'
+[2023.08.27-08.36.18:245][612]LogMetaData: Removing '/Game/Blueprints/Core/Player/Actions/Pathfinding/Action_SelectTile_CalculateMinCost.SKEL_Action_SelectTile_CalculateMinCost_C:ReceiveEndPlay' ref from Metadata '/Game/Blueprints/Core/Player/Actions/Grid/Action_SelectTile_CalculateMinCost.PackageMetaData'
+[2023.08.27-08.36.18:245][612]LogMetaData: Removing '/Game/Blueprints/Core/Player/Actions/Pathfinding/Action_SelectTile_CalculateMinCost.SKEL_Action_SelectTile_CalculateMinCost_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Core/Player/Actions/Grid/Action_SelectTile_CalculateMinCost.PackageMetaData'
+[2023.08.27-08.36.18:245][612]LogMetaData: Removing '/Game/Blueprints/Core/Player/Actions/Pathfinding/Action_SelectTile_CalculateMinCost.SKEL_Action_SelectTile_CalculateMinCost_C:ExecuteAction' ref from Metadata '/Game/Blueprints/Core/Player/Actions/Grid/Action_SelectTile_CalculateMinCost.PackageMetaData'
+[2023.08.27-08.36.18:245][612]LogMetaData: Removing '/Game/Blueprints/Core/Player/Actions/Pathfinding/Action_SelectTile_CalculateMinCost.Action_SelectTile_CalculateMinCost_C:ReceiveEndPlay' ref from Metadata '/Game/Blueprints/Core/Player/Actions/Grid/Action_SelectTile_CalculateMinCost.PackageMetaData'
+[2023.08.27-08.36.18:245][612]LogMetaData: Removing '/Game/Blueprints/Core/Player/Actions/Pathfinding/Action_SelectTile_CalculateMinCost.Action_SelectTile_CalculateMinCost_C:ExecuteAction' ref from Metadata '/Game/Blueprints/Core/Player/Actions/Grid/Action_SelectTile_CalculateMinCost.PackageMetaData'
+[2023.08.27-08.36.18:248][612]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.27-08.36.18:286][612]LogSavePackage: Moving output files for package: /Game/Blueprints/Core/Player/Actions/Pathfinding/Action_SelectTile_CalculateMinCost
+[2023.08.27-08.36.18:286][612]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Action_SelectTile_CalculateMinCo6300908E40FC86C351DA0DB8C69A8C1C.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/Core/Player/Actions/Pathfinding/Action_SelectTile_CalculateMinCost.uasset'
+[2023.08.27-08.36.18:297][612]LogFileHelpers: InternalPromptForCheckoutAndSave took 48 ms (total: 1.10 sec)
+[2023.08.27-08.36.18:330][612]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2023.08.27-08.36.18:353][612]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2023.08.27-08.36.18:375][612]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.08.27-08.36.18:391][612]AssetCheck: New page: Asset Save: Action_SelectTile_CalculateMinCost
+[2023.08.27-08.36.18:391][612]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Core/Player/Actions/Pathfinding/Action_SelectTile_CalculateMinCost.Action_SelectTile_CalculateMinCost
+[2023.08.27-08.36.31:889][175]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Core/Player/Actions/Pathfinding/Action_SelectTile_CalculateMinCost.Action_SelectTile_CalculateMinCost
+[2023.08.27-08.36.31:890][175]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.27-08.36.31:890][175]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.27-08.36.34:349][374]LogSlate: Window 'Action_SelectTile_CalculateMinCost' being destroyed
+[2023.08.27-08.38.40:908][842]LogEditorTransaction: Undo Add Node
+[2023.08.27-08.38.41:187][852]LogEditorTransaction: Undo Delete current selection
+[2023.08.27-08.41.31:761][950]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.08.27-08.41.31:772][950]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Levels/TestMap_Auto8
+[2023.08.27-08.41.31:773][950]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/TestMap_Auto8F844F9CF4ADDFE086BC37CBD1FE658A5.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Autosaves/Game/Levels/TestMap_Auto8.umap'
+[2023.08.27-08.41.31:783][950]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/TestMap' took 0.047
+[2023.08.27-08.41.31:783][950]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.047
+[2023.08.27-08.41.31:783][950]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles] ([2] browsable assets)...
+[2023.08.27-08.41.31:783][950]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles]
+[2023.08.27-08.41.31:829][950]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles_Auto8
+[2023.08.27-08.41.31:830][950]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/BP_DebugTextOnTiles_Auto8DF4896C14546483F31D800A6C18831CB.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Autosaves/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles_Auto8.uasset'
+[2023.08.27-08.41.31:831][950]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Core/Player/Actions/Pathfinding/Action_SelectTile_CalculateMinCost] ([2] browsable assets)...
+[2023.08.27-08.41.31:832][950]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Core/Player/Actions/Pathfinding/Action_SelectTile_CalculateMinCost]
+[2023.08.27-08.41.31:840][950]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Core/Player/Actions/Pathfinding/Action_SelectTile_CalculateMinCost_Auto8
+[2023.08.27-08.41.31:840][950]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Action_SelectTile_CalculateMinCoC8FBD90C448BFF40C20A14AAB6ECF441.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Autosaves/Game/Blueprints/Core/Player/Actions/Pathfinding/Action_SelectTile_CalculateMinCost_Auto8.uasset'
+[2023.08.27-08.41.31:841][950]LogFileHelpers: Auto-saving content packages took 0.059
+[2023.08.27-08.44.16:616][739]BlueprintLog: New page: Compile Action_SelectTile_CalculateMinCost
+[2023.08.27-08.44.16:676][739]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2023.08.27-08.45.13:306][941]LogContentBrowser: Deferred new asset file creation: Button_Action_ShowTileNeighbors1
+[2023.08.27-08.45.13:319][941]LogContentBrowser: Creating deferred item: Button_Action_ShowTileNeighbors1
+[2023.08.27-08.45.13:340][942]LogContentBrowser: Renaming the item being created (Deferred Item: Button_Action_ShowTileNeighbors1).
+[2023.08.27-08.45.25:812][947]LogContentBrowser: Attempting asset rename: Button_Action_ShowTileNeighbors1 -> Button_Action_CalculateMinCost
+[2023.08.27-08.45.25:847][947]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2023.08.27-08.45.25:864][947]LogContentBrowser: End creating deferred item Button_Action_ShowTileNeighbors1
+[2023.08.27-08.45.30:499][128]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/DebugMenu/Actions/Button_Action_CalculateMinCost.Button_Action_CalculateMinCost
+[2023.08.27-08.45.30:499][128]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.27-08.45.30:499][128]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.27-08.45.30:514][128]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.27-08.45.30:514][128]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.27-08.47.02:083][279]LogEditorTransaction: Undo Add Node
+[2023.08.27-08.47.30:123][983]BlueprintLog: New page: Compile Button_Action_CalculateMinCost
+[2023.08.27-08.47.30:171][983]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2023.08.27-08.47.30:974][ 64]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.27-08.47.31:016][ 64]LogSavePackage: Moving output files for package: /Game/Blueprints/DebugMenu/Actions/Button_Action_CalculateMinCost
+[2023.08.27-08.47.31:016][ 64]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Button_Action_CalculateMinCostF502344E4DEA8A284E72388A98187C64.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/DebugMenu/Actions/Button_Action_CalculateMinCost.uasset'
+[2023.08.27-08.47.31:027][ 64]LogFileHelpers: InternalPromptForCheckoutAndSave took 53 ms (total: 1.15 sec)
+[2023.08.27-08.47.31:032][ 64]AssetCheck: New page: Asset Save: Button_Action_CalculateMinCost
+[2023.08.27-08.47.31:032][ 64]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/DebugMenu/Actions/Button_Action_CalculateMinCost.Button_Action_CalculateMinCost
+[2023.08.27-08.48.20:337][467]BlueprintLog: New page: Compile Tab_Pathfinding
+[2023.08.27-08.48.20:411][467]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2023.08.27-08.48.21:029][523]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.27-08.48.21:084][523]LogSavePackage: Moving output files for package: /Game/Blueprints/DebugMenu/Tabs/Tab_Pathfinding
+[2023.08.27-08.48.21:084][523]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Tab_Pathfinding6481ACD8493D577670EE66BA3A801C35.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/DebugMenu/Tabs/Tab_Pathfinding.uasset'
+[2023.08.27-08.48.21:094][523]LogFileHelpers: InternalPromptForCheckoutAndSave took 64 ms (total: 1.22 sec)
+[2023.08.27-08.48.21:100][523]AssetCheck: New page: Asset Save: Tab_Pathfinding
+[2023.08.27-08.48.21:100][523]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/DebugMenu/Tabs/Tab_Pathfinding.Tab_Pathfinding
+[2023.08.27-08.50.28:430][994]LogEditorTransaction: Undo Paste clipboard contents
+[2023.08.27-08.50.28:445][994]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_GridPathfinding_C_CHILDACTOR_132.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-08.50.29:463][ 65]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_GridPathfinding_C_CHILDACTOR_134.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-08.54.29:546][259]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_GridPathfinding_C_CHILDACTOR_136.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-08.54.30:809][398]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_GridPathfinding_C_CHILDACTOR_138.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-08.54.36:911][104]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_GridPathfinding_C_CHILDACTOR_140.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-08.54.38:261][252]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_GridPathfinding_C_CHILDACTOR_142.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-08.54.58:144][ 80]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_GridPathfinding_C_CHILDACTOR_144.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-08.55.32:634][154]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_GridPathfinding_C_CHILDACTOR_146.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-08.55.42:474][468]LogDerivedDataCache: C:/Users/sebas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.049 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 962 files in 1606 folders with total size 59 MiB.
+[2023.08.27-08.56.02:984][269]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_GridPathfinding_C_CHILDACTOR_148.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-08.56.11:101][948]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_GridPathfinding_C_CHILDACTOR_150.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-08.56.39:430][846]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_GridPathfinding_C_CHILDACTOR_152.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-08.56.40:526][955]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_GridPathfinding_C_CHILDACTOR_154.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-09.00.11:084][647]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_GridPathfinding_C_CHILDACTOR_156.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-09.00.49:051][573]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_GridPathfinding_C_CHILDACTOR_158.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-09.00.57:437][ 47]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_GridPathfinding_C_CHILDACTOR_160.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-09.00.58:344][145]LogEditorTransaction: Undo Paste clipboard contents
+[2023.08.27-09.00.58:356][145]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_GridPathfinding_C_CHILDACTOR_162.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-09.01.00:268][313]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_GridPathfinding_C_CHILDACTOR_164.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-09.01.45:101][160]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_GridPathfinding_C_CHILDACTOR_166.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-09.02.13:119][323]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_GridPathfinding_C_CHILDACTOR_168.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-09.02.39:317][632]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_GridPathfinding_C_CHILDACTOR_170.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-09.03.18:327][194]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.27-09.03.18:462][194]LogSavePackage: Moving output files for package: /Game/Blueprints/Core/Grid/BP_GridPathfinding
+[2023.08.27-09.03.18:464][194]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/BP_GridPathfindingBAFBCAA8419B0E1029D2FEA467D28190.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/Core/Grid/BP_GridPathfinding.uasset'
+[2023.08.27-09.03.18:474][194]LogFileHelpers: InternalPromptForCheckoutAndSave took 147 ms (total: 1.36 sec)
+[2023.08.27-09.03.18:482][194]AssetCheck: New page: Asset Save: BP_GridPathfinding
+[2023.08.27-09.03.18:482][194]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Core/Grid/BP_GridPathfinding.BP_GridPathfinding
+[2023.08.27-09.03.20:990][451]BlueprintLog: New page: Compile BP_GridPathfinding
+[2023.08.27-09.03.21:164][451]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.08.27-09.03.21:167][451]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_DebugTextOnTiles_C_CHILDACTOR_212.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-09.03.21:183][451]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_GridPathfinding_C_CHILDACTOR_172.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-09.03.21:242][451]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_DebugTextOnTiles_C_CHILDACTOR_214.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-09.03.21:258][451]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_GridPathfinding_C_CHILDACTOR_174.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-09.04.47:563][131]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.08.27-09.04.47:578][131]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Levels/TestMap_Auto9
+[2023.08.27-09.04.47:579][131]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/TestMap_Auto92FEEBBFD467BBBA42C37F28132EBA5F6.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Autosaves/Game/Levels/TestMap_Auto9.umap'
+[2023.08.27-09.04.47:588][131]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/TestMap' took 0.059
+[2023.08.27-09.04.47:588][131]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.059
+[2023.08.27-09.04.47:588][131]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Core/Grid/BP_GridPathfinding] ([2] browsable assets)...
+[2023.08.27-09.04.47:588][131]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Core/Grid/BP_GridPathfinding]
+[2023.08.27-09.04.47:686][131]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Core/Grid/BP_GridPathfinding_Auto9
+[2023.08.27-09.04.47:687][131]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/BP_GridPathfinding_Auto97E915C574F019CC9E42F53881F6AFC62.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Autosaves/Game/Blueprints/Core/Grid/BP_GridPathfinding_Auto9.uasset'
+[2023.08.27-09.04.47:688][131]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles] ([2] browsable assets)...
+[2023.08.27-09.04.47:688][131]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles]
+[2023.08.27-09.04.47:739][131]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles_Auto9
+[2023.08.27-09.04.47:740][131]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/BP_DebugTextOnTiles_Auto9CCEF15E344BA359DF0C6858B1BF626B5.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Autosaves/Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles_Auto9.uasset'
+[2023.08.27-09.04.47:741][131]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Core/Player/Actions/Pathfinding/Action_SelectTile_CalculateMinCost] ([2] browsable assets)...
+[2023.08.27-09.04.47:741][131]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Core/Player/Actions/Pathfinding/Action_SelectTile_CalculateMinCost]
+[2023.08.27-09.04.47:752][131]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Core/Player/Actions/Pathfinding/Action_SelectTile_CalculateMinCost_Auto9
+[2023.08.27-09.04.47:752][131]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Action_SelectTile_CalculateMinCo42B6425847F19A61380CA0BC88DDBE7A.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Autosaves/Game/Blueprints/Core/Player/Actions/Pathfinding/Action_SelectTile_CalculateMinCost_Auto9.uasset'
+[2023.08.27-09.04.47:752][131]LogFileHelpers: Auto-saving content packages took 0.165
+[2023.08.27-09.04.52:495][622]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_GridPathfinding_C_CHILDACTOR_176.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-09.07.53:043][970]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.08.27-09.07.53:067][970]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2023.08.27-09.07.54:399][970]LogSlate: Window 'Save Content' being destroyed
+[2023.08.27-09.07.54:407][970]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.27-09.07.54:435][970]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestMap" FILE="../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Levels/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.08.27-09.07.54:457][970]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.08.27-09.07.54:468][970]LogSavePackage: Moving output files for package: /Game/Levels/TestMap
+[2023.08.27-09.07.54:469][970]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/TestMapB37177834B512FE73AB2A182C6065492.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Levels/TestMap.umap'
+[2023.08.27-09.07.54:478][970]LogFileHelpers: Saving map 'TestMap' took 0.043
+[2023.08.27-09.07.54:489][970]LogSavePackage: Moving output files for package: /Game/Blueprints/Core/Player/Actions/Pathfinding/Action_SelectTile_CalculateMinCost
+[2023.08.27-09.07.54:489][970]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Action_SelectTile_CalculateMinCo80151D564F7237F8E21F23AFF9FC984E.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/Core/Player/Actions/Pathfinding/Action_SelectTile_CalculateMinCost.uasset'
+[2023.08.27-09.07.54:538][970]LogSavePackage: Moving output files for package: /Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles
+[2023.08.27-09.07.54:539][970]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/BP_DebugTextOnTiles82CAF34B44E0D06547C00C9EC6F4E7F2.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles.uasset'
+[2023.08.27-09.07.54:646][970]LogSavePackage: Moving output files for package: /Game/Blueprints/Core/Grid/BP_GridPathfinding
+[2023.08.27-09.07.54:647][970]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/BP_GridPathfinding6EEDE1D34E8F0393B058C384EE7D08BD.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/Core/Grid/BP_GridPathfinding.uasset'
+[2023.08.27-09.07.54:656][970]LogFileHelpers: InternalPromptForCheckoutAndSave took 249 ms (total: 1.61 sec)
+[2023.08.27-09.07.54:665][970]AssetCheck: New page: Asset Save: multiple assets
+[2023.08.27-09.07.54:665][970]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Core/Grid/BP_GridPathfinding.BP_GridPathfinding
+[2023.08.27-09.07.54:665][970]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/DebugMenu/Other/BP_DebugTextOnTiles.BP_DebugTextOnTiles
+[2023.08.27-09.07.54:665][970]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TestMap.TestMap
+[2023.08.27-09.07.54:665][970]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Core/Player/Actions/Pathfinding/Action_SelectTile_CalculateMinCost.Action_SelectTile_CalculateMinCost
+[2023.08.27-09.07.55:608][ 82]BlueprintLog: New page: Compile BP_GridPathfinding
+[2023.08.27-09.07.55:726][ 82]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.08.27-09.07.55:729][ 82]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_DebugTextOnTiles_C_CHILDACTOR_216.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-09.07.55:742][ 82]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_GridPathfinding_C_CHILDACTOR_178.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-09.07.55:824][ 82]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_DebugTextOnTiles_C_CHILDACTOR_218.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2023.08.27-09.07.55:838][ 82]LogActorComponent: RegisterComponentWithWorld: (/Game/Levels/TestMap.TestMap:PersistentLevel.DESTROYED_BP_GridPathfinding_C_CHILDACTOR_180.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
