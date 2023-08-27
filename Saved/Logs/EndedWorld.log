@@ -1499,3 +1499,465 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.08.27-00.43.10:078][806]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
 [2023.08.27-00.43.10:115][807]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
 [2023.08.27-00.43.10:121][808]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2023.08.27-00.44.14:612][946]LogContentBrowser: Deferred new asset file creation: Action_AddTile1
+[2023.08.27-00.44.14:625][946]LogContentBrowser: Creating deferred item: Action_AddTile1
+[2023.08.27-00.44.14:635][947]LogContentBrowser: Renaming the item being created (Deferred Item: Action_AddTile1).
+[2023.08.27-00.44.44:210][597]LogContentBrowser: Attempting asset rename: Action_AddTile1 -> Action_IncreaseDecreaseTileHight
+[2023.08.27-00.44.44:240][597]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2023.08.27-00.44.44:257][597]LogContentBrowser: End creating deferred item Action_AddTile1
+[2023.08.27-00.44.46:253][832]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Core/Player/Actions/Grid/Action_IncreaseDecreaseTileHight.Action_IncreaseDecreaseTileHight
+[2023.08.27-00.44.46:253][832]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.27-00.44.46:253][832]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.27-00.48.57:826][617]BlueprintLog: New page: Compile Action_IncreaseDecreaseTileHight
+[2023.08.27-00.48.57:869][617]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.08.27-00.52.03:073][820]LogContentBrowser: Deferred new asset file creation: Button_Action1
+[2023.08.27-00.52.03:079][820]LogContentBrowser: Creating deferred item: Button_Action1
+[2023.08.27-00.52.03:100][821]LogContentBrowser: Renaming the item being created (Deferred Item: Button_Action1).
+[2023.08.27-00.52.35:487][175]LogContentBrowser: Attempting asset rename: Button_Action1 -> Button_Action_IncreaseDecreaseTileHeight
+[2023.08.27-00.52.35:517][175]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2023.08.27-00.52.35:533][175]LogContentBrowser: End creating deferred item Button_Action1
+[2023.08.27-00.53.07:345][281]LogContentBrowser: Attempting asset rename: Button_Action_IncreaseDecreaseTileHeight -> Button_Action_IncreaseDecreaseTileHeight
+[2023.08.27-00.53.08:559][422]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2023.08.27-00.53.09:416][422]LogSlate: Window 'Delete Assets' being destroyed
+[2023.08.27-00.53.09:460][422]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2023.08.27-00.53.09:481][422]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.08.27-00.53.09:503][422]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.08.27-00.53.15:790][914]LogSlate: Window 'Pick Parent Class for New Widget Blueprint' being destroyed
+[2023.08.27-00.53.15:812][914]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2023.08.27-00.53.15:817][914]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2023.08.27-00.53.15:835][915]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2023.08.27-00.53.16:785][ 29]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> Button_Action_IncreaseDecreaseTileHeight
+[2023.08.27-00.53.16:792][ 29]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2023.08.27-00.53.17:721][126]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/DebugMenu/Actions/Button_Action_IncreaseDecreaseTileHeight.Button_Action_IncreaseDecreaseTileHeight
+[2023.08.27-00.53.17:721][126]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.27-00.53.17:721][126]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.27-00.53.17:734][126]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.27-00.53.17:734][126]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.27-00.56.26:644][260]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.08.27-00.56.26:645][260]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/TestMap' took 0.028
+[2023.08.27-00.56.26:646][260]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Core/Player/Actions/Grid/Action_AddTile] ([2] browsable assets)...
+[2023.08.27-00.56.26:646][260]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Core/Player/Actions/Grid/Action_AddTile]
+[2023.08.27-00.56.26:654][260]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Core/Player/Actions/Grid/Action_AddTile_Auto3
+[2023.08.27-00.56.26:655][260]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Action_AddTile_Auto345888D08498234859FE5F6B632D620C5.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Autosaves/Game/Blueprints/Core/Player/Actions/Grid/Action_AddTile_Auto3.uasset'
+[2023.08.27-00.56.26:656][260]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Core/Player/Actions/Grid/Action_IncreaseDecreaseTileHight] ([2] browsable assets)...
+[2023.08.27-00.56.26:656][260]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Core/Player/Actions/Grid/Action_IncreaseDecreaseTileHight]
+[2023.08.27-00.56.26:665][260]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Core/Player/Actions/Grid/Action_IncreaseDecreaseTileHight_Auto3
+[2023.08.27-00.56.26:666][260]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Action_IncreaseDecreaseTileHight678001C74D3CC802F2DAE1A69C30AD50.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Autosaves/Game/Blueprints/Core/Player/Actions/Grid/Action_IncreaseDecreaseTileHight_Auto3.uasset'
+[2023.08.27-00.56.26:667][260]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/DebugMenu/Actions/Button_Action_IncreaseDecreaseTileHeight] ([2] browsable assets)...
+[2023.08.27-00.56.26:670][260]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/DebugMenu/Actions/Button_Action_IncreaseDecreaseTileHeight.Button_Action_IncreaseDecreaseTileHeight]
+[2023.08.27-00.56.26:670][260]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/DebugMenu/Actions/Button_Action_IncreaseDecreaseTileHeight]
+[2023.08.27-00.56.26:674][260]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/DebugMenu/Actions/Button_Action_IncreaseDecreaseTileHeight_Auto3
+[2023.08.27-00.56.26:674][260]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Button_Action_IncreaseDecreaseTiC1622AD1428E3CB03BB9C5B40F3FC84D.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Autosaves/Game/Blueprints/DebugMenu/Actions/Button_Action_IncreaseDecreaseTileHeight_Auto3.uasset'
+[2023.08.27-00.56.26:675][260]LogFileHelpers: Auto-saving content packages took 0.030
+[2023.08.27-00.59.18:730][517]LogEditorTransaction: Undo Drag and Drop Widget
+[2023.08.27-00.59.50:102][ 93]BlueprintLog: New page: Compile Tab_Grid
+[2023.08.27-00.59.50:160][ 93]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.08.27-00.59.53:957][516]BlueprintLog: New page: Compile Button_Action_IncreaseDecreaseTileHeight
+[2023.08.27-00.59.53:960][516]LogBlueprint: Error: [AssetLog] /Game/Blueprints/DebugMenu/Actions/Button_Action_IncreaseDecreaseTileHeight.Button_Action_IncreaseDecreaseTileHeight: [Compiler] This blueprint (self) is not a BP_PlayerActions_C, therefore ' Target ' must have a connection.
+[2023.08.27-00.59.53:960][516]LogBlueprint: Error: [AssetLog] /Game/Blueprints/DebugMenu/Actions/Button_Action_IncreaseDecreaseTileHeight.Button_Action_IncreaseDecreaseTileHeight: [Compiler] The property associated with  Increase  could not be found in '/Game/Blueprints/DebugMenu/Actions/Button_Action_IncreaseDecreaseTileHeight.Button_Action_IncreaseDecreaseTileHeight_C'
+[2023.08.27-00.59.53:960][516]LogBlueprint: Error: [AssetLog] /Game/Blueprints/DebugMenu/Actions/Button_Action_IncreaseDecreaseTileHeight.Button_Action_IncreaseDecreaseTileHeight: [Compiler] The property associated with  Increase  could not be found in '/Game/Blueprints/DebugMenu/Actions/Button_Action_IncreaseDecreaseTileHeight.Button_Action_IncreaseDecreaseTileHeight_C'
+[2023.08.27-00.59.54:038][516]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.08.27-01.00.02:974][308]BlueprintLog: New page: Compile Button_Action_IncreaseDecreaseTileHeight
+[2023.08.27-01.00.02:977][308]LogBlueprint: Error: [AssetLog] /Game/Blueprints/DebugMenu/Actions/Button_Action_IncreaseDecreaseTileHeight.Button_Action_IncreaseDecreaseTileHeight: [Compiler] The property associated with  Increase  could not be found in '/Game/Blueprints/DebugMenu/Actions/Button_Action_IncreaseDecreaseTileHeight.Button_Action_IncreaseDecreaseTileHeight_C'
+[2023.08.27-01.00.02:977][308]LogBlueprint: Error: [AssetLog] /Game/Blueprints/DebugMenu/Actions/Button_Action_IncreaseDecreaseTileHeight.Button_Action_IncreaseDecreaseTileHeight: [Compiler] The property associated with  Increase  could not be found in '/Game/Blueprints/DebugMenu/Actions/Button_Action_IncreaseDecreaseTileHeight.Button_Action_IncreaseDecreaseTileHeight_C'
+[2023.08.27-01.00.03:032][308]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2023.08.27-01.00.26:035][987]BlueprintLog: New page: Compile Button_Action_IncreaseDecreaseTileHeight
+[2023.08.27-01.00.26:038][987]LogBlueprint: Error: [AssetLog] /Game/Blueprints/DebugMenu/Actions/Button_Action_IncreaseDecreaseTileHeight.Button_Action_IncreaseDecreaseTileHeight: [Compiler] The property associated with  Increase  could not be found in '/Game/Blueprints/DebugMenu/Actions/Button_Action_IncreaseDecreaseTileHeight.Button_Action_IncreaseDecreaseTileHeight_C'
+[2023.08.27-01.00.26:038][987]LogBlueprint: Error: [AssetLog] /Game/Blueprints/DebugMenu/Actions/Button_Action_IncreaseDecreaseTileHeight.Button_Action_IncreaseDecreaseTileHeight: [Compiler] The property associated with  Increase  could not be found in '/Game/Blueprints/DebugMenu/Actions/Button_Action_IncreaseDecreaseTileHeight.Button_Action_IncreaseDecreaseTileHeight_C'
+[2023.08.27-01.00.26:092][987]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2023.08.27-01.00.41:220][789]BlueprintLog: New page: Compile Action_IncreaseDecreaseTileHight
+[2023.08.27-01.00.41:277][789]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2023.08.27-01.00.43:285][ 17]BlueprintLog: New page: Compile Button_Action_IncreaseDecreaseTileHeight
+[2023.08.27-01.00.43:341][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2023.08.27-01.01.29:645][253]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.27-01.01.29:651][253]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.08.27-01.01.29:653][253]LogPlayLevel: [PlayLevel] Compiling Tab_Grid before play...
+[2023.08.27-01.01.29:763][253]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.08.27-01.01.29:764][253]LogPlayLevel: PlayLevel: Blueprint regeneration took 113 ms (1 blueprints)
+[2023.08.27-01.01.29:764][253]PIE: New page: PIE session: TestMap (27 sie 2023, 05:01:29)
+[2023.08.27-01.01.29:764][253]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestMap
+[2023.08.27-01.01.29:768][253]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003168s)
+[2023.08.27-01.01.29:768][253]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestMap.TestMap to /Game/Levels/UEDPIE_0_TestMap.TestMap (0.003194s)
+[2023.08.27-01.01.29:768][253]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.27-01.01.29:768][253]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.27-01.01.29:768][253]LogAIModule: Creating AISystem for world TestMap
+[2023.08.27-01.01.29:768][253]LogPlayLevel: PIE: World Init took: (0.000929s)
+[2023.08.27-01.01.29:790][253]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2023.08.27-01.01.29:791][253]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2023.08.27-01.01.29:791][253]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.27-01.01.29:791][253]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.27-01.01.29:791][253]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.27-01.01.29:791][253]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.27-01.01.29:791][253]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.08.27-01.01.29:791][253]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.27-01.01.29:791][253]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.08.27-01.01.29:791][253]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.27-01.01.29:791][253]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.27-01.01.29:791][253]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.27-01.01.29:791][253]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.27-01.01.29:794][253]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.27-01.01.29:818][253]LogAudioMixer: Display: Using Audio Hardware Device Głośniki (Realtek(R) Audio)
+[2023.08.27-01.01.29:818][253]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.27-01.01.29:818][253]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.27-01.01.29:818][253]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.27-01.01.29:820][253]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2023.08.27-01.01.29:820][253]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2023.08.27-01.01.29:821][253]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2023.08.27-01.01.29:821][253]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2023.08.27-01.01.29:821][253]LogInit: FAudioDevice initialized with ID 6.
+[2023.08.27-01.01.29:821][253]LogAudio: Display: Audio Device (ID: 6) registered with world 'TestMap'.
+[2023.08.27-01.01.29:821][253]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2023.08.27-01.01.29:851][253]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.27-01.01.29:851][253]LogLoad: Game class is 'EW_GM_C'
+[2023.08.27-01.01.29:856][253]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2023.08.27-03.01.29
+[2023.08.27-01.01.29:857][253]LogWorld: Bringing up level for play took: 0.001581
+[2023.08.27-01.01.29:859][253]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2023.08.27-01.01.29:868][253]PIE: Server logged in
+[2023.08.27-01.01.29:870][253]PIE: Play in editor total start time 0,219 seconds.
+[2023.08.27-01.01.29:933][253]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2023.08.27-01.01.33:183][484]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.27-01.01.33:183][484]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestMap
+[2023.08.27-01.01.33:183][484]LogSlate: Window 'EndedWorld Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.08.27-01.01.33:190][484]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2023.08.27-01.01.33:191][484]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-01.01.33:195][484]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.27-01.01.33:199][484]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-01.01.33:224][484]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2023.08.27-01.01.33:224][484]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.08.27-01.01.33:227][484]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.08.27-01.01.33:234][484]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2023.08.27-01.01.33:251][485]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2023.08.27-01.01.33:275][485]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.08.27-01.01.54:420][  0]BlueprintLog: New page: Compile Button_Action_IncreaseDecreaseTileHeight
+[2023.08.27-01.01.54:499][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.08.27-01.01.55:312][ 81]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.27-01.01.55:317][ 81]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.08.27-01.01.55:317][ 81]PIE: New page: PIE session: TestMap (27 sie 2023, 05:01:55)
+[2023.08.27-01.01.55:317][ 81]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestMap
+[2023.08.27-01.01.55:320][ 81]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003254s)
+[2023.08.27-01.01.55:321][ 81]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestMap.TestMap to /Game/Levels/UEDPIE_0_TestMap.TestMap (0.003280s)
+[2023.08.27-01.01.55:321][ 81]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.27-01.01.55:321][ 81]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.27-01.01.55:321][ 81]LogAIModule: Creating AISystem for world TestMap
+[2023.08.27-01.01.55:321][ 81]LogPlayLevel: PIE: World Init took: (0.000849s)
+[2023.08.27-01.01.55:343][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2023.08.27-01.01.55:345][ 81]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2023.08.27-01.01.55:345][ 81]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.27-01.01.55:345][ 81]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.27-01.01.55:345][ 81]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.27-01.01.55:345][ 81]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.27-01.01.55:345][ 81]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.08.27-01.01.55:345][ 81]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.27-01.01.55:345][ 81]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.08.27-01.01.55:345][ 81]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.27-01.01.55:345][ 81]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.27-01.01.55:345][ 81]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.27-01.01.55:345][ 81]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.27-01.01.55:347][ 81]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.27-01.01.55:369][ 81]LogAudioMixer: Display: Using Audio Hardware Device Głośniki (Realtek(R) Audio)
+[2023.08.27-01.01.55:370][ 81]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.27-01.01.55:370][ 81]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.27-01.01.55:370][ 81]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.27-01.01.55:370][ 81]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2023.08.27-01.01.55:371][ 81]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2023.08.27-01.01.55:372][ 81]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2023.08.27-01.01.55:372][ 81]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2023.08.27-01.01.55:372][ 81]LogInit: FAudioDevice initialized with ID 7.
+[2023.08.27-01.01.55:372][ 81]LogAudio: Display: Audio Device (ID: 7) registered with world 'TestMap'.
+[2023.08.27-01.01.55:372][ 81]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2023.08.27-01.01.55:400][ 81]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.27-01.01.55:400][ 81]LogLoad: Game class is 'EW_GM_C'
+[2023.08.27-01.01.55:404][ 81]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2023.08.27-03.01.55
+[2023.08.27-01.01.55:405][ 81]LogWorld: Bringing up level for play took: 0.001406
+[2023.08.27-01.01.55:407][ 81]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2023.08.27-01.01.55:415][ 81]PIE: Server logged in
+[2023.08.27-01.01.55:416][ 81]PIE: Play in editor total start time 0,099 seconds.
+[2023.08.27-01.01.55:423][ 81]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2023.08.27-01.02.15:132][791]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.27-01.02.15:132][791]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestMap
+[2023.08.27-01.02.15:133][791]LogSlate: Window 'EndedWorld Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.08.27-01.02.15:139][791]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2023.08.27-01.02.15:140][791]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-01.02.15:142][791]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.27-01.02.15:146][791]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-01.02.15:170][791]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.08.27-01.02.15:170][791]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2023.08.27-01.02.15:170][791]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.08.27-01.02.15:172][791]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.08.27-01.02.15:179][791]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.08.27-01.02.15:216][792]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2023.08.27-01.02.15:222][793]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2023.08.27-01.02.15:338][804]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2023.08.27-01.02.15:362][804]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2023.08.27-01.02.16:757][804]LogSlate: Window 'Save Content' being destroyed
+[2023.08.27-01.02.17:396][880]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.27-01.02.17:430][880]LogSavePackage: Moving output files for package: /Game/Blueprints/DebugMenu/Actions/Button_Action_IncreaseDecreaseTileHeight
+[2023.08.27-01.02.17:430][880]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Button_Action_IncreaseDecreaseTiE65526274E2C05246EFB649B7062C5F5.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/DebugMenu/Actions/Button_Action_IncreaseDecreaseTileHeight.uasset'
+[2023.08.27-01.02.17:443][880]LogFileHelpers: InternalPromptForCheckoutAndSave took 46 ms (total: 247 ms)
+[2023.08.27-01.02.17:448][880]AssetCheck: New page: Asset Save: Button_Action_IncreaseDecreaseTileHeight
+[2023.08.27-01.02.17:449][880]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/DebugMenu/Actions/Button_Action_IncreaseDecreaseTileHeight.Button_Action_IncreaseDecreaseTileHeight
+[2023.08.27-01.02.19:061][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2023.08.27-01.02.19:083][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.08.27-01.02.19:739][ 71]LogSlate: Window 'Save Content' being destroyed
+[2023.08.27-01.02.19:746][ 71]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.27-01.02.19:775][ 71]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/TestMap" FILE="../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Levels/TestMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.08.27-01.02.19:796][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2023.08.27-01.02.19:806][ 71]LogSavePackage: Moving output files for package: /Game/Levels/TestMap
+[2023.08.27-01.02.19:806][ 71]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/TestMapC83552AF4B82BDAF5F36C6B84966288F.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Levels/TestMap.umap'
+[2023.08.27-01.02.19:948][ 71]LogFileHelpers: Saving map 'TestMap' took 0.174
+[2023.08.27-01.02.19:957][ 71]LogSavePackage: Moving output files for package: /Game/Blueprints/Core/Player/Actions/Grid/Action_AddTile
+[2023.08.27-01.02.19:958][ 71]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Action_AddTile56E0379340499E108C03E4A9B3C6F91F.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/Core/Player/Actions/Grid/Action_AddTile.uasset'
+[2023.08.27-01.02.19:971][ 71]LogSavePackage: Moving output files for package: /Game/Blueprints/Core/Player/Actions/Grid/Action_IncreaseDecreaseTileHight
+[2023.08.27-01.02.19:971][ 71]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Action_IncreaseDecreaseTileHight26F4A8B148DE15F5AEDDF694CC7BBD8B.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/Core/Player/Actions/Grid/Action_IncreaseDecreaseTileHight.uasset'
+[2023.08.27-01.02.19:978][ 71]LogSavePackage: Moving output files for package: /Game/Blueprints/Core/Player/Actions/Grid/Action_RemoveTile
+[2023.08.27-01.02.19:978][ 71]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Action_RemoveTileDF94B4694CCDEDE096EA62A88BF26152.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/Core/Player/Actions/Grid/Action_RemoveTile.uasset'
+[2023.08.27-01.02.19:981][ 71]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Core/Grid/BP_Grid" FILE="../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/Core/Grid/BP_Grid.uasset" SILENT=true
+[2023.08.27-01.02.20:062][ 71]LogSavePackage: Moving output files for package: /Game/Blueprints/Core/Grid/BP_Grid
+[2023.08.27-01.02.20:062][ 71]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/BP_Grid136561AE489A1A8D7AE91CAAACF4B428.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/Core/Grid/BP_Grid.uasset'
+[2023.08.27-01.02.20:087][ 71]LogSavePackage: Moving output files for package: /Game/Blueprints/Core/Player/BP_PlayerActions
+[2023.08.27-01.02.20:088][ 71]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/BP_PlayerActions7954BC034AFF11F351C6EC9E5633670B.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/Core/Player/BP_PlayerActions.uasset'
+[2023.08.27-01.02.20:156][ 71]LogSavePackage: Moving output files for package: /Game/Blueprints/DebugMenu/Tabs/Tab_Grid
+[2023.08.27-01.02.20:157][ 71]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Tab_Grid893C824D4E79DF6C2420C0AFD5C7D544.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/DebugMenu/Tabs/Tab_Grid.uasset'
+[2023.08.27-01.02.20:165][ 71]LogFileHelpers: InternalPromptForCheckoutAndSave took 418 ms (total: 666 ms)
+[2023.08.27-01.02.20:178][ 71]AssetCheck: New page: Asset Save: multiple assets
+[2023.08.27-01.02.20:178][ 71]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Core/Grid/BP_Grid.BP_Grid
+[2023.08.27-01.02.20:178][ 71]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Core/Player/BP_PlayerActions.BP_PlayerActions
+[2023.08.27-01.02.20:178][ 71]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Core/Player/Actions/Grid/Action_AddTile.Action_AddTile
+[2023.08.27-01.02.20:178][ 71]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Core/Player/Actions/Grid/Action_RemoveTile.Action_RemoveTile
+[2023.08.27-01.02.20:178][ 71]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/DebugMenu/Tabs/Tab_Grid.Tab_Grid
+[2023.08.27-01.02.20:183][ 71]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TestMap.TestMap
+[2023.08.27-01.02.20:184][ 71]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Core/Player/Actions/Grid/Action_IncreaseDecreaseTileHight.Action_IncreaseDecreaseTileHight
+[2023.08.27-01.03.04:126][102]LogContentBrowser: Deferred new asset file creation: Button_Action1
+[2023.08.27-01.03.04:133][102]LogContentBrowser: Creating deferred item: Button_Action1
+[2023.08.27-01.03.04:144][103]LogContentBrowser: Renaming the item being created (Deferred Item: Button_Action1).
+[2023.08.27-01.03.04:498][145]LogContentBrowser: Attempting asset rename: Button_Action1 -> Button_Action1
+[2023.08.27-01.03.04:531][145]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.08.27-01.03.04:547][145]LogContentBrowser: End creating deferred item Button_Action1
+[2023.08.27-01.03.06:572][373]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/DebugMenu/Actions/Button_Action1.Button_Action1
+[2023.08.27-01.03.06:572][373]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.27-01.03.06:572][373]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.27-01.03.06:586][373]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.27-01.03.06:586][373]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.27-01.03.20:219][960]BlueprintLog: New page: Compile Button_Action1
+[2023.08.27-01.03.20:263][960]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.08.27-01.03.47:749][163]BlueprintLog: New page: Compile Tab_Grid
+[2023.08.27-01.03.47:808][163]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2023.08.27-01.03.52:546][698]BlueprintLog: New page: Compile Tab_Grid
+[2023.08.27-01.03.52:603][698]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2023.08.27-01.03.55:635][ 31]LogSlate: FontCache flush requested. Reason: Large atlases out of space; 2/1 Textures; frames since last flush: 234031
+[2023.08.27-01.03.55:636][ 31]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-01.03.55:643][ 32]LogSlate: Took 0.000401 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.08.27-01.03.55:647][ 32]LogSlate: Took 0.000246 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.08.27-01.03.55:648][ 32]LogSlate: Took 0.000087 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2023.08.27-01.03.55:650][ 32]LogSlate: Took 0.000331 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.08.27-01.03.55:651][ 32]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.08.27-01.03.55:664][ 32]LogSlate: Took 0.008204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2023.08.27-01.03.57:431][236]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.27-01.03.57:438][236]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.08.27-01.03.57:438][236]LogPlayLevel: [PlayLevel] Compiling Button_Action_IncreaseDecreaseTileHeight before play...
+[2023.08.27-01.03.57:532][236]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2023.08.27-01.03.57:533][236]LogPlayLevel: PlayLevel: Blueprint regeneration took 96 ms (1 blueprints)
+[2023.08.27-01.03.57:533][236]PIE: New page: PIE session: TestMap (27 sie 2023, 05:03:57)
+[2023.08.27-01.03.57:533][236]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestMap
+[2023.08.27-01.03.57:537][236]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003068s)
+[2023.08.27-01.03.57:537][236]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestMap.TestMap to /Game/Levels/UEDPIE_0_TestMap.TestMap (0.003092s)
+[2023.08.27-01.03.57:537][236]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.27-01.03.57:537][236]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.27-01.03.57:537][236]LogAIModule: Creating AISystem for world TestMap
+[2023.08.27-01.03.57:537][236]LogPlayLevel: PIE: World Init took: (0.000665s)
+[2023.08.27-01.03.57:558][236]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2023.08.27-01.03.57:559][236]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2023.08.27-01.03.57:559][236]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.27-01.03.57:559][236]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.27-01.03.57:559][236]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.27-01.03.57:559][236]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.27-01.03.57:559][236]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.08.27-01.03.57:559][236]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.27-01.03.57:559][236]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.08.27-01.03.57:559][236]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.27-01.03.57:560][236]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.27-01.03.57:560][236]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.27-01.03.57:560][236]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.27-01.03.57:562][236]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.27-01.03.57:586][236]LogAudioMixer: Display: Using Audio Hardware Device Głośniki (Realtek(R) Audio)
+[2023.08.27-01.03.57:586][236]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.27-01.03.57:586][236]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.27-01.03.57:586][236]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.27-01.03.57:587][236]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2023.08.27-01.03.57:587][236]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2023.08.27-01.03.57:589][236]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2023.08.27-01.03.57:589][236]LogInit: FAudioDevice initialized with ID 8.
+[2023.08.27-01.03.57:589][236]LogAudio: Display: Audio Device (ID: 8) registered with world 'TestMap'.
+[2023.08.27-01.03.57:589][236]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2023.08.27-01.03.57:589][236]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2023.08.27-01.03.57:672][236]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.27-01.03.57:672][236]LogLoad: Game class is 'EW_GM_C'
+[2023.08.27-01.03.57:677][236]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2023.08.27-03.03.57
+[2023.08.27-01.03.57:678][236]LogWorld: Bringing up level for play took: 0.001405
+[2023.08.27-01.03.57:680][236]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2023.08.27-01.03.57:691][236]PIE: Server logged in
+[2023.08.27-01.03.57:692][236]PIE: Play in editor total start time 0,255 seconds.
+[2023.08.27-01.03.57:763][236]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2023.08.27-01.04.10:911][294]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.27-01.04.10:912][294]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestMap
+[2023.08.27-01.04.10:912][294]LogSlate: Window 'EndedWorld Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.08.27-01.04.10:919][294]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2023.08.27-01.04.10:920][294]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-01.04.10:923][294]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.27-01.04.10:929][294]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-01.04.10:954][294]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2023.08.27-01.04.10:954][294]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.08.27-01.04.10:955][294]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.08.27-01.04.10:962][294]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.08.27-01.04.10:978][295]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2023.08.27-01.04.11:001][295]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.08.27-01.04.12:042][418]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.08.27-01.04.13:505][588]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2023.08.27-01.04.13:505][588]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-01.04.13:512][588]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2023.08.27-01.04.13:512][588]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-01.04.18:037][123]BlueprintLog: New page: Compile Button_Action_IncreaseDecreaseTileHeight
+[2023.08.27-01.04.18:097][123]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.08.27-01.04.32:070][730]LogSlate: FontCache flush requested. Reason: Large atlases out of space; 2/1 Textures; frames since last flush: 3699
+[2023.08.27-01.04.32:071][730]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-01.04.32:076][731]LogSlate: Took 0.000142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.08.27-01.04.32:077][731]LogSlate: Took 0.000129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.08.27-01.04.32:078][731]LogSlate: Took 0.000085 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2023.08.27-01.04.32:079][731]LogSlate: Took 0.000097 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.08.27-01.04.32:080][731]LogSlate: Took 0.000085 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.08.27-01.04.33:732][927]LogSlate: Took 0.001208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2023.08.27-01.04.37:683][394]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.08.27-01.04.49:963][851]BlueprintLog: New page: Compile Button_Action_IncreaseDecreaseTileHeight
+[2023.08.27-01.04.50:082][851]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.08.27-01.04.53:691][263]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.27-01.04.53:697][263]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.08.27-01.04.53:699][263]LogPlayLevel: [PlayLevel] Compiling Tab_Grid before play...
+[2023.08.27-01.04.53:774][263]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.08.27-01.04.53:775][263]LogPlayLevel: PlayLevel: Blueprint regeneration took 78 ms (1 blueprints)
+[2023.08.27-01.04.53:775][263]PIE: New page: PIE session: TestMap (27 sie 2023, 05:04:53)
+[2023.08.27-01.04.53:776][263]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestMap
+[2023.08.27-01.04.53:779][263]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003086s)
+[2023.08.27-01.04.53:779][263]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestMap.TestMap to /Game/Levels/UEDPIE_0_TestMap.TestMap (0.003112s)
+[2023.08.27-01.04.53:779][263]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.27-01.04.53:779][263]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.27-01.04.53:779][263]LogAIModule: Creating AISystem for world TestMap
+[2023.08.27-01.04.53:779][263]LogPlayLevel: PIE: World Init took: (0.000667s)
+[2023.08.27-01.04.53:800][263]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2023.08.27-01.04.53:801][263]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2023.08.27-01.04.53:801][263]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.27-01.04.53:801][263]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.27-01.04.53:801][263]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.27-01.04.53:801][263]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.27-01.04.53:801][263]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.08.27-01.04.53:801][263]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.27-01.04.53:801][263]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.08.27-01.04.53:801][263]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.27-01.04.53:801][263]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.27-01.04.53:801][263]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.27-01.04.53:801][263]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.27-01.04.53:803][263]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.27-01.04.53:826][263]LogAudioMixer: Display: Using Audio Hardware Device Głośniki (Realtek(R) Audio)
+[2023.08.27-01.04.53:826][263]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.27-01.04.53:826][263]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.27-01.04.53:826][263]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.27-01.04.53:827][263]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2023.08.27-01.04.53:827][263]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2023.08.27-01.04.53:828][263]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2023.08.27-01.04.53:828][263]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2023.08.27-01.04.53:828][263]LogInit: FAudioDevice initialized with ID 9.
+[2023.08.27-01.04.53:828][263]LogAudio: Display: Audio Device (ID: 9) registered with world 'TestMap'.
+[2023.08.27-01.04.53:828][263]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2023.08.27-01.04.53:862][263]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.27-01.04.53:862][263]LogLoad: Game class is 'EW_GM_C'
+[2023.08.27-01.04.53:867][263]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2023.08.27-03.04.53
+[2023.08.27-01.04.53:867][263]LogWorld: Bringing up level for play took: 0.001309
+[2023.08.27-01.04.53:869][263]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2023.08.27-01.04.53:878][263]PIE: Server logged in
+[2023.08.27-01.04.53:879][263]PIE: Play in editor total start time 0,182 seconds.
+[2023.08.27-01.04.53:887][263]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2023.08.27-01.05.00:752][833]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.27-01.05.00:752][833]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestMap
+[2023.08.27-01.05.00:752][833]LogSlate: Window 'EndedWorld Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.08.27-01.05.00:758][833]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2023.08.27-01.05.00:759][833]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-01.05.00:762][833]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.27-01.05.00:767][833]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-01.05.00:792][833]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2023.08.27-01.05.00:792][833]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.08.27-01.05.00:793][833]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.08.27-01.05.00:801][833]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.08.27-01.05.00:817][834]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2023.08.27-01.05.00:840][834]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2023.08.27-01.05.06:322][490]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.27-01.05.06:328][490]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.08.27-01.05.06:329][490]LogPlayLevel: [PlayLevel] Compiling Button_Action_IncreaseDecreaseTileHeight before play...
+[2023.08.27-01.05.06:449][490]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.08.27-01.05.06:450][490]LogPlayLevel: PlayLevel: Blueprint regeneration took 123 ms (1 blueprints)
+[2023.08.27-01.05.06:450][490]PIE: New page: PIE session: TestMap (27 sie 2023, 05:05:06)
+[2023.08.27-01.05.06:450][490]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestMap
+[2023.08.27-01.05.06:453][490]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003003s)
+[2023.08.27-01.05.06:453][490]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestMap.TestMap to /Game/Levels/UEDPIE_0_TestMap.TestMap (0.003029s)
+[2023.08.27-01.05.06:453][490]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.27-01.05.06:453][490]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.27-01.05.06:454][490]LogAIModule: Creating AISystem for world TestMap
+[2023.08.27-01.05.06:454][490]LogPlayLevel: PIE: World Init took: (0.000683s)
+[2023.08.27-01.05.06:478][490]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2023.08.27-01.05.06:479][490]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2023.08.27-01.05.06:479][490]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.27-01.05.06:479][490]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.27-01.05.06:479][490]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.27-01.05.06:479][490]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.27-01.05.06:479][490]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.08.27-01.05.06:479][490]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.27-01.05.06:479][490]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.08.27-01.05.06:479][490]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.27-01.05.06:480][490]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.27-01.05.06:480][490]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.27-01.05.06:480][490]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.27-01.05.06:482][490]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.27-01.05.06:504][490]LogAudioMixer: Display: Using Audio Hardware Device Głośniki (Realtek(R) Audio)
+[2023.08.27-01.05.06:505][490]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.27-01.05.06:505][490]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.27-01.05.06:505][490]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.27-01.05.06:505][490]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2023.08.27-01.05.06:505][490]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2023.08.27-01.05.06:507][490]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2023.08.27-01.05.06:507][490]LogInit: FAudioDevice initialized with ID 10.
+[2023.08.27-01.05.06:507][490]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2023.08.27-01.05.06:507][490]LogAudio: Display: Audio Device (ID: 10) registered with world 'TestMap'.
+[2023.08.27-01.05.06:507][490]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2023.08.27-01.05.06:536][490]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.27-01.05.06:536][490]LogLoad: Game class is 'EW_GM_C'
+[2023.08.27-01.05.06:542][490]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2023.08.27-03.05.06
+[2023.08.27-01.05.06:542][490]LogWorld: Bringing up level for play took: 0.001369
+[2023.08.27-01.05.06:544][490]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2023.08.27-01.05.06:553][490]PIE: Server logged in
+[2023.08.27-01.05.06:554][490]PIE: Play in editor total start time 0,228 seconds.
+[2023.08.27-01.05.06:609][490]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2023.08.27-01.05.14:552][144]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.27-01.05.14:552][144]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestMap
+[2023.08.27-01.05.14:553][144]LogSlate: Window 'EndedWorld Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.08.27-01.05.14:558][144]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2023.08.27-01.05.14:560][144]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-01.05.14:563][144]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.27-01.05.14:567][144]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-01.05.14:593][144]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2023.08.27-01.05.14:593][144]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.08.27-01.05.14:594][144]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.08.27-01.05.14:604][144]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.08.27-01.05.14:620][145]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2023.08.27-01.05.14:643][145]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.08.27-01.05.24:112][495]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2023.08.27-01.05.24:903][495]LogSlate: Window 'Save Content' being destroyed
+[2023.08.27-01.05.24:911][495]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.08.27-01.05.24:947][495]LogSavePackage: Moving output files for package: /Game/Blueprints/DebugMenu/Actions/Button_Action1
+[2023.08.27-01.05.24:947][495]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Button_Action1CB8613EC496DD9C4ED4673BBE0EA5C34.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/DebugMenu/Actions/Button_Action1.uasset'
+[2023.08.27-01.05.24:960][495]LogSavePackage: Moving output files for package: /Game/Blueprints/DebugMenu/Actions/Button_Action_IncreaseDecreaseTileHeight
+[2023.08.27-01.05.24:961][495]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Button_Action_IncreaseDecreaseTiEA26F30C4D739C94BA4065BD5AE66876.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/DebugMenu/Actions/Button_Action_IncreaseDecreaseTileHeight.uasset'
+[2023.08.27-01.05.25:023][495]LogSavePackage: Moving output files for package: /Game/Blueprints/DebugMenu/Tabs/Tab_Grid
+[2023.08.27-01.05.25:024][495]LogSavePackage: Moving '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Saved/Tab_Grid7B0EFCB64CA1682443C0B8B0BDAD4B47.tmp' to '../../../../../../Users/sebas/OneDrive/Dokumenty/GitHub/EndedWorld/Content/Blueprints/DebugMenu/Tabs/Tab_Grid.uasset'
+[2023.08.27-01.05.25:033][495]LogFileHelpers: InternalPromptForCheckoutAndSave took 121 ms (total: 787 ms)
+[2023.08.27-01.05.25:039][495]AssetCheck: New page: Asset Save: multiple assets
+[2023.08.27-01.05.25:039][495]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/DebugMenu/Tabs/Tab_Grid.Tab_Grid
+[2023.08.27-01.05.25:044][495]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/DebugMenu/Actions/Button_Action1.Button_Action1
+[2023.08.27-01.05.25:044][495]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/DebugMenu/Actions/Button_Action_IncreaseDecreaseTileHeight.Button_Action_IncreaseDecreaseTileHeight
