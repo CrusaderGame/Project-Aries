@@ -1168,3 +1168,83 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.08.27-00.16.20:462][ 18]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
 [2023.08.27-00.16.20:864][ 18]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
 [2023.08.27-00.16.41:162][128]LogDerivedDataCache: C:/Users/sebas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.198 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 960 files in 1602 folders with total size 59 MiB.
+[2023.08.27-00.17.21:681][881]BlueprintLog: New page: Compile Action_RemoveTile
+[2023.08.27-00.17.21:722][881]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.08.27-00.17.26:755][440]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.27-00.17.27:389][503]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Core/Grid/BP_Grid.BP_Grid
+[2023.08.27-00.17.27:389][503]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.27-00.17.27:389][503]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.27-00.20.35:162][319]BlueprintLog: New page: Compile Action_RemoveTile
+[2023.08.27-00.20.35:200][319]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2023.08.27-00.20.40:715][917]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/DebugMenu/Tabs/Tab_Grid.Tab_Grid
+[2023.08.27-00.20.40:716][917]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.27-00.20.40:716][917]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.27-00.20.40:728][917]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.27-00.20.40:728][917]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.27-00.20.40:735][917]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2023.08.27-00.20.41:035][917]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2023.08.27-00.20.41:042][917]LogSlate: Took 0.005564 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.08.27-00.20.42:522][ 82]LogSlate: Took 0.021282 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2023.08.27-00.20.57:100][807]BlueprintLog: New page: Compile Tab_Grid
+[2023.08.27-00.20.57:171][807]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.08.27-00.21.20:188][143]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.08.27-00.21.20:210][143]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.08.27-00.21.20:226][143]LogPlayLevel: [PlayLevel] Compiling BP_Grid before play...
+[2023.08.27-00.21.20:381][143]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2023.08.27-00.21.20:382][143]LogPlayLevel: PlayLevel: Blueprint regeneration took 171 ms (1 blueprints)
+[2023.08.27-00.21.20:387][143]PIE: New page: PIE session: TestMap (27 sie 2023, 04:21:20)
+[2023.08.27-00.21.20:392][143]LogOnline: OSS: Created online subsystem instance for: NULL
+[2023.08.27-00.21.20:393][143]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2023.08.27-00.21.20:395][143]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestMap
+[2023.08.27-00.21.20:399][143]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004709s)
+[2023.08.27-00.21.20:399][143]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestMap.TestMap to /Game/Levels/UEDPIE_0_TestMap.TestMap (0.004748s)
+[2023.08.27-00.21.20:400][143]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.27-00.21.20:400][143]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.08.27-00.21.20:400][143]LogAIModule: Creating AISystem for world TestMap
+[2023.08.27-00.21.20:402][143]LogPlayLevel: PIE: World Init took: (0.002414s)
+[2023.08.27-00.21.20:423][143]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2023.08.27-00.21.20:425][143]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2023.08.27-00.21.20:425][143]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.08.27-00.21.20:425][143]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.08.27-00.21.20:425][143]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.08.27-00.21.20:425][143]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.08.27-00.21.20:425][143]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.08.27-00.21.20:425][143]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.08.27-00.21.20:425][143]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.08.27-00.21.20:425][143]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.08.27-00.21.20:426][143]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.08.27-00.21.20:426][143]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.08.27-00.21.20:426][143]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.08.27-00.21.20:427][143]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.08.27-00.21.20:450][143]LogAudioMixer: Display: Using Audio Hardware Device Głośniki (Realtek(R) Audio)
+[2023.08.27-00.21.20:451][143]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.08.27-00.21.20:451][143]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.08.27-00.21.20:451][143]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.08.27-00.21.20:452][143]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2023.08.27-00.21.20:452][143]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2023.08.27-00.21.20:454][143]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2023.08.27-00.21.20:454][143]LogInit: FAudioDevice initialized with ID 2.
+[2023.08.27-00.21.20:454][143]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2023.08.27-00.21.20:454][143]LogAudio: Display: Audio Device (ID: 2) registered with world 'TestMap'.
+[2023.08.27-00.21.20:454][143]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2023.08.27-00.21.20:493][143]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.27-00.21.20:508][143]LogLoad: Game class is 'EW_GM_C'
+[2023.08.27-00.21.20:516][143]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2023.08.27-02.21.20
+[2023.08.27-00.21.20:519][143]LogWorld: Bringing up level for play took: 0.003583
+[2023.08.27-00.21.20:520][143]LogOnline: OSS: Created online subsystem instance for: :Context_7
+[2023.08.27-00.21.20:582][143]PIE: Server logged in
+[2023.08.27-00.21.20:583][143]PIE: Play in editor total start time 0,383 seconds.
+[2023.08.27-00.21.20:615][143]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2023.08.27-00.21.40:415][799]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.08.27-00.21.40:415][799]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestMap
+[2023.08.27-00.21.40:417][799]LogSlate: Window 'EndedWorld Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2023.08.27-00.21.40:433][799]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2023.08.27-00.21.40:435][799]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-00.21.40:443][799]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.08.27-00.21.40:449][799]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.08.27-00.21.40:471][799]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2023.08.27-00.21.40:471][799]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.08.27-00.21.40:473][799]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.08.27-00.21.40:482][799]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2023.08.27-00.21.40:496][800]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2023.08.27-00.21.40:518][800]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
