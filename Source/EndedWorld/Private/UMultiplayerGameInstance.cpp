@@ -7,7 +7,8 @@
 #include "OnlineSessionSettings.h"
 
 UUMultiplayerGameInstance::UUMultiplayerGameInstance(const FObjectInitializer& ObjectInitializer):
-CreateSessionCompleteDelegate(FOnCreateSessionCompleteDelegate::CreateUObject(this,&ThisClass::OnCreateSessionComplete))
+	CreateSessionCompleteDelegate(FOnCreateSessionCompleteDelegate::CreateUObject(this, &ThisClass::OnCreateSessionComplete)),
+	FindSessionsCompleteDelegate(FOnFindSessionsCompleteDelegate::CreateUObject(this, &ThisClass::OnFindSessionsComplete))
 {
 	IOnlineSubsystem* OnlineSubsystem = IOnlineSubsystem::Get();
 	if (OnlineSubsystem)
@@ -48,6 +49,10 @@ void UUMultiplayerGameInstance::CreateGameSession()
 {
 	if (!OnlineSessionInterface.IsValid())
 	{
+		if (GEngine)
+		{
+			GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Red, TEXT("OnlineSessionInterface is invalid."));
+		}
 		return;
 	}
 
@@ -60,51 +65,48 @@ void UUMultiplayerGameInstance::CreateGameSession()
 	OnlineSessionInterface->AddOnCreateSessionCompleteDelegate_Handle(CreateSessionCompleteDelegate);
 
 	TSharedPtr<FOnlineSessionSettings> SessionSettings = MakeShareable(new FOnlineSessionSettings());
-	SessionSettings->bIsLANMatch = false;
-	SessionSettings->NumPublicConnections = 4;
-	SessionSettings->bAllowJoinInProgress = true;
+
+	SessionSettings->bAllowInvites = true;
+	SessionSettings->bUsesPresence = true;
+	SessionSettings->bUseLobbiesIfAvailable = true;
 	SessionSettings->bAllowJoinViaPresence = true;
 	SessionSettings->bShouldAdvertise = true;
 	SessionSettings->bUsesPresence = true;
-
+	SessionSettings->NumPublicConnections = 4;
 
 	const ULocalPlayer* LocalPlayer = GetWorld()->GetFirstLocalPlayerFromController();
 
-	//GPT4 LocalPlayer Debug
-	/*if (LocalPlayer)
-	{
-		FUniqueNetIdRepl PlayerIDRepl = LocalPlayer->GetPreferredUniqueNetId();
-		if (PlayerIDRepl.IsValid())
-		{
-			TSharedPtr<const FUniqueNetId> PlayerID = PlayerIDRepl.GetUniqueNetId();
-			if (PlayerID.IsValid())
-			{
-				GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Green, FString::Printf(TEXT("Player ID: %s"), *PlayerID->ToString()));
-				OnlineSessionInterface->CreateSession(*PlayerID, NAME_GameSession, *SessionSettings);
-			}
-			else
-			{
-				GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Red, TEXT("Player ID TSharedPtr is not valid!"));
-			}
-		}
-		else
-		{
-			GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Red, TEXT("Player IDRepl is not valid!"));
-		}
-	}*/
-	//
-
-
-	if (OnlineSessionInterface.IsValid() && SessionSettings.IsValid())
-	{
-		if (GEngine)
-		{
-			GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, TEXT("Preparing to create session..."));
-		}
+	if (LocalPlayer) {
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Green, TEXT("LocalPlayer is valid"));
+	}
+	else {
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("LocalPlayer is NOT valid"));
 	}
 
-	OnlineSessionInterface->CreateSession(*LocalPlayer->GetPreferredUniqueNetId(), NAME_GameSession, *SessionSettings);
 
+	OnlineSessionInterface->CreateSession(*LocalPlayer->GetPreferredUniqueNetId(), NAME_GameSession, *SessionSettings);
+	//OnlineSessionInterface->CreateSession(0, NAME_GameSession, *SessionSettings);
+
+}
+
+void UUMultiplayerGameInstance::JoinGameSession()
+{
+	//Find game sessions
+	if(!OnlineSessionInterface.IsValid())
+	{
+		return;
+	}
+
+	OnlineSessionInterface->AddOnFindSessionsCompleteDelegate_Handle(FindSessionsCompleteDelegate);
+
+	SessionSearch = MakeShareable(new FOnlineSessionSearch());
+	//DEV Value
+	SessionSearch->MaxSearchResults = 10000;
+	SessionSearch->bIsLanQuery = false;
+	SessionSearch->QuerySettings.Set(SEARCH_PRESENCE, true, EOnlineComparisonOp::Equals);
+
+	const ULocalPlayer* LocalPlayer = GetWorld()->GetFirstLocalPlayerFromController();
+	OnlineSessionInterface->FindSessions(*LocalPlayer->GetPreferredUniqueNetId(),SessionSearch.ToSharedRef());
 }
 
 void UUMultiplayerGameInstance::OnCreateSessionComplete(FName SessionName, bool bWasSuccessful)
@@ -121,7 +123,21 @@ void UUMultiplayerGameInstance::OnCreateSessionComplete(FName SessionName, bool 
 	{
 		if (GEngine)
 		{
-			GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Red, FString(TEXT("Faild to create session!")));
+			GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Red, FString(TEXT("Failed to create session!")));
+		}
+	}
+
+}
+
+void UUMultiplayerGameInstance::OnFindSessionsComplete(bool bWasSuccessful)
+{
+	for (auto Result : SessionSearch->SearchResults)
+	{
+		FString Id = Result.GetSessionIdStr();
+		FString User = Result.Session.OwningUserName;
+		if (GEngine)
+		{
+			GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Blue, FString::Printf(TEXT("Id: %s, User: %s"), *Id, *User));
 		}
 	}
 

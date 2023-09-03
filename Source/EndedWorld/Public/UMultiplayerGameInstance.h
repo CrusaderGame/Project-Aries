@@ -35,8 +35,14 @@ class ENDEDWORLD_API UUMultiplayerGameInstance : public UGameInstance
 		UFUNCTION(BlueprintCallable, Category = "EW_Multi")
 		void CreateGameSession();
 
+		UFUNCTION(BlueprintCallable, Category = "EW_Multi")
+		void JoinGameSession();
+
 		void OnCreateSessionComplete(FName SessionName, bool bWasSuccessful);
+		void OnFindSessionsComplete(bool bWasSuccessful);
 
 	private:
 		FOnCreateSessionCompleteDelegate CreateSessionCompleteDelegate;
+		FOnFindSessionsCompleteDelegate FindSessionsCompleteDelegate;
+		TSharedPtr<FOnlineSessionSearch> SessionSearch;
 };
