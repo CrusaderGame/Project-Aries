@@ -74,8 +74,8 @@ void UUMultiplayerGameInstance::CreateGameSession()
 	SessionSettings->bShouldAdvertise = true;
 	SessionSettings->bUsesPresence = true;
 	SessionSettings->NumPublicConnections = 4;
-	//MatchType FreeForAll
-	SessionSettings->Set(FName(("MatchType")), FString("FreeForAll"), EOnlineDataAdvertisementType::ViaOnlineServiceAndPing);
+	//MatchType EW_Default
+	SessionSettings->Set(FName(("MatchType")), FString("EW_Default"), EOnlineDataAdvertisementType::ViaOnlineServiceAndPing);
 
 	const ULocalPlayer* LocalPlayer = GetWorld()->GetFirstLocalPlayerFromController();
 
@@ -156,7 +156,7 @@ void UUMultiplayerGameInstance::OnFindSessionsComplete(bool bWasSuccessful)
 		{
 			GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Blue, FString::Printf(TEXT("Id: %s, User: %s"), *Id, *User));
 		}
-		if (MatchType == FString("FreeForAll"))
+		if (MatchType == FString("EW_Default"))
 		{
 			if (GEngine)
 			{
