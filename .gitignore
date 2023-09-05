@@ -1,0 +1,9 @@
+.vs/
+Intermediate/
+Saved/
+Binaries/
+Build_SteamTest/
+Buildy/
+*.VC.db
+*.ipch
+*.pch
