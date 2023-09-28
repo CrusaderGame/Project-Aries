@@ -1,6 +1,6 @@
-"E:\gry\EndedWorld - git\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\x64\UnrealGame\Development\AdvancedSteamSessions\Module.AdvancedSteamSessions.cpp"
+C:\EndedWorld\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\x64\UnrealGame\Development\AdvancedSteamSessions\Module.AdvancedSteamSessions.cpp
 /I .
-/I "E:\gry\EndedWorld - git\Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private"
+/I C:\EndedWorld\Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private
 /I ..\Plugins\Online\OnlineSubsystem\Intermediate\Build\Win64\UnrealGame\Inc\OnlineSubsystem\UHT
 /I ..\Plugins\Online\OnlineSubsystem\Source
 /I ..\Plugins\Online\OnlineSubsystem\Source\Public
@@ -116,13 +116,13 @@
 /I Runtime\TypedElementFramework\Public
 /I ..\Intermediate\Build\Win64\UnrealGame\Inc\TypedElementRuntime\UHT
 /I Runtime\TypedElementRuntime\Public
-/I "E:\gry\EndedWorld - git\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\UnrealGame\Inc\AdvancedSteamSessions\UHT"
+/I C:\EndedWorld\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\UnrealGame\Inc\AdvancedSteamSessions\UHT
 /I ..\Plugins\Online\OnlineSubsystemSteam\Source\Private
-/I "E:\gry\EndedWorld - git\Plugins\AdvancedSteamSessions\Source"
-/I "E:\gry\EndedWorld - git\Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes"
-/I "E:\gry\EndedWorld - git\Plugins\AdvancedSessions\Intermediate\Build\Win64\UnrealGame\Inc\AdvancedSessions\UHT"
-/I "E:\gry\EndedWorld - git\Plugins\AdvancedSessions\Source"
-/I "E:\gry\EndedWorld - git\Plugins\AdvancedSessions\Source\AdvancedSessions\Classes"
+/I C:\EndedWorld\Plugins\AdvancedSteamSessions\Source
+/I C:\EndedWorld\Plugins\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes
+/I C:\EndedWorld\Plugins\AdvancedSessions\Intermediate\Build\Win64\UnrealGame\Inc\AdvancedSessions\UHT
+/I C:\EndedWorld\Plugins\AdvancedSessions\Source
+/I C:\EndedWorld\Plugins\AdvancedSessions\Source\AdvancedSessions\Classes
 /I ..\Plugins\Online\OnlineSubsystemSteam\Intermediate\Build\Win64\UnrealGame\Inc\OnlineSubsystemSteam\UHT
 /I ..\Plugins\Online\OnlineSubsystemSteam\Source\Classes
 /I ..\Plugins\Online\OnlineSubsystemSteam\Source\Public
@@ -132,17 +132,17 @@
 /external:I ThirdParty\LibTiff\Source\Win64
 /external:I ThirdParty\LibTiff\Source
 /external:I ThirdParty\Steamworks\Steamv153\sdk\public
-/external:I "E:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\INCLUDE"
+/external:I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\INCLUDE"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\ucrt"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\winrt"
-/FI"E:\gry\EndedWorld - git\Intermediate\Build\Win64\x64\EndedWorld\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h"
-/FI"E:\gry\EndedWorld - git\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\x64\UnrealGame\Development\AdvancedSteamSessions\Definitions.AdvancedSteamSessions.h"
-/Yu"E:\gry\EndedWorld - git\Intermediate\Build\Win64\x64\EndedWorld\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h"
-/Fp"E:\gry\EndedWorld - git\Intermediate\Build\Win64\x64\EndedWorld\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.pch"
-/Fo"E:\gry\EndedWorld - git\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\x64\UnrealGame\Development\AdvancedSteamSessions\Module.AdvancedSteamSessions.cpp.obj"
-/sourceDependencies "E:\gry\EndedWorld - git\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\x64\UnrealGame\Development\AdvancedSteamSessions\Module.AdvancedSteamSessions.cpp.dep.json"
+/FI"C:\EndedWorld\Intermediate\Build\Win64\x64\EndedWorld\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h"
+/FI"C:\EndedWorld\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\x64\UnrealGame\Development\AdvancedSteamSessions\Definitions.AdvancedSteamSessions.h"
+/Yu"C:\EndedWorld\Intermediate\Build\Win64\x64\EndedWorld\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h"
+/Fp"C:\EndedWorld\Intermediate\Build\Win64\x64\EndedWorld\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.pch"
+/Fo"C:\EndedWorld\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\x64\UnrealGame\Development\AdvancedSteamSessions\Module.AdvancedSteamSessions.cpp.obj"
+/sourceDependencies C:\EndedWorld\Plugins\AdvancedSteamSessions\Intermediate\Build\Win64\x64\UnrealGame\Development\AdvancedSteamSessions\Module.AdvancedSteamSessions.cpp.dep.json
 /Zc:inline
 /nologo
 /Oi
