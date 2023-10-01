@@ -8,6 +8,13 @@
 #include "Interfaces/OnlineSessionInterface.h"
 #include "MultiplayerSessionSubsystem.generated.h"
 
+//
+// Daclaring custom delegates
+//
+
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FMultiplayerOnCreateSessionComplete, bool, bWasSuccessful);
+
+
 
 USTRUCT(BlueprintType)
 struct FBlueprintSessionResultWrapper
@@ -45,6 +52,18 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "MultiplayerSessionSubsystem")
 	void StartSession();
 
+	//
+	// Custom callback
+	//
+
+	UPROPERTY(BlueprintAssignable, Category = "MultiplayerSessionSubsystem")
+	FMultiplayerOnCreateSessionComplete MultiplayerOnCreateSessionComplete;
+
+	//
+	//BP Implementation
+	//
+
+
 protected:
 	//
 	// Internal callbacks for the delegates 
@@ -55,6 +74,13 @@ protected:
 	void OnDestroySessionComplete(FName SessionName, bool bWasSuccessful);
 	void OnStartSessionComplete(FName SessionName, bool bWasSuccessful);
 
+	//
+	// Callbacks for the custom delegates 
+	//
+	void OnCreateSession(bool bWasSuccessful);
+	
+	
+
 private:
 	IOnlineSessionPtr SessionInterface;
 	TSharedPtr<FOnlineSessionSettings> LastSessionSettings;
@@ -62,6 +88,7 @@ private:
 	//
 	// To add to the Online Session Interface delegate list.
 	//
+	
 	FOnCreateSessionCompleteDelegate CreateSessionCompleteDelegate;
 	FDelegateHandle CreateSessionCompleteDelegateHandle;
 
@@ -76,5 +103,4 @@ private:
 
 	FOnStartSessionCompleteDelegate StartSessionCompleteDelegat;
 	FDelegateHandle StartSessionCompleteDelegatHandle;
-
 };
