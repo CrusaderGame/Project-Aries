@@ -59,9 +59,9 @@ void UMultiplayerSessionSubsystem::FindSession(int32 MaxSearchResults)
 {
 }
 
-void UMultiplayerSessionSubsystem::JoinSession(const FBlueprintSessionResultWrapper& SessionWrapper)
+void UMultiplayerSessionSubsystem::JoinSession(const FOnlineSessionSearchResult& SessionResult)
 {
-	const FOnlineSessionSearchResult& SessionResult = SessionWrapper.InternalResult;
+	//const FOnlineSessionSearchResult& SessionResult = SessionWrapper.InternalResult;
 
 }
 

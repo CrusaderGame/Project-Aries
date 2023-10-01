@@ -16,13 +16,13 @@ DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FMultiplayerOnCreateSessionComplete,
 
 
 
-USTRUCT(BlueprintType)
-struct FBlueprintSessionResultWrapper
-{
-	GENERATED_BODY()
-
-	FOnlineSessionSearchResult InternalResult;
-};
+//USTRUCT(BlueprintType)
+//struct FBlueprintSessionResultWrapper
+//{
+//	GENERATED_BODY()
+//
+//	FOnlineSessionSearchResult InternalResult;
+//};
 
 /**
  * 
@@ -37,26 +37,26 @@ public:
 	//
 	// To handle session functionality
 	//
-	UFUNCTION(BlueprintCallable, Category = "MultiplayerSessionSubsystem")
+	//UFUNCTION(BlueprintCallable, Category = "MultiplayerSessionSubsystem")
 	void CreateSession(int32 NumPublicConnections, FString MatchType);
 
-	UFUNCTION(BlueprintCallable, Category = "MultiplayerSessionSubsystem")
+	//UFUNCTION(BlueprintCallable, Category = "MultiplayerSessionSubsystem")
 	void FindSession(int32 MaxSearchResults);
 
-	UFUNCTION(BlueprintCallable, Category = "MultiplayerSessionSubsystem")
-	void JoinSession(const FBlueprintSessionResultWrapper& SessionWrapper);
+	//UFUNCTION(BlueprintCallable, Category = "MultiplayerSessionSubsystem")
+	void JoinSession(const FOnlineSessionSearchResult& SessionResult);
 
-	UFUNCTION(BlueprintCallable, Category = "MultiplayerSessionSubsystem")
+	//UFUNCTION(BlueprintCallable, Category = "MultiplayerSessionSubsystem")
 	void DestroySession();
 
-	UFUNCTION(BlueprintCallable, Category = "MultiplayerSessionSubsystem")
+	//UFUNCTION(BlueprintCallable, Category = "MultiplayerSessionSubsystem")
 	void StartSession();
 
 	//
 	// Custom callback
 	//
 
-	UPROPERTY(BlueprintAssignable, Category = "MultiplayerSessionSubsystem")
+	//UPROPERTY(BlueprintAssignable, Category = "MultiplayerSessionSubsystem")
 	FMultiplayerOnCreateSessionComplete MultiplayerOnCreateSessionComplete;
 
 	//

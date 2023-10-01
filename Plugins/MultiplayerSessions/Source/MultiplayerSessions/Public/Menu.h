@@ -2,6 +2,8 @@
 
 #pragma once
 
+#include "MultiplayerSessionSubsystem.h"
+#include "Components/Button.h"
 #include "CoreMinimal.h"
 #include "Blueprint/UserWidget.h"
 #include "Menu.generated.h"
@@ -14,4 +16,28 @@ class MULTIPLAYERSESSIONS_API UMenu : public UUserWidget
 {
 	GENERATED_BODY()
 	
+public:
+	UFUNCTION(BlueprintCallable, Category = "MultiplayerMenu")
+	void MenuSetup();
+
+protected:
+	virtual bool Initialize() override;
+
+private:
+
+	UPROPERTY(meta = (BindWidget))
+	UButton* HostButton;
+
+	UPROPERTY(meta = (BindWidget))
+	UButton* JoinButton;
+
+	UFUNCTION()
+	void HostButtonClicked();
+
+	UFUNCTION()
+	void JoinButtonClicked();
+
+	//Subsystem onilne session
+	UMultiplayerSessionSubsystem* MultiplayerSessionSubsystem;
+
 };
