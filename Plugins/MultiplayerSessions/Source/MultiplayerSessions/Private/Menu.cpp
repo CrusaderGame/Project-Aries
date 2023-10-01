@@ -3,8 +3,11 @@
 
 #include "Menu.h"
 
-void UMenu::MenuSetup()
+void UMenu::MenuSetup(int32 NumOfPublicConnections, FString TypeOfMatch)
 {
+	NumPublicConnections = NumOfPublicConnections;
+	MatchType = TypeOfMatch;
+
 	AddToViewport();
 	SetVisibility(ESlateVisibility::Visible);
 	bIsFocusable = true;
@@ -29,6 +32,10 @@ void UMenu::MenuSetup()
 		MultiplayerSessionSubsystem = GameInstance->GetSubsystem<UMultiplayerSessionSubsystem>();
 	}
 
+	if (MultiplayerSessionSubsystem)
+	{
+		MultiplayerSessionSubsystem->MultiplayerOnCreateSessionComplete.AddDynamic(this, &ThisClass::OnCreateSession);
+	}
 
 }
 
@@ -52,9 +59,52 @@ bool UMenu::Initialize()
 	return true;
 }
 
+void UMenu::NativeDestruct()
+{
+	MenuTearDown();
+
+	Super::NativeDestruct();
+}
+
+void UMenu::OnCreateSession(bool bWasSuccessful)
+{
+	if (bWasSuccessful)
+	{
+		if (GEngine)
+		{
+			GEngine->AddOnScreenDebugMessage(
+				-1,
+				15.f,
+				FColor::Yellow,
+				FString(TEXT("Session created successfully!"))
+			);
+
+		}
+		UWorld* World = GetWorld();
+		if (World)
+		{
+			World->ServerTravel("/Game/Levels/Sublevels/dam2452-Test?listen");
+		}
+	}
+	else
+	{
+		if (GEngine)
+		{
+			GEngine->AddOnScreenDebugMessage(
+				-1,
+				15.f,
+				FColor::Red,
+				FString(TEXT("Failed to create session!"))
+			);
+
+		}
+	}
+
+}
+
 void UMenu::HostButtonClicked()
 {
-	if (GEngine)
+	/*if (GEngine)
 	{
 		GEngine->AddOnScreenDebugMessage(
 			-1,
@@ -63,12 +113,11 @@ void UMenu::HostButtonClicked()
 			FString(TEXT("Host Button Clicked"))
 		);
 
-	}
+	}*/
 
 	if (MultiplayerSessionSubsystem)
 	{
-		MultiplayerSessionSubsystem->CreateSession(4,FString("FreeForAll"));
-
+		MultiplayerSessionSubsystem->CreateSession(NumPublicConnections, MatchType);
 	}
 }
 
@@ -83,5 +132,21 @@ void UMenu::JoinButtonClicked()
 			FString(TEXT("Join Button Clicked"))
 		);
 
+	}
+}
+
+void UMenu::MenuTearDown()
+{
+	RemoveFromParent();
+	UWorld* World = GetWorld();
+	if (World)
+	{
+		APlayerController* PlayerController = World->GetFirstPlayerController();
+		if (PlayerController)
+		{
+			FInputModeGameOnly InputModeData;
+			PlayerController->SetInputMode(InputModeData);
+			PlayerController->SetShowMouseCursor(false);
+		}
 	}
 }

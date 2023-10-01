@@ -83,9 +83,6 @@ void UMultiplayerSessionSubsystem::OnCreateSessionComplete(FName SessionName, bo
 
 
 	MultiplayerOnCreateSessionComplete.Broadcast(bWasSuccessful);
-
-
-
 }
 
 void UMultiplayerSessionSubsystem::OnFindSessionsComplete(bool bWasSuccessful)
