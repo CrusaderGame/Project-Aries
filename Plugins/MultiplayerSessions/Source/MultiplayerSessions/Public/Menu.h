@@ -2,6 +2,7 @@
 
 #pragma once
 
+#include "OnlineSubsystem.h"
 #include "OnlineSessionSettings.h"
 #include "Interfaces/OnlineSessionInterface.h"
 #include "MultiplayerSessionSubsystem.h"
