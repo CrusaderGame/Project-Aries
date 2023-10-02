@@ -187,7 +187,7 @@ void UMenu::JoinButtonClicked()
 
 	if (MultiplayerSessionSubsystem)
 	{
-		MultiplayerSessionSubsystem->FindSession(500);
+		MultiplayerSessionSubsystem->FindSession(10000);
 	}
 
 
