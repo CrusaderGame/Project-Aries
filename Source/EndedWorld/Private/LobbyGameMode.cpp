@@ -8,6 +8,13 @@
 #include "GameFramework/PlayerStart.h"
 #include "EngineUtils.h"
 
+
+
+ALobbyGameMode::ALobbyGameMode()
+{
+
+}
+
 void ALobbyGameMode::PostLogin(APlayerController* NewPlayer)
 {
 	Super::PostLogin(NewPlayer);
