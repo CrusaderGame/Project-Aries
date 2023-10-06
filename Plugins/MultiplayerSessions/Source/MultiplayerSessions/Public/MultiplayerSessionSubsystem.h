@@ -86,4 +86,8 @@ private:
 
 	FOnStartSessionCompleteDelegate StartSessionCompleteDelegat;
 	FDelegateHandle StartSessionCompleteDelegatHandle;
+
+	bool bCreateSessionOnDestroy{ false };
+	int32 LastNumPublicConnection;
+	FString LastMatchType;
 };

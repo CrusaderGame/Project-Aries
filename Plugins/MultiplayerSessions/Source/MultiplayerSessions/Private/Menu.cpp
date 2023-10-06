@@ -3,8 +3,10 @@
 
 #include "Menu.h"
 
-void UMenu::MenuSetup(int32 NumOfPublicConnections, FString TypeOfMatch)
+void UMenu::MenuSetup(int32 NumOfPublicConnections, FString TypeOfMatch, FString LobbyPath)
 {
+	PathToLobby = FString::Printf(TEXT("%s?listen"), *LobbyPath);
+
 	NumPublicConnections = NumOfPublicConnections;
 	MatchType = TypeOfMatch;
 
@@ -43,6 +45,7 @@ void UMenu::MenuSetup(int32 NumOfPublicConnections, FString TypeOfMatch)
 
 }
 
+
 bool UMenu::Initialize()
 {
 	if (!Super::Initialize())
@@ -58,6 +61,11 @@ bool UMenu::Initialize()
 	if (JoinButton)
 	{
 		JoinButton->OnClicked.AddDynamic(this, &ThisClass::JoinButtonClicked);
+	}
+
+	if (ReturnButton)
+	{
+		ReturnButton->OnClicked.AddDynamic(this, &ThisClass::ReturnButtonClicked);
 	}
 
 	return true;
@@ -82,12 +90,12 @@ void UMenu::OnCreateSession(bool bWasSuccessful)
 				FColor::Yellow,
 				FString(TEXT("Session created successfully!"))
 			);
-
+			
 		}
 		UWorld* World = GetWorld();
 		if (World)
 		{
-			World->ServerTravel("/Game/Levels/Sublevels/dam2452-Test?listen");
+			World->ServerTravel(PathToLobby);
 		}
 	}
 	else
@@ -100,6 +108,7 @@ void UMenu::OnCreateSession(bool bWasSuccessful)
 				FColor::Red,
 				FString(TEXT("Failed to create session!"))
 			);
+			HostButton->SetIsEnabled(true);
 
 		}
 	}
@@ -123,6 +132,10 @@ void UMenu::OnFindSession(const TArray<FOnlineSessionSearchResult>& SessionResul
 			return;
 		}
 	}
+	if (!bWasSuccessful || SessionResults.Num() == 0)
+	{
+		JoinButton->SetIsEnabled(true);
+	}
 }
 
 void UMenu::OnJoinSession(EOnJoinSessionCompleteResult::Type Result)
@@ -142,6 +155,11 @@ void UMenu::OnJoinSession(EOnJoinSessionCompleteResult::Type Result)
 				PlayerController->ClientTravel(Address, ETravelType::TRAVEL_Absolute);
 			}
 		}
+	}
+
+	if (Result != EOnJoinSessionCompleteResult::Success)
+	{
+		JoinButton->SetIsEnabled(true);
 	}
 }
 
@@ -166,6 +184,9 @@ void UMenu::HostButtonClicked()
 
 	}*/
 
+
+	HostButton->SetIsEnabled(false);
+
 	if (MultiplayerSessionSubsystem)
 	{
 		MultiplayerSessionSubsystem->CreateSession(NumPublicConnections, MatchType);
@@ -185,13 +206,12 @@ void UMenu::JoinButtonClicked()
 
 	}*/
 
+	JoinButton->SetIsEnabled(false);
+
 	if (MultiplayerSessionSubsystem)
 	{
 		MultiplayerSessionSubsystem->FindSession(10000);
 	}
-
-
-
 
 }
 
@@ -206,7 +226,30 @@ void UMenu::MenuTearDown()
 		{
 			FInputModeGameOnly InputModeData;
 			PlayerController->SetInputMode(InputModeData);
-			PlayerController->SetShowMouseCursor(false);
+			//PlayerController->SetShowMouseCursor(false);
+			PlayerController->SetShowMouseCursor(true);
 		}
 	}
+}
+
+void UMenu::ReturnButtonClicked()
+{
+	MenuTearDown();
+}
+
+//TODO
+void UMenu::BPMenuTearDown()
+{
+	if (GEngine)
+	{
+		GEngine->AddOnScreenDebugMessage(
+			-1,
+			15.f,
+			FColor::Yellow,
+			FString(TEXT("BPMenuTearDown Called"))
+		);
+
+		
+	}
+	MenuTearDown();
 }

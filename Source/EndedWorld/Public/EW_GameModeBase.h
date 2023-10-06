@@ -14,4 +14,7 @@ class ENDEDWORLD_API AEW_GameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
 	
+
+public:
+	virtual APawn* SpawnDefaultPawnFor_Implementation(AController* NewPlayer, AActor* StartSpot) override;
 };

@@ -21,7 +21,9 @@ class MULTIPLAYERSESSIONS_API UMenu : public UUserWidget
 	
 public:
 	UFUNCTION(BlueprintCallable, Category = "MultiplayerMenu")
-	void MenuSetup(int32 NumPublicConnections = 4, FString TypeOfMatch = FString(TEXT("FreeForALL")));
+	void MenuSetup(int32 NumPublicConnections = 4, FString TypeOfMatch = FString(TEXT("FreeForALL")), FString LobbyPath = FString(TEXT("/Game/Levels/Sublevels/dam2452-Test")));
+	UFUNCTION(BlueprintCallable, Category = "MultiplayerMenu")
+	void BPMenuTearDown();
 
 protected:
 	virtual bool Initialize() override;
@@ -48,11 +50,17 @@ private:
 	UPROPERTY(meta = (BindWidget))
 	UButton* JoinButton;
 
+	UPROPERTY(meta = (BindWidget))
+	UButton* ReturnButton;
+
 	UFUNCTION()
 	void HostButtonClicked();
 
 	UFUNCTION()
 	void JoinButtonClicked();
+
+	UFUNCTION()
+	void ReturnButtonClicked();
 
 	void MenuTearDown();
 
@@ -61,4 +69,6 @@ private:
 
 	int32 NumPublicConnections{4};
 	FString MatchType{TEXT("FreeForALL")};
+
+	FString PathToLobby{ TEXT("") };
 };
