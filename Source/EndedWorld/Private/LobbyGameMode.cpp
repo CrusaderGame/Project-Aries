@@ -5,6 +5,9 @@
 #include "GameFramework/GameStateBase.h"
 #include "GameFramework/PlayerState.h"
 
+#include "GameFramework/PlayerStart.h"
+#include "EngineUtils.h"
+
 void ALobbyGameMode::PostLogin(APlayerController* NewPlayer)
 {
 	Super::PostLogin(NewPlayer);
@@ -81,6 +84,8 @@ APawn* ALobbyGameMode::SpawnDefaultPawnFor_Implementation(AController* NewPlayer
 	SpawnParams.Instigator = nullptr;
 	SpawnParams.bDeferConstruction = false;
 
+
+	
 	UClass* PawnClass = GetDefaultPawnClassForController(NewPlayer);
 
 
@@ -104,4 +109,43 @@ APawn* ALobbyGameMode::SpawnDefaultPawnFor_Implementation(AController* NewPlayer
 
 
 	return NewPawn;
+}
+
+AActor* ALobbyGameMode::ChoosePlayerStart_Implementation(AController* Player)
+{
+	// Domyœlna logika wyboru PlayerStart
+	TArray<APlayerStart*> UnOccupiedStarts;
+	TArray<APlayerStart*> AllStarts;
+	AActor* BestStart = nullptr;
+
+	for (TActorIterator<APlayerStart> It(GetWorld()); It; ++It)
+	{
+		AllStarts.Add(*It);
+	}
+
+	for (APlayerStart* StartSpot : AllStarts)
+	{
+		if (IsPlayerStartSpotAvailable(StartSpot, Player))
+		{
+			UnOccupiedStarts.Add(StartSpot);
+		}
+	}
+
+	if (UnOccupiedStarts.Num() > 0)
+	{
+		BestStart = UnOccupiedStarts[FMath::RandRange(0, UnOccupiedStarts.Num() - 1)];
+	}
+	else
+	{
+		BestStart = AllStarts[FMath::RandRange(0, AllStarts.Num() - 1)];
+	}
+
+	return BestStart;
+}
+
+bool ALobbyGameMode::IsPlayerStartSpotAvailable(APlayerStart* StartSpot, AController* Player)
+{
+	// Mo¿na tu dodaæ logikê sprawdzaj¹c¹, czy dany PlayerStart jest dostêpny. 
+	// Dla uproszczenia zak³adamy, ¿e wszystkie s¹ dostêpne:
+	return true;
 }
