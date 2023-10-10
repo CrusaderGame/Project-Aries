@@ -85,6 +85,11 @@ APawn* ALobbyGameMode::SpawnDefaultPawnFor_Implementation(AController* NewPlayer
 		return nullptr;
 	}
 
+	
+
+	
+
+
 	FActorSpawnParameters SpawnParams;
 	SpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
 	SpawnParams.Owner = NewPlayer;
@@ -95,6 +100,12 @@ APawn* ALobbyGameMode::SpawnDefaultPawnFor_Implementation(AController* NewPlayer
 	
 	UClass* PawnClass = GetDefaultPawnClassForController(NewPlayer);
 
+
+	//Q
+	if (!HasAuthority())
+	{
+		return nullptr;
+	}
 
 	APawn* NewPawn = GetWorld()->SpawnActor<APawn>(PawnClass, StartSpot->GetActorLocation(), StartSpot->GetActorRotation(), SpawnParams);
 	if (!NewPawn)
@@ -114,6 +125,13 @@ APawn* ALobbyGameMode::SpawnDefaultPawnFor_Implementation(AController* NewPlayer
 		);
 	}*/
 
+	//Q
+	if (NewPawn)
+	{
+		// Ustawianie w³aœciwoœci replikacji dla nowo utworzonego pionu:
+		NewPawn->SetReplicates(true);
+		NewPawn->SetReplicateMovement(true);
+	}
 
 	return NewPawn;
 }
