@@ -61,7 +61,6 @@ void UMultiplayerSessionSubsystem::CreateSession(int32 NumPublicConnections, FSt
 	{
 		SessionInterface->ClearOnCreateSessionCompleteDelegate_Handle(CreateSessionCompleteDelegateHandle);
 
-		//Broadcast custom delegate
 		MultiplayerOnCreateSessionComplete.Broadcast(false);
 	}
 

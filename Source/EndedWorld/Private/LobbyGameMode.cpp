@@ -85,10 +85,6 @@ APawn* ALobbyGameMode::SpawnDefaultPawnFor_Implementation(AController* NewPlayer
 		return nullptr;
 	}
 
-	
-
-	
-
 
 	FActorSpawnParameters SpawnParams;
 	SpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
@@ -96,12 +92,8 @@ APawn* ALobbyGameMode::SpawnDefaultPawnFor_Implementation(AController* NewPlayer
 	SpawnParams.Instigator = nullptr;
 	SpawnParams.bDeferConstruction = false;
 
-
-	
 	UClass* PawnClass = GetDefaultPawnClassForController(NewPlayer);
 
-
-	//Q
 	if (!HasAuthority())
 	{
 		return nullptr;
@@ -114,21 +106,8 @@ APawn* ALobbyGameMode::SpawnDefaultPawnFor_Implementation(AController* NewPlayer
 	}
 
 
-
-	/*if (GEngine)
-	{
-		GEngine->AddOnScreenDebugMessage(
-			-1,
-			15.f,
-			FColor::Yellow,
-			FString(TEXT("SpawnDefaultPawnFor_Implementation Called"))
-		);
-	}*/
-
-	//Q
 	if (NewPawn)
 	{
-		// Ustawianie w³aœciwoœci replikacji dla nowo utworzonego pionu:
 		NewPawn->SetReplicates(true);
 		NewPawn->SetReplicateMovement(true);
 	}
@@ -138,7 +117,6 @@ APawn* ALobbyGameMode::SpawnDefaultPawnFor_Implementation(AController* NewPlayer
 
 AActor* ALobbyGameMode::ChoosePlayerStart_Implementation(AController* Player)
 {
-	// Domyœlna logika wyboru PlayerStart
 	TArray<APlayerStart*> UnOccupiedStarts;
 	TArray<APlayerStart*> AllStarts;
 	AActor* BestStart = nullptr;
@@ -170,7 +148,6 @@ AActor* ALobbyGameMode::ChoosePlayerStart_Implementation(AController* Player)
 
 bool ALobbyGameMode::IsPlayerStartSpotAvailable(APlayerStart* StartSpot, AController* Player)
 {
-	// Mo¿na tu dodaæ logikê sprawdzaj¹c¹, czy dany PlayerStart jest dostêpny. 
-	// Dla uproszczenia zak³adamy, ¿e wszystkie s¹ dostêpne:
+	//TODO
 	return true;
 }

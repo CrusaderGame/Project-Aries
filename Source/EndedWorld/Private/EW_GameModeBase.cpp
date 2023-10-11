@@ -25,18 +25,5 @@ APawn* AEW_GameModeBase::SpawnDefaultPawnFor_Implementation(AController* NewPlay
         return nullptr;
     }
 
-
-
-    /*if (GEngine)
-    {
-        GEngine->AddOnScreenDebugMessage(
-            -1,
-            15.f,
-            FColor::Yellow,
-            FString(TEXT("SpawnDefaultPawnFor_Implementation Called"))
-        );
-    }*/
-
-
     return NewPawn;
 }
