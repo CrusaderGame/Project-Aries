@@ -139,13 +139,17 @@ void AEW_Character::Zoom(const FInputActionValue& Value)
 }
 
 
-
-
 void AEW_Character::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
 	if (HasAuthority())
+	{
+		FVector CurrentLocation = GetActorLocation();
+		FVector NewLocation = FMath::VInterpTo(CurrentLocation, DesiredLocation, DeltaTime, Movement_Interp);
+		SetActorLocation(NewLocation);
+	}
+	else
 	{
 		FVector CurrentLocation = GetActorLocation();
 		FVector NewLocation = FMath::VInterpTo(CurrentLocation, DesiredLocation, DeltaTime, Movement_Interp);
