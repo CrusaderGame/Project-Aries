@@ -19,7 +19,25 @@ public:
 	AEW_Character();
 	virtual void Tick(float DeltaTime) override;
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+	virtual void GetLifetimeReplicatedProps(TArray< FLifetimeProperty >& OutLifetimeProps) const override;
 
+	UFUNCTION(Server, Reliable, WithValidation)
+	void Server_Rotate(const FInputActionValue& Value);
+	virtual bool Server_Rotate_Validate(const FInputActionValue& Value);
+	virtual void Server_Rotate_Implementation(const FInputActionValue& Value);
+
+	UFUNCTION(Server, Reliable, WithValidation)
+	void Server_Zoom(const FInputActionValue& Value);
+	virtual bool Server_Zoom_Validate(const FInputActionValue& Value);
+	virtual void Server_Zoom_Implementation(const FInputActionValue& Value);
+
+	UFUNCTION(Server, Reliable, WithValidation)
+	void Server_Move(const FInputActionValue& Value);
+	virtual void Server_Move_Implementation(const FInputActionValue& Value);
+	virtual bool Server_Move_Validate(const FInputActionValue& Value);
+
+
+	
 protected:
 
 	virtual void BeginPlay() override;
@@ -48,8 +66,9 @@ private:
 
 		UPROPERTY(VisibleAnywhere, Category = Camera)
 		class UCameraComponent* FollowCamera;
-	
-		UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "EW Character Movement", meta = (AllowPrivateAccess = "true"))
+
+		//MOVE
+		UPROPERTY(Replicated)
 		FVector DesiredLocation;
 
 		UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "EW Character Movement", meta = (AllowPrivateAccess = "true"))
@@ -58,7 +77,8 @@ private:
 		UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "EW Character Movement", meta = (AllowPrivateAccess = "true"))
 		float Movement_Speed;
 
-		UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "EW Character Rotation", meta = (AllowPrivateAccess = "true"))
+		//ROTATION
+		UPROPERTY(Replicated)
 		float DesiredYawRotation;
 
 		UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "EW Character Rotation", meta = (AllowPrivateAccess = "true"))
@@ -67,7 +87,8 @@ private:
 		UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "EW Character Rotation", meta = (AllowPrivateAccess = "true"))
 		float Rotation_Speed;
 
-		UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "EW Character Zoom", meta = (AllowPrivateAccess = "true"))
+		//ZOOM
+		UPROPERTY(Replicated)
 		float DesiredZoom;
 
 		UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "EW Character Zoom", meta = (AllowPrivateAccess = "true"))
@@ -82,18 +103,4 @@ private:
 		UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "EW Character Zoom", meta = (AllowPrivateAccess = "true"))
 		float MaxZoomDistance;
 
-		/*FVector DesiredLocation;
-		float Movement_Interp;
-		float Movement_Speed;
-
-		float DesiredYawRotation;
-		float Rotation_Interp;
-		float Rotation_Speed;
-
-		
-		float DesiredZoom;
-		float ZoomSpeed;
-		float Zoom_Interp;
-		float MinZoomDistance;
-		float MaxZoomDistance;*/
 };

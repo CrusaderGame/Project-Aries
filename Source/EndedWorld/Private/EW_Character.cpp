@@ -7,6 +7,8 @@
 #include "EnhancedInputComponent.h"
 #include "EnhancedInputSubsystems.h"
 #include <GameFramework/CharacterMovementComponent.h>
+#include "Net/UnrealNetwork.h"
+
 
 AEW_Character::AEW_Character()
 {
@@ -78,8 +80,24 @@ void AEW_Character::SetupPlayerInputComponent(UInputComponent* PlayerInputCompon
 
 }
 
+void AEW_Character::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const
+{
+	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
+
+	DOREPLIFETIME(AEW_Character, DesiredLocation);
+	DOREPLIFETIME(AEW_Character, DesiredYawRotation);
+	DOREPLIFETIME(AEW_Character, DesiredZoom);
+}
+
 void AEW_Character::Move(const FInputActionValue& Value)
 {
+
+	if (!HasAuthority())  
+	{
+		Server_Move(Value);
+	}
+
+		
 	const FVector2D CurrentValue = Value.Get<FVector2D>();
 
 	const FRotator YawRotation(0.f, FollowCamera->GetComponentRotation().Yaw, 0.f);
@@ -87,18 +105,27 @@ void AEW_Character::Move(const FInputActionValue& Value)
 	const FVector RightDirection = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
 
 	DesiredLocation += (ForwardDirection * CurrentValue.X + RightDirection * CurrentValue.Y) * Movement_Speed;
+
+	
 }
-
-
 void AEW_Character::Rotate(const FInputActionValue& Value)
 {
+	if (!HasAuthority())
+	{
+		Server_Rotate(Value);
+	}
+
 	float CurrentValue = Value.Get<float>();
 	DesiredYawRotation += CurrentValue * Rotation_Speed;
 	SetActorRotation(FRotator(0, DesiredYawRotation, 0));
 }
-
 void AEW_Character::Zoom(const FInputActionValue& Value)
 {
+	if (!HasAuthority())
+	{
+		Server_Zoom(Value);
+	}
+
 	float CurrentValue = Value.Get<float>();
 	DesiredZoom = FMath::Clamp(CameraBoom->TargetArmLength + CurrentValue * ZoomSpeed, MinZoomDistance, MaxZoomDistance);
 
@@ -124,4 +151,36 @@ void AEW_Character::Tick(float DeltaTime)
 	float CurrentZoom = CameraBoom->TargetArmLength;
 	float NewZoom = FMath::FInterpTo(CurrentZoom, DesiredZoom, DeltaTime, Zoom_Interp);
 	CameraBoom->TargetArmLength = NewZoom;
+}
+
+
+//TODO
+bool AEW_Character::Server_Rotate_Validate(const FInputActionValue& Value)
+{
+	return true; 
+}
+void AEW_Character::Server_Rotate_Implementation(const FInputActionValue& Value)
+{
+	Rotate(Value);
+}
+
+
+//TODO
+bool AEW_Character::Server_Zoom_Validate(const FInputActionValue& Value)
+{
+	return true;
+}
+void AEW_Character::Server_Zoom_Implementation(const FInputActionValue& Value)
+{
+	Zoom(Value);
+}
+
+//TODO
+bool AEW_Character::Server_Move_Validate(const FInputActionValue& Value)
+{
+	return true;
+}
+void AEW_Character::Server_Move_Implementation(const FInputActionValue& Value)
+{
+	Move(Value);
 }
