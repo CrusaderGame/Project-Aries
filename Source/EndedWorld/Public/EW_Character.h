@@ -21,7 +21,9 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 	virtual void GetLifetimeReplicatedProps(TArray< FLifetimeProperty >& OutLifetimeProps) const override;
 
-	
+	UFUNCTION(NetMulticast, Reliable)
+	void Multicast_UpdateMove(const FVector& NewDesiredLocation);
+	void Multicast_UpdateMove_Implementation(const FVector& NewDesiredLocation);
 
 	UFUNCTION(Server, Reliable, WithValidation)
 	void Server_Rotate(const FInputActionValue& Value);

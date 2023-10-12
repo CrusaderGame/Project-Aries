@@ -29,6 +29,7 @@ AEW_Character::AEW_Character()
 
 	bUseControllerRotationYaw = false;
 	//bOrientRotationToMovement = false;
+	GetCharacterMovement()->SetIsReplicated(true);
 
 	
 	DesiredLocation = FVector::ZeroVector;
@@ -100,11 +101,15 @@ void AEW_Character::PerformMove(const FInputActionValue& Value)
 	const FVector RightDirection = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
 
 	DesiredLocation += (ForwardDirection * CurrentValue.X + RightDirection * CurrentValue.Y) * Movement_Speed;
+
+	if (HasAuthority())
+	{
+		Multicast_UpdateMove(DesiredLocation);
+	}
 }
 
 void AEW_Character::Move(const FInputActionValue& Value)
 {
-
 	if (HasAuthority())
 	{
 		PerformMove(Value);
@@ -113,8 +118,8 @@ void AEW_Character::Move(const FInputActionValue& Value)
 	{
 		Server_Move(Value);
 	}
-
 }
+
 void AEW_Character::Rotate(const FInputActionValue& Value)
 {
 	if (!HasAuthority())
@@ -198,4 +203,12 @@ bool AEW_Character::Server_Move_Validate(const FInputActionValue& Value)
 void AEW_Character::Server_Move_Implementation(const FInputActionValue& Value)
 {
 	PerformMove(Value);
+}
+void AEW_Character::Multicast_UpdateMove_Implementation(const FVector& NewDesiredLocation)
+{
+	DesiredLocation = NewDesiredLocation;
+
+	FVector CurrentLocation = GetActorLocation();
+	FVector NewLocation = FMath::VInterpTo(CurrentLocation, DesiredLocation, GetWorld()->GetDeltaSeconds(), Movement_Interp);
+	SetActorLocation(NewLocation);
 }
