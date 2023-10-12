@@ -45,6 +45,9 @@ AEW_Character::AEW_Character()
 	ZoomSpeed = 70.0f;
 	MinZoomDistance = 500.0f;
 	MaxZoomDistance = 2800.0f;
+
+	bReplicates = true;
+	//bReplicateMovement = true;
 }
 
 void AEW_Character::BeginPlay()
@@ -89,24 +92,28 @@ void AEW_Character::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLif
 	DOREPLIFETIME(AEW_Character, DesiredZoom);
 }
 
-void AEW_Character::Move(const FInputActionValue& Value)
+void AEW_Character::PerformMove(const FInputActionValue& Value)
 {
-
-	if (!HasAuthority())  
-	{
-		Server_Move(Value);
-	}
-
-		
 	const FVector2D CurrentValue = Value.Get<FVector2D>();
-
 	const FRotator YawRotation(0.f, FollowCamera->GetComponentRotation().Yaw, 0.f);
 	const FVector ForwardDirection = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
 	const FVector RightDirection = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
 
 	DesiredLocation += (ForwardDirection * CurrentValue.X + RightDirection * CurrentValue.Y) * Movement_Speed;
+}
 
-	
+void AEW_Character::Move(const FInputActionValue& Value)
+{
+
+	if (HasAuthority())
+	{
+		PerformMove(Value);
+	}
+	else
+	{
+		Server_Move(Value);
+	}
+
 }
 void AEW_Character::Rotate(const FInputActionValue& Value)
 {
@@ -132,14 +139,18 @@ void AEW_Character::Zoom(const FInputActionValue& Value)
 }
 
 
+
+
 void AEW_Character::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	FVector CurrentLocation = GetActorLocation();
-	float InterpolationSpeed = 5.0f; 
-	FVector NewLocation = FMath::VInterpTo(CurrentLocation, DesiredLocation, DeltaTime, InterpolationSpeed);
-	SetActorLocation(NewLocation);
+	if (HasAuthority())
+	{
+		FVector CurrentLocation = GetActorLocation();
+		FVector NewLocation = FMath::VInterpTo(CurrentLocation, DesiredLocation, DeltaTime, Movement_Interp);
+		SetActorLocation(NewLocation);
+	}
 
 
 	FRotator CurrentRotation = GetActorRotation();
@@ -182,5 +193,5 @@ bool AEW_Character::Server_Move_Validate(const FInputActionValue& Value)
 }
 void AEW_Character::Server_Move_Implementation(const FInputActionValue& Value)
 {
-	Move(Value);
+	PerformMove(Value);
 }

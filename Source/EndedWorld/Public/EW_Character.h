@@ -21,6 +21,8 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 	virtual void GetLifetimeReplicatedProps(TArray< FLifetimeProperty >& OutLifetimeProps) const override;
 
+	
+
 	UFUNCTION(Server, Reliable, WithValidation)
 	void Server_Rotate(const FInputActionValue& Value);
 	virtual bool Server_Rotate_Validate(const FInputActionValue& Value);
@@ -54,6 +56,7 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
 	UInputAction* ZoomAction;
 
+	void PerformMove(const FInputActionValue& Value);
 	void Move(const FInputActionValue& Value);
 
 	void Rotate(const FInputActionValue& Value);
