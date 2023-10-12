@@ -49,7 +49,40 @@ private:
 		UPROPERTY(VisibleAnywhere, Category = Camera)
 		class UCameraComponent* FollowCamera;
 	
+		UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "EW Character Movement", meta = (AllowPrivateAccess = "true"))
 		FVector DesiredLocation;
+
+		UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "EW Character Movement", meta = (AllowPrivateAccess = "true"))
+		float Movement_Interp;
+
+		UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "EW Character Movement", meta = (AllowPrivateAccess = "true"))
+		float Movement_Speed;
+
+		UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "EW Character Rotation", meta = (AllowPrivateAccess = "true"))
+		float DesiredYawRotation;
+
+		UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "EW Character Rotation", meta = (AllowPrivateAccess = "true"))
+		float Rotation_Interp;
+
+		UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "EW Character Rotation", meta = (AllowPrivateAccess = "true"))
+		float Rotation_Speed;
+
+		UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "EW Character Zoom", meta = (AllowPrivateAccess = "true"))
+		float DesiredZoom;
+
+		UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "EW Character Zoom", meta = (AllowPrivateAccess = "true"))
+		float ZoomSpeed;
+
+		UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "EW Character Zoom", meta = (AllowPrivateAccess = "true"))
+		float Zoom_Interp;
+
+		UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "EW Character Zoom", meta = (AllowPrivateAccess = "true"))
+		float MinZoomDistance;
+
+		UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "EW Character Zoom", meta = (AllowPrivateAccess = "true"))
+		float MaxZoomDistance;
+
+		/*FVector DesiredLocation;
 		float Movement_Interp;
 		float Movement_Speed;
 
@@ -62,5 +95,5 @@ private:
 		float ZoomSpeed;
 		float Zoom_Interp;
 		float MinZoomDistance;
-		float MaxZoomDistance;
+		float MaxZoomDistance;*/
 };
