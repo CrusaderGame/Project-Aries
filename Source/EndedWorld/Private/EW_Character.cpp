@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+//EW_Character.cpp
 
 
 #include "EW_Character.h"
@@ -8,6 +8,7 @@
 #include "EnhancedInputSubsystems.h"
 #include <GameFramework/CharacterMovementComponent.h>
 #include "Net/UnrealNetwork.h"
+#include "Components/WidgetComponent.h"
 
 
 AEW_Character::AEW_Character()
@@ -49,6 +50,9 @@ AEW_Character::AEW_Character()
 
 	bReplicates = true;
 	//bReplicateMovement = true;
+
+	OverheadWidget = CreateDefaultSubobject<UWidgetComponent>(TEXT("OverheadWidget"));
+	OverheadWidget->SetupAttachment(RootComponent);
 }
 
 void AEW_Character::BeginPlay()
@@ -93,6 +97,11 @@ void AEW_Character::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLif
 	DOREPLIFETIME(AEW_Character, DesiredZoom);
 }
 
+void AEW_Character::Multicast_SetDesiredLocation_Implementation(const FVector& NewDesiredLocation)
+{
+	DesiredLocation = NewDesiredLocation;
+}
+
 void AEW_Character::PerformMove(const FInputActionValue& Value)
 {
 	const FVector2D CurrentValue = Value.Get<FVector2D>();
@@ -102,20 +111,27 @@ void AEW_Character::PerformMove(const FInputActionValue& Value)
 
 	DesiredLocation += (ForwardDirection * CurrentValue.X + RightDirection * CurrentValue.Y) * Movement_Speed;
 
-	Multicast_UpdateMove(DesiredLocation);
+	if (HasAuthority())
+	{
+		Multicast_SetDesiredLocation(DesiredLocation);
+	}
 }
 
 void AEW_Character::Move(const FInputActionValue& Value)
 {
+	PerformMove(Value);
+
 	if (HasAuthority())
 	{
-		PerformMove(Value);
+		Multicast_SetDesiredLocation(DesiredLocation);
 	}
 	else
 	{
 		Server_Move(Value);
 	}
+
 }
+
 
 void AEW_Character::Rotate(const FInputActionValue& Value)
 {
@@ -191,12 +207,5 @@ bool AEW_Character::Server_Move_Validate(const FInputActionValue& Value)
 void AEW_Character::Server_Move_Implementation(const FInputActionValue& Value)
 {
 	PerformMove(Value);
-}
-void AEW_Character::Multicast_UpdateMove_Implementation(const FVector& NewDesiredLocation)
-{
-	DesiredLocation = NewDesiredLocation;
-
-	FVector CurrentLocation = GetActorLocation();
-	FVector NewLocation = FMath::VInterpTo(CurrentLocation, DesiredLocation, GetWorld()->GetDeltaSeconds(), Movement_Interp);
-	SetActorLocation(NewLocation);
+	Multicast_SetDesiredLocation(DesiredLocation);
 }

@@ -16,6 +16,16 @@ class ENDEDWORLD_API UOverheadWidget : public UUserWidget
 
 	
 public:
+	UPROPERTY(meta = (BindWidget))
 	class UTextBlock* DisplayText;
+
+	void SetDisplayText(FString TextToDisplay);
+
+	UFUNCTION(BlueprintCallable)
+	void ShowPlayerNetRole(APawn* InPawn);
+
+protected:
+	virtual void NativeDestruct() override;
+
 
 };

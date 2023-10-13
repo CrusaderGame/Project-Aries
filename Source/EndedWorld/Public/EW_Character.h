@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+//EW_Character.h
 
 #pragma once
 
@@ -22,8 +22,8 @@ public:
 	virtual void GetLifetimeReplicatedProps(TArray< FLifetimeProperty >& OutLifetimeProps) const override;
 
 	UFUNCTION(NetMulticast, Reliable)
-	void Multicast_UpdateMove(const FVector& NewDesiredLocation);
-	void Multicast_UpdateMove_Implementation(const FVector& NewDesiredLocation);
+	void Multicast_SetDesiredLocation(const FVector& NewDesiredLocation);
+	virtual void Multicast_SetDesiredLocation_Implementation(const FVector& NewDesiredLocation);
 
 	UFUNCTION(Server, Reliable, WithValidation)
 	void Server_Rotate(const FInputActionValue& Value);
@@ -71,6 +71,11 @@ private:
 
 		UPROPERTY(VisibleAnywhere, Category = Camera)
 		class UCameraComponent* FollowCamera;
+
+		UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
+		class UWidgetComponent* OverheadWidget;
+
+
 
 		//MOVE
 		UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite, Category = "EW Character Rotation", meta = (AllowPrivateAccess = "true"))
