@@ -102,10 +102,7 @@ void AEW_Character::PerformMove(const FInputActionValue& Value)
 
 	DesiredLocation += (ForwardDirection * CurrentValue.X + RightDirection * CurrentValue.Y) * Movement_Speed;
 
-	if (HasAuthority())
-	{
-		Multicast_UpdateMove(DesiredLocation);
-	}
+	Multicast_UpdateMove(DesiredLocation);
 }
 
 void AEW_Character::Move(const FInputActionValue& Value)
@@ -148,26 +145,17 @@ void AEW_Character::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	if (HasAuthority())
-	{
-		FVector CurrentLocation = GetActorLocation();
-		FVector NewLocation = FMath::VInterpTo(CurrentLocation, DesiredLocation, DeltaTime, Movement_Interp);
-		SetActorLocation(NewLocation);
-	}
-	else
-	{
-		FVector CurrentLocation = GetActorLocation();
-		FVector NewLocation = FMath::VInterpTo(CurrentLocation, DesiredLocation, DeltaTime, Movement_Interp);
-		SetActorLocation(NewLocation);
-	}
+	// Move for server and client
+	FVector CurrentLocation = GetActorLocation();
+	FVector NewLocation = FMath::VInterpTo(CurrentLocation, DesiredLocation, DeltaTime, Movement_Interp);
+	SetActorLocation(NewLocation);
 
-
+	// Rotation
 	FRotator CurrentRotation = GetActorRotation();
 	FRotator NewRotation = FMath::RInterpTo(GetActorRotation(), FRotator(0, DesiredYawRotation, 0), DeltaTime, Rotation_Interp);
 	SetActorRotation(NewRotation);
 
-
-
+	// Zoom
 	float CurrentZoom = CameraBoom->TargetArmLength;
 	float NewZoom = FMath::FInterpTo(CurrentZoom, DesiredZoom, DeltaTime, Zoom_Interp);
 	CameraBoom->TargetArmLength = NewZoom;
