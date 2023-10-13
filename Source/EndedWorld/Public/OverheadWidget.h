@@ -13,7 +13,9 @@ UCLASS()
 class ENDEDWORLD_API UOverheadWidget : public UUserWidget
 {
 	GENERATED_BODY()
+
 	
 public:
+	class UTextBlock* DisplayText;
 
 };

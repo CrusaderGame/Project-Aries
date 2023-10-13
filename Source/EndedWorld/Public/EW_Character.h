@@ -73,7 +73,7 @@ private:
 		class UCameraComponent* FollowCamera;
 
 		//MOVE
-		UPROPERTY(Replicated)
+		UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite, Category = "EW Character Rotation", meta = (AllowPrivateAccess = "true"))
 		FVector DesiredLocation;
 
 		UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "EW Character Movement", meta = (AllowPrivateAccess = "true"))
@@ -83,7 +83,7 @@ private:
 		float Movement_Speed;
 
 		//ROTATION
-		UPROPERTY(Replicated)
+		UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite, Category = "EW Character Rotation", meta = (AllowPrivateAccess = "true"))
 		float DesiredYawRotation;
 
 		UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "EW Character Rotation", meta = (AllowPrivateAccess = "true"))
@@ -93,7 +93,7 @@ private:
 		float Rotation_Speed;
 
 		//ZOOM
-		UPROPERTY(Replicated)
+		UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite, Category = "EW Character Rotation", meta = (AllowPrivateAccess = "true"))
 		float DesiredZoom;
 
 		UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "EW Character Zoom", meta = (AllowPrivateAccess = "true"))
