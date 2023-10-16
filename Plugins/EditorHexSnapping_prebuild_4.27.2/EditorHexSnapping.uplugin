@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "EditorHexSnapping",
+	"Description": "Hexagon snapping editor helper",
+	"Category": "Other",
+	"CreatedBy": "StylizedLabs",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "4.27.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "EditorHexSnapping",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	]
+}
