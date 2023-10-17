@@ -15,7 +15,6 @@ class ENDEDWORLD_API AEW_Character : public ACharacter
 	GENERATED_BODY()
 
 public:
-
 	AEW_Character();
 	virtual void Tick(float DeltaTime) override;
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
@@ -26,24 +25,11 @@ public:
 	virtual void Multicast_SetDesiredLocation_Implementation(const FVector& NewDesiredLocation);
 
 	UFUNCTION(Server, Reliable, WithValidation)
-	void Server_Rotate(const FInputActionValue& Value);
-	virtual bool Server_Rotate_Validate(const FInputActionValue& Value);
-	virtual void Server_Rotate_Implementation(const FInputActionValue& Value);
+	void Server_HandleInput(FVector MoveInput, float RotateInput, float ZoomInput);
+	virtual bool Server_HandleInput_Validate(FVector MoveInput, float RotateInput, float ZoomInput);
+	virtual void Server_HandleInput_Implementation(FVector MoveInput, float RotateInput, float ZoomInput);
 
-	UFUNCTION(Server, Reliable, WithValidation)
-	void Server_Zoom(const FInputActionValue& Value);
-	virtual bool Server_Zoom_Validate(const FInputActionValue& Value);
-	virtual void Server_Zoom_Implementation(const FInputActionValue& Value);
-
-	UFUNCTION(Server, Reliable, WithValidation)
-	void Server_Move(const FInputActionValue& Value);
-	virtual void Server_Move_Implementation(const FInputActionValue& Value);
-	virtual bool Server_Move_Validate(const FInputActionValue& Value);
-
-
-	
 protected:
-
 	virtual void BeginPlay() override;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
@@ -58,11 +44,8 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
 	UInputAction* ZoomAction;
 
-	void PerformMove(const FInputActionValue& Value);
 	void Move(const FInputActionValue& Value);
-
 	void Rotate(const FInputActionValue& Value);
-
 	void Zoom(const FInputActionValue& Value);
 
 private:
@@ -113,4 +96,6 @@ private:
 		UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "EW Character Zoom", meta = (AllowPrivateAccess = "true"))
 		float MaxZoomDistance;
 
+		void HandleInput(const FVector& MoveInput, const float& RotateInput, const float& ZoomInput);
 };
+

@@ -102,58 +102,37 @@ void AEW_Character::Multicast_SetDesiredLocation_Implementation(const FVector& N
 	DesiredLocation = NewDesiredLocation;
 }
 
-void AEW_Character::PerformMove(const FInputActionValue& Value)
-{
-	const FVector2D CurrentValue = Value.Get<FVector2D>();
-	const FRotator YawRotation(0.f, FollowCamera->GetComponentRotation().Yaw, 0.f);
-	const FVector ForwardDirection = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
-	const FVector RightDirection = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
-
-	DesiredLocation += (ForwardDirection * CurrentValue.X + RightDirection * CurrentValue.Y) * Movement_Speed;
-
-	if (HasAuthority())
-	{
-		Multicast_SetDesiredLocation(DesiredLocation);
-	}
-}
-
 void AEW_Character::Move(const FInputActionValue& Value)
 {
-	PerformMove(Value);
+	FVector2D MoveInput2D = Value.Get<FVector2D>();
+	FVector MoveInput(MoveInput2D.X, MoveInput2D.Y, 0.f); // Convert FVector2D to FVector
 
-	if (HasAuthority())
+	HandleInput(MoveInput, 0.f, 0.f);
+	if (!HasAuthority())
 	{
-		Multicast_SetDesiredLocation(DesiredLocation);
+		Server_HandleInput(MoveInput, 0.f, 0.f);
 	}
-	else
-	{
-		Server_Move(Value);
-	}
-
 }
+
 
 
 void AEW_Character::Rotate(const FInputActionValue& Value)
 {
+	float RotateInput = Value.Get<float>();
+	HandleInput(FVector::ZeroVector, RotateInput, 0.f);
 	if (!HasAuthority())
 	{
-		Server_Rotate(Value);
+		Server_HandleInput(FVector::ZeroVector, RotateInput, 0.f);
 	}
-
-	float CurrentValue = Value.Get<float>();
-	DesiredYawRotation += CurrentValue * Rotation_Speed;
-	SetActorRotation(FRotator(0, DesiredYawRotation, 0));
 }
 void AEW_Character::Zoom(const FInputActionValue& Value)
 {
+	float ZoomInput = Value.Get<float>();
+	HandleInput(FVector::ZeroVector, 0.f, ZoomInput);
 	if (!HasAuthority())
 	{
-		Server_Zoom(Value);
+		Server_HandleInput(FVector::ZeroVector, 0.f, ZoomInput);
 	}
-
-	float CurrentValue = Value.Get<float>();
-	DesiredZoom = FMath::Clamp(CameraBoom->TargetArmLength + CurrentValue * ZoomSpeed, MinZoomDistance, MaxZoomDistance);
-
 }
 
 
@@ -178,34 +157,39 @@ void AEW_Character::Tick(float DeltaTime)
 }
 
 
-//TODO
-bool AEW_Character::Server_Rotate_Validate(const FInputActionValue& Value)
+
+void AEW_Character::HandleInput(const FVector& MoveInput, const float& RotateInput, const float& ZoomInput)
 {
-	return true; 
-}
-void AEW_Character::Server_Rotate_Implementation(const FInputActionValue& Value)
-{
-	Rotate(Value);
+	// Movement logic
+	const FRotator YawRotation(0.f, FollowCamera->GetComponentRotation().Yaw, 0.f);
+	const FVector ForwardDirection = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
+	const FVector RightDirection = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
+
+	DesiredLocation += (ForwardDirection * MoveInput.X + RightDirection * MoveInput.Y + ForwardDirection * MoveInput.Z) * Movement_Speed;
+
+	if (HasAuthority())
+	{
+		Multicast_SetDesiredLocation(DesiredLocation);
+	}
+	else
+	{
+		// This assumes that your Server_Move function or similar can handle FVector input for movement
+		// Server_Move(FInputActionValue(MoveInput));
+	}
+
+	// Rotation logic
+	DesiredYawRotation += RotateInput * Rotation_Speed;
+	SetActorRotation(FRotator(0, DesiredYawRotation, 0));
+
+	// Zoom logic
+	DesiredZoom = FMath::Clamp(CameraBoom->TargetArmLength + ZoomInput * ZoomSpeed, MinZoomDistance, MaxZoomDistance);
 }
 
-
-//TODO
-bool AEW_Character::Server_Zoom_Validate(const FInputActionValue& Value)
+void AEW_Character::Server_HandleInput_Implementation(FVector MoveInput, float RotateInput, float ZoomInput)
+{
+	HandleInput(MoveInput, RotateInput, ZoomInput);
+}
+bool AEW_Character::Server_HandleInput_Validate(FVector MoveInput, float RotateInput, float ZoomInput)
 {
 	return true;
-}
-void AEW_Character::Server_Zoom_Implementation(const FInputActionValue& Value)
-{
-	Zoom(Value);
-}
-
-//TODO
-bool AEW_Character::Server_Move_Validate(const FInputActionValue& Value)
-{
-	return true;
-}
-void AEW_Character::Server_Move_Implementation(const FInputActionValue& Value)
-{
-	PerformMove(Value);
-	Multicast_SetDesiredLocation(DesiredLocation);
 }
