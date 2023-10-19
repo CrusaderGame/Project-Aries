@@ -45,7 +45,6 @@ public:
 	FMultiplayerOnDestroySessionComplete MultiplayerOnDestroySessionComplete;
 	FMultiplayerOnStartSessionComplete MultiplayerOnStartSessionComplete;
 
-
 protected:
 	//
 	// Internal callbacks for the delegates 
