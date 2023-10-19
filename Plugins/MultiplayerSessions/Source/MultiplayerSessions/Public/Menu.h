@@ -50,8 +50,8 @@ private:
 	UPROPERTY(meta = (BindWidget))
 	UButton* JoinButton;
 
-	UPROPERTY(meta = (BindWidget))
-	UButton* ReturnButton;
+	//UPROPERTY(meta = (BindWidget))
+	//UButton* ReturnButton;
 
 	UFUNCTION()
 	void HostButtonClicked();
@@ -59,8 +59,8 @@ private:
 	UFUNCTION()
 	void JoinButtonClicked();
 
-	UFUNCTION()
-	void ReturnButtonClicked();
+	//UFUNCTION()
+	//void ReturnButtonClicked();
 
 	void MenuTearDown();
 

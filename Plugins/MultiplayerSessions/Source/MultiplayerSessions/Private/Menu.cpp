@@ -63,10 +63,10 @@ bool UMenu::Initialize()
 		JoinButton->OnClicked.AddDynamic(this, &ThisClass::JoinButtonClicked);
 	}
 
-	if (ReturnButton)
+	/*if (ReturnButton)
 	{
 		ReturnButton->OnClicked.AddDynamic(this, &ThisClass::ReturnButtonClicked);
-	}
+	}*/
 
 	return true;
 }
@@ -232,10 +232,10 @@ void UMenu::MenuTearDown()
 	}
 }
 
-void UMenu::ReturnButtonClicked()
-{
-	MenuTearDown();
-}
+//void UMenu::ReturnButtonClicked()
+//{
+//	MenuTearDown();
+//}
 
 //TODO
 void UMenu::BPMenuTearDown()
