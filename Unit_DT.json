@@ -1,0 +1,47 @@
+[
+	{
+		"Name": "NewRow",
+		"UnitName": "Varegvoda Guard",
+		"HP": 50,
+		"Armor": 5,
+		"Shield": 1,
+		"Speed": 4,
+		"Stamina": 1,
+		"Cost": 900,
+		"Wargear Options": [
+			{
+				"Name": "Bardiche",
+				"Skills": [
+					{
+						"SkillName": "Melee Damage",
+						"SkillValue": 15
+					},
+					{
+						"SkillName": "Armor Piercing",
+						"SkillValue": 3
+					}
+				]
+			}
+		],
+		"Abilities": [
+			{
+				"Name": "Charge",
+				"Value": 2
+			},
+			{
+				"Name": "Counterattack Bonus",
+				"Value": 3
+			},
+			{
+				"Name": "Charge Absorption",
+				"Value": 5
+			}
+		],
+		"Keywords": [
+			"Republics of Nevegrodi",
+			"Infantry",
+			"AntiInf"
+		],
+		"Description": "LOCTABLE(\"/Game/AdvancedTurnBasedTileToolkit/Units/UnitData/Descriptions.Descriptions\", \"VaregvodaGuardDesc\")"
+	}
+]
