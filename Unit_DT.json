@@ -37,16 +37,19 @@
 						"SkillValue": 6
 					},
 					{
-						"SkillName": "Anti Infantry",
+						"SkillName": "(INVALID)",
 						"SkillValue": 3
 					}
 				]
 			}
 		],
 		"Abilities": [],
-		"Keywords": [
+		"Tag": [
 			"Republics of Nevegrodi",
 			"Infantry"
+		],
+		"AntiTag": [
+			"Anti Construct"
 		],
 		"Description": "LOCTABLE(\"/Game/AdvancedTurnBasedTileToolkit/Units/UnitData/ST_Descriptions.ST_Descriptions\", \"VaregvodaGuardDesc\")"
 	},
@@ -79,10 +82,13 @@
 			}
 		],
 		"Abilities": [],
-		"Keywords": [
+		"Tag": [
 			"Republics of Nevegrodi",
 			"Construct",
 			"Monster"
+		],
+		"AntiTag": [
+			"Anti Archer"
 		],
 		"Description": "NSLOCTEXT(\"[5686449386F139DA2DE826DFE19A02A8]\", \"DC3AA9874AF81466B6D962BE310FEBD0\", \"The clattering and rumbling herald the arrival of the war constructs of Nevegrodi. Machines crafted from wood and metal serve as a testament to the Republic\\'s superiority, at least in the eyes of the Nevegrodi themselves. The production process is exceptionally intricate and highly perilous. Only these two factors prevent them from overwhelming their enemies with these formidable yet very slow constructs.\")"
 	},
@@ -116,18 +122,19 @@
 						"SkillValue": 4
 					},
 					{
-						"SkillName": "Anti Cavalary",
+						"SkillName": "(INVALID)",
 						"SkillValue": 2
 					}
 				]
 			}
 		],
 		"Abilities": [],
-		"Keywords": [
+		"Tag": [
 			"Republics of Nevegrodi",
 			"Cavalary",
 			"Horse"
 		],
+		"AntiTag": [],
 		"Description": "NSLOCTEXT(\"[5686449386F139DA2DE826DFE19A02A8]\", \"64BED07C4D12B9E88D72178656BF5224\", \"Katavrota serve as the retinue of wealthy princes and Kniaziaz. Due to the high cost of maintaining these units, only a few can afford to deploy them in battle. Anyone who decides to enlist their services will receive in return an iron fist capable of breaking any enemy formation. Katavrota inspire allies and instill fear in the hearts of adversaries.\")"
 	},
 	{
@@ -209,11 +216,12 @@
 			}
 		],
 		"Abilities": [],
-		"Keywords": [
+		"Tag": [
 			"Republics of Nevegrodi",
 			"Infantry",
 			"Archer"
 		],
+		"AntiTag": [],
 		"Description": "NSLOCTEXT(\"[5686449386F139DA2DE826DFE19A02A8]\", \"25C9A4AF4EF995076B1CAFBC78E771CC\", \"The Nevegrodian army has adopted defensive solutions at both the tactical and strategic levels, making Streltsy units often an important part of any army. Recruited from hunters and townspeople, they spend years mastering ranged weapons. They serve as a valuable addition, capable of thinning out approaching enemies.\")"
 	},
 	{
@@ -245,10 +253,11 @@
 			}
 		],
 		"Abilities": [],
-		"Keywords": [
+		"Tag": [
 			"Republics of Nevegrodi",
 			"Infantry"
 		],
+		"AntiTag": [],
 		"Description": "NSLOCTEXT(\"[5686449386F139DA2DE826DFE19A02A8]\", \"740DA86744BFDD55BEA8748D9A39DAB4\", \"Professional infantry recruited from peasants or townsfolk. Their main duty is to serve the urban councils or princes. They form the backbone of most Nevegrodian armies. Months or years spent in training and battles make them effective and disciplined units.\")"
 	},
 	{
@@ -284,10 +293,13 @@
 			}
 		],
 		"Abilities": [],
-		"Keywords": [
+		"Tag": [
 			"Republics of Nevegrodi",
 			"Cavalary",
 			"Horse"
+		],
+		"AntiTag": [
+			"Anti Infantry"
 		],
 		"Description": "NSLOCTEXT(\"[5686449386F139DA2DE826DFE19A02A8]\", \"3B926C2E44F4DBACADB2A687CE5B776F\", \"They serve as the eyes and ears of every Nevegrodian army. Due to their defensive nature, they must rely on swift and agile scouts who will provide the army with information about the enemy\\'s movements. In times of peace, they often serve as messengers and couriers.\")"
 	},
@@ -317,17 +329,18 @@
 						"SkillValue": 1
 					},
 					{
-						"SkillName": "Anti Cavalary",
+						"SkillName": "(INVALID)",
 						"SkillValue": 2
 					}
 				]
 			}
 		],
 		"Abilities": [],
-		"Keywords": [
+		"Tag": [
 			"Republics of Nevegrodi",
 			"Infantry"
 		],
+		"AntiTag": [],
 		"Description": "NSLOCTEXT(\"[5686449386F139DA2DE826DFE19A02A8]\", \"5780ACA04E32FDDAA6B2B0BC45580B9B\", \"The life of a peasant is not among the easiest. For half a year, everyone works hard in the fields from dawn to dusk. When the months turn cold, they strive to survive at any cost. Occasionally, due to misfortune, they are called to arms. Ill-equipped, lacking experience and discipline, they become mere cannon fodder.\")"
 	},
 	{
@@ -360,18 +373,19 @@
 						"SkillValue": 3
 					},
 					{
-						"SkillName": "Anti Cavalary",
+						"SkillName": "(INVALID)",
 						"SkillValue": 5
 					}
 				]
 			}
 		],
 		"Abilities": [],
-		"Keywords": [
+		"Tag": [
 			"King's Men",
 			"Cavalary",
 			"Horse"
 		],
+		"AntiTag": [],
 		"Description": "NSLOCTEXT(\"[5686449386F139DA2DE826DFE19A02A8]\", \"90972C7346E20E077883E9AD17DC05B4\", \"A formation steeped in legends, arising during the reign of the First King. It comprises only the wealthiest Lords who can afford proper equipment and steeds. Plate armor grants them exceptional durability. Heavy horses and lances make their charges devastating. Woe betide anyone who stands against the King\\'s Knights.\")"
 	},
 	{
@@ -436,11 +450,12 @@
 			}
 		],
 		"Abilities": [],
-		"Keywords": [
+		"Tag": [
 			"King's Men",
 			"Infantry",
 			"Archer"
 		],
+		"AntiTag": [],
 		"Description": "NSLOCTEXT(\"[5686449386F139DA2DE826DFE19A02A8]\", \"48321784411F7E7A759BE185219BF67E\", \"Jagers are an elite formation of hunters traversing the dangerous forests of Grimwald. They specialize in hunting beasts and specters inhabiting the ancient woodland. Their primary weapons are lethal bows, with which they can neutralize threats from a distance. If necessary, they will fiercely defend themselves in close combat.\")"
 	},
 	{
@@ -477,17 +492,18 @@
 						"SkillValue": 5
 					},
 					{
-						"SkillName": "Anti Infantry",
+						"SkillName": "(INVALID)",
 						"SkillValue": 4
 					}
 				]
 			}
 		],
 		"Abilities": [],
-		"Keywords": [
+		"Tag": [
 			"King's Men",
 			"Infantry"
 		],
+		"AntiTag": [],
 		"Description": "NSLOCTEXT(\"[5686449386F139DA2DE826DFE19A02A8]\", \"EE671E1E4847DF74326EE3B1DD024DD8\", \"Zweihanders are elite warriors wielding massive two-handed swords. Renowned for their unwavering determination and incredible strength in combat, they are often deployed on the most perilous missions on the battlefield. They excel in engagements against enemy infantry.\")"
 	},
 	{
@@ -520,18 +536,19 @@
 						"SkillValue": 2
 					},
 					{
-						"SkillName": "Anti Cavalary",
+						"SkillName": "(INVALID)",
 						"SkillValue": 3
 					}
 				]
 			}
 		],
 		"Abilities": [],
-		"Keywords": [
+		"Tag": [
 			"King's Men",
 			"Cavalary",
 			"Horse"
 		],
+		"AntiTag": [],
 		"Description": "NSLOCTEXT(\"[5686449386F139DA2DE826DFE19A02A8]\", \"75946C884A392C090C17E7AF38EAB779\", \"The ranks of the hussars represent a true cross-section of King\\'s Men social strata. Among them, one can encounter former peasants who turned to the military as a way of life, townsfolk conscripted into the army, and relatively poor (for their status) Lords who cannot afford expensive plate armor. Hussars are held in high regard and receive fair wages, rightfully so, as they often constitute the main force on the battlefield.\")"
 	},
 	{
@@ -588,11 +605,12 @@
 			}
 		],
 		"Abilities": [],
-		"Keywords": [
+		"Tag": [
 			"King's Men",
 			"Infantry",
 			"Archer"
 		],
+		"AntiTag": [],
 		"Description": "NSLOCTEXT(\"[5686449386F139DA2DE826DFE19A02A8]\", \"EEF528E54D76FD772205538CABD42F14\", \"Recruited from promising Levies or local hunters. They employ longbows to weaken the enemy from a distance. Combat experience and years spent on hunts make them valuable units.\")"
 	},
 	{
@@ -625,17 +643,18 @@
 						"SkillValue": 2
 					},
 					{
-						"SkillName": "Anti Cavalary",
+						"SkillName": "(INVALID)",
 						"SkillValue": 2
 					}
 				]
 			}
 		],
 		"Abilities": [],
-		"Keywords": [
+		"Tag": [
 			"King's Men",
 			"Infantry"
 		],
+		"AntiTag": [],
 		"Description": "NSLOCTEXT(\"[5686449386F139DA2DE826DFE19A02A8]\", \"CFB8B3BF42806042E76B9DBD90A1C133\", \"Kriegsvolk refers to individuals of dubious reputation conscripted into military service. Lords only resort to their services as a last resort. In exchange for amnesty and a hefty sack of gold, they are willing to do anything.\")"
 	},
 	{
@@ -696,10 +715,11 @@
 			}
 		],
 		"Abilities": [],
-		"Keywords": [
+		"Tag": [
 			"King's Men",
 			"Infantry"
 		],
+		"AntiTag": [],
 		"Description": "NSLOCTEXT(\"[5686449386F139DA2DE826DFE19A02A8]\", \"A2888CD04A158C90B1844BBF314DE546\", \"The Levies constitute the main law enforcement forces recruited from the common people. Towns and villages are obliged to equip them with light armor, javelins, axes, and shields. In times of war, they are conscripted into the military, where they serve as the primary and aggressive infantry.\")"
 	}
 ]
