@@ -10,3 +10,4 @@ MyClass::MyClass()
 MyClass::~MyClass()
 {
 }
+

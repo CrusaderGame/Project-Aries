@@ -49,7 +49,10 @@
 			"Infantry"
 		],
 		"AntiTag": [
-			"Anti Construct"
+			{
+				"Name": "Anti Infantry",
+				"Value": 3
+			}
 		],
 		"Description": "LOCTABLE(\"/Game/AdvancedTurnBasedTileToolkit/Units/UnitData/ST_Descriptions.ST_Descriptions\", \"VaregvodaGuardDesc\")"
 	},
@@ -88,7 +91,10 @@
 			"Monster"
 		],
 		"AntiTag": [
-			"Anti Archer"
+			{
+				"Name": "Anti Construct",
+				"Value": 0
+			}
 		],
 		"Description": "NSLOCTEXT(\"[5686449386F139DA2DE826DFE19A02A8]\", \"DC3AA9874AF81466B6D962BE310FEBD0\", \"The clattering and rumbling herald the arrival of the war constructs of Nevegrodi. Machines crafted from wood and metal serve as a testament to the Republic\\'s superiority, at least in the eyes of the Nevegrodi themselves. The production process is exceptionally intricate and highly perilous. Only these two factors prevent them from overwhelming their enemies with these formidable yet very slow constructs.\")"
 	},
@@ -299,7 +305,10 @@
 			"Horse"
 		],
 		"AntiTag": [
-			"Anti Infantry"
+			{
+				"Name": "Anti Construct",
+				"Value": 0
+			}
 		],
 		"Description": "NSLOCTEXT(\"[5686449386F139DA2DE826DFE19A02A8]\", \"3B926C2E44F4DBACADB2A687CE5B776F\", \"They serve as the eyes and ears of every Nevegrodian army. Due to their defensive nature, they must rely on swift and agile scouts who will provide the army with information about the enemy\\'s movements. In times of peace, they often serve as messengers and couriers.\")"
 	},
