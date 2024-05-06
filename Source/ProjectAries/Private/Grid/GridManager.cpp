@@ -3,7 +3,7 @@
 
 
 #include "ProjectAries/Public/Grid/GridManager.h"
-
+#include "Components/DecalComponent.h"
 
 
 
@@ -78,7 +78,7 @@ void AGridManager::PreventIncompatibleVariableCombinations()
 	
 	switch(HeightMap)
 	{
-		case EHeight::False:
+		case EHeight::EFalse:
 		break;
 
 		case EHeight::OneLevel:

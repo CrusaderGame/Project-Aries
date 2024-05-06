@@ -2,11 +2,12 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
 #include "Components/HierarchicalInstancedStaticMeshComponent.h"
 #include "Components/SceneComponent.h"
 #include "Components/BoxComponent.h"
-#include "Components/DecalComponent.h"
+#include "CoreMinimal.h"
+#include "GameFramework/Actor.h"
+#include "GridManager.generated.h"
 
 /**
  * 
@@ -15,7 +16,7 @@ UENUM(BlueprintType)
 enum class EHeight : uint8 {
 	OneLevel UMETA(DisplayName = "One Level"),
 	Multilevel UMETA(DisplayName = "Multi Level"),
-	False UMETA(DisplayName = "False"),
+	EFalse UMETA(DisplayName = "EFalse"),
 };
 
 UCLASS()
@@ -54,7 +55,7 @@ public:
 	UPROPERTY(BlueprintReadWrite)
 	bool bAutoEdgeCostsBasedOnHeight = false;
 	UPROPERTY(BlueprintReadWrite)
-	EHeight HeightMap = EHeight::False;
+	EHeight HeightMap = EHeight::EFalse;
 private:
 	
 
