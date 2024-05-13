@@ -76,16 +76,5 @@ void AGridManager::PreventIncompatibleVariableCombinations()
 		HeightSlowIncrement = HeightImpassableCutoff;
 	}
 	
-	switch(HeightMap)
-	{
-		case EHeight::EFalse:
-		break;
-
-		case EHeight::OneLevel:
-		break;
-
-		case EHeight::Multilevel:
-		bAutoEdgeCostsBasedOnHeight = true;
-	}
 	
 }
