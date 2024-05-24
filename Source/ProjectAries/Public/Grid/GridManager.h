@@ -12,12 +12,7 @@
 /**
  * 
  */
-UENUM(BlueprintType) 
-enum class EHeight : uint8 {
-	OneLevel UMETA(DisplayName = "One Level"),
-	Multilevel UMETA(DisplayName = "Multi Level"),
-	EFalse UMETA(DisplayName = "EFalse"),
-};
+
 
 UCLASS()
 class PROJECTARIES_API AGridManager : public AActor
