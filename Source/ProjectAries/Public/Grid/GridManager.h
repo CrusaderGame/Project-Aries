@@ -6,6 +6,7 @@
 #include "Components/SceneComponent.h"
 #include "Components/BoxComponent.h"
 #include "CoreMinimal.h"
+#include "GridComponent.h"
 #include "GameFramework/Actor.h"
 #include "GridManager.generated.h"
 

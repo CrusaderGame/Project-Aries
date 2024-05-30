@@ -3,6 +3,9 @@
 
 #include "GridComponent.h"
 
+#include "ToolContextInterfaces.h"
+#include "Kismet/KismetMathLibrary.h"
+
 // Sets default values for this component's properties
 UGridComponent::UGridComponent()
 {
@@ -43,19 +46,56 @@ bool UGridComponent::CreateGridLocation(int32 StartIndex, int32 NumTilesX, int32
 					std::vector<int> GridIndexes = GetAllGridIndexesNaive(NumTilesX,NumTilesY,StartIndex);
 
 					int32 LocalLastIndex = GridIndexes.size();
+
 					
-					for(int LocalIte; LocalIte < LocalLastIndex; LocalIte++)
+					for(int LocalIterator =0; LocalIterator < LocalLastIndex; LocalIterator++)
 					{
+						FGridLocation grid;
+						grid.Index = GridIndexes[LocalIterator];
+						grid.Vector = ConvertInexToLocationNaive(GridIndexes[LocalIterator]);
 						
+						GridLocations.Add(grid);
 					}
-					
+					bSucces = true;
 					break;
 				}
 				
 
 			case EHeight::OneLevel:
 				{
+					std::vector<int> GridIndexes = GetAllGridIndexesNaive(NumTilesX,NumTilesY,StartIndex);
 
+					int32 LocalLastIndex = GridIndexes.size();
+
+					
+					for(int LocalIterator =0; LocalIterator < LocalLastIndex; LocalIterator++)
+					{
+						
+						FGridLocation grid;
+						grid.Index = GridIndexes[LocalIterator];
+						
+						FTransform ActorTransform = GetOwner()->GetActorTransform();
+						FVector TransformLocationStart = UKismetMathLibrary::TransformLocation(ActorTransform, FVector(grid.Vector.X,grid.Vector.Y,MaxGridHeight));
+						FVector TransformLocationEnd = UKismetMathLibrary::TransformLocation(ActorTransform, FVector(grid.Vector.X,grid.Vector.Y,MinGridHeight));
+
+						FCollisionQueryParams QueryParams;
+						QueryParams.AddIgnoredActor(GetOwner());
+						FHitResult Hit;
+						
+						GetWorld()->LineTraceSingleByChannel(
+							Hit,
+							TransformLocationStart,
+							TransformLocationEnd,
+							ECC_Visibility,
+							QueryParams
+							);
+						
+						grid.Vector = ActorTransform.InverseTransformPosition(Hit.Location);
+					
+						
+						GridLocations.Add(grid);
+					}
+					bSucces = true;
 					
 					break;
 				}
@@ -63,8 +103,25 @@ bool UGridComponent::CreateGridLocation(int32 StartIndex, int32 NumTilesX, int32
 
 			case EHeight::Multilevel:
 				{
+					//WORK IN PROGRESS
+					
+					/*std::vector<int> GridIndexes = GetAllGridIndexesNaive(NumTilesX,NumTilesY,StartIndex);
+
+					int32 LocalLastIndex = GridIndexes.size();
 
 					
+					for(int LocalIterator =0; LocalIterator < LocalLastIndex; LocalIterator++)
+					{
+						FGridLocation grid;
+						grid.Index = GridIndexes[LocalIterator];
+						grid.Vector = ConvertInexToLocationNaive(GridIndexes[LocalIterator]);
+						
+						
+
+
+						
+					}*/
+					bSucces = true;
 					break;
 				}
 				
@@ -72,6 +129,7 @@ bool UGridComponent::CreateGridLocation(int32 StartIndex, int32 NumTilesX, int32
 	} 
 	return bSucces;
 }
+
 
 std::vector<int> UGridComponent::GetAllGridIndexesNaive(int32 NumTilesX, int32 NumTilesY,int32 StartIndex)
 {
@@ -81,10 +139,14 @@ std::vector<int> UGridComponent::GetAllGridIndexesNaive(int32 NumTilesX, int32 N
 	int LocalMaxX = NumTilesX-1;
 
 	std::vector<int> GridIndexes;
+
+	int LocalYiterator =0;
 	
-	for(; LocalMaxY <= NumTilesY; ++LocalMaxY)
+	for(; LocalYiterator <= LocalMaxY; LocalYiterator++)
 	{
-		for(;LocalMaxX <= NumTilesX; ++LocalMaxX)
+		int LocalXiterator =0;
+		
+		for(;LocalXiterator <= NumTilesX; ++LocalXiterator)
 		{
 			GridIndexes.push_back((LocalMaxX*IndexX)+LocalMaxY+LocalGridIndexOffset);
 		}
@@ -94,4 +156,15 @@ std::vector<int> UGridComponent::GetAllGridIndexesNaive(int32 NumTilesX, int32 N
 }
 
 
+FVector UGridComponent::ConvertInexToLocationNaive(int32 GridIndex)
+{
+
+	int X = ((GridIndex/IndexX)%IndexX)*TileXSize;
+
+	int Y = (GridIndex % IndexX)*TileYSize;
+
+	int Z = (GridIndex/IndexZ)*HeightBetweenLevels;
+	
+	return FVector(X,Y,Z);
+}
 	
