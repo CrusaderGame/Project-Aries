@@ -10,3 +10,4 @@ Buildy/
 *.pch
 Content/movies/movie.mp4
 Config/DefaultEditor.ini
+Plugins/Developer/*
