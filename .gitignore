@@ -11,3 +11,6 @@ Buildy/
 Content/movies/movie.mp4
 Config/DefaultEditor.ini
 Plugins/Developer/*
+
+# Cache files for the editor to use
+DerivedDataCache/
