@@ -24,7 +24,6 @@ public class ProjectAries : ModuleRules
 			"GameplayAbilities",
 			"GameplayTags",
 			"GameplayTasks",
-			"AIModule",
 			"Slate",
 			"SlateCore",
 			"UMG",
