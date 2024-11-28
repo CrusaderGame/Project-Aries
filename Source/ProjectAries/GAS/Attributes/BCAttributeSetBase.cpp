@@ -5,8 +5,10 @@
 #include "GameplayEffectExtension.h"
 
 UBCAttributeSetBase::UBCAttributeSetBase()
-	: Health(1.f)
-	, MaxHealth(1.f)
+	: Health(100.f)
+	, MaxHealth(100.f)
+	, Speed(4.f)
+	, AttackActionPoints(1.f)
 {
 }
 
@@ -30,8 +32,10 @@ void UBCAttributeSetBase::PreAttributeChange(const FGameplayAttribute& Attribute
 
 void UBCAttributeSetBase::OnRep_Health(const FGameplayAttributeData& OldHealth)
 {
+	GAMEPLAYATTRIBUTE_REPNOTIFY(UBCAttributeSetBase, Health, OldHealth);
 }
 
-void UBCAttributeSetBase::OnRep_MaxHealth(const FGameplayAttributeData& OldHealth)
+void UBCAttributeSetBase::OnRep_MaxHealth(const FGameplayAttributeData& OldMaxHealth)
 {
+	GAMEPLAYATTRIBUTE_REPNOTIFY(UBCAttributeSetBase, MaxHealth, OldMaxHealth);
 }
