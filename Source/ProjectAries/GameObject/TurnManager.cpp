@@ -48,8 +48,6 @@ void ATurnManager::BeginPlay()
 {
 	Super::BeginPlay();
 
-	Super::BeginPlay();
-
 	TArray<AActor*> FoundActors;
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ATurnManager::StaticClass(), FoundActors);
 	if (FoundActors.Num() > 1)
